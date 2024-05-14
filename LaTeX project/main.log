@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  13 MAY 2024 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  14 MAY 2024 09:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -903,7 +903,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))
 \@quotelevel=\count509
 \@quotereset=\count510
- (main.aux (ch_1/ch_1.aux) (ch_2/ch_2.aux))
+ (main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
@@ -1079,9 +1079,9 @@ No file main.acr.
 
 
 ]
-\openout2 = `ch_1/ch_1.aux'.
+\openout2 = `chapters/ch_1/ch_1.aux'.
 
- (ch_1/ch_1.tex
+ (chapters/ch_1/ch_1.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -1127,9 +1127,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--214
  []
 
 [2]
-\openout2 = `ch_2/ch_2.aux'.
+\openout2 = `chapters/ch_2/ch_2.aux'.
 
- (ch_2/ch_2.tex
+ (chapters/ch_2/ch_2.tex
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
@@ -1199,7 +1199,7 @@ File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 
 {C:/Program Files/Miktex/fonts/enc/dvips/cm-super/cm-super-t1.enc}] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(main.aux (ch_1/ch_1.aux) (ch_2/ch_2.aux))
+(main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -1212,7 +1212,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  24708 strings out of 474385
- 429613 string characters out of 5750167
+ 430081 string characters out of 5750167
  1951496 words of memory out of 5000000
  46591 multiletter control sequences out of 15000+600000
  628347 words of font info for 123 fonts, out of 8000000 for 9000

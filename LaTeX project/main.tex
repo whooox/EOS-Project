@@ -1,0 +1,222 @@
+\documentclass[twoside]{report}
+% \documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}% Required for inserting images
+%\usepackage{CormorantGaramond}
+\usepackage{mathptmx}
+\usepackage[a4paper,
+            bindingoffset=0.2in,
+            left=60mm,
+            right=30mm,
+            top=40mm,
+            bottom=50mm,
+            footskip=.25in]{geometry}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{datetime}
+\usepackage{titlesec}
+\usepackage{type1cm}
+\usepackage{xparse}
+\usepackage{expl3}
+\usepackage{setspace}
+\usepackage{lettrine}
+\usepackage[
+    bookmarks=true,
+    bookmarksopen=true,
+    bookmarksnumbered=true,
+    bookmarksopenlevel=1,
+    pdfpagelabels=true,
+    colorlinks=true,
+    linkcolor=red,
+    urlcolor=magenta,
+    anchorcolor=black,
+    citecolor=cyan,
+    filecolor=magenta,
+    menucolor=red,
+    plainpages=false,
+    hypertexnames=true,
+    linktocpage=true,
+]{hyperref}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage[acronym]{glossaries}
+
+\usepackage[version=4]{mhchem}
+
+\graphicspath{ {figures/} }
+\usepackage{array}
+
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{citations.bib}
+
+\usepackage[T1]{fontenc}
+
+% \usepackage[grid]{eso-pic}
+% \usepackage{kantlipsum}
+%\usepackage{show frame}
+
+
+
+%----------------------------------------------------------------------------------------%
+% SETUP OF THE BACKEND
+
+
+\titleformat{\chapter}{\normalfont\large\bfseries}{\thechapter $\hskip1em$ $\mid$}{1em}{}
+\titlespacing*{\chapter}{10pt}{5mm}{3mm}
+
+\titleformat{\section}{\normalfont\small\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{20pt}{10mm}{3mm}
+
+% Set line spacing to 1.5
+\setstretch{0.7}
+
+\setlength\parindent{24pt}
+
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+
+
+% \pagenumbering{gobble} % Suppresses the page numbering
+\pagestyle{fancy}
+% Pied de page
+\fancyfoot[L]{}
+\fancyfoot[R]{}
+\fancyfoot[C]{}
+% \fancyfoot[C]{\it Page \thepage\ of \pageref{LastPage}}
+% \fancyhead[ro, le]{\it Page \thepage\ of \pageref{LastPage}}
+% \fancyhead[L]{}
+% \fancyhead[R]{}
+% \fancyhead[C]{}
+
+\renewcommand{\headrulewidth}{0pt} % Deletes the horizontal line of the header
+
+
+
+%----------------------------------------------------------------------------------------%
+% ACRONYMS
+
+\makenoidxglossaries
+
+\newacronym{OP1}{OP1}{Operation Phase 1}
+\newacronym{OP2}{OP2}{Operation Phase 2}
+\newacronym{W7-X}{W7-X}{Wendelstein 7-X}
+\newacronym{PFCs}{PFCs}{Plasma Facing Components}
+\newacronym{BCs}{BCs}{Boundary Conditions}
+\newacronym{HS}{HS}{Heat Shield}
+\newacronym{ECRH}{ECRH}{Electron Cyclotron Resonance Heating}
+
+
+
+
+%----------------------------------------------------------------------------------------%
+% SETUP OF THE DOCUMENT
+\begin{document}
+\begin{titlepage}
+    \centering
+    \includegraphics[scale=0.075, angle=0]{figures/logo.jpg}\\
+    \vskip2cm
+    {\bfseries\normalsize
+        \textsc{Institut National des Sciences Appliquées de Strasbourg}
+        \\
+    }
+    {\small
+        Department of mechanical engineering\\
+    }
+    {\bfseries\normalsize
+        \textsc{Université de Strasbourg}
+        \\
+    }
+    {\small
+        Faculty of Physics and Engineering\\
+    }
+    \vskip3cm
+    {\normalsize
+        Master’s Thesis submitted in fulfillment of the requirements for the degrees of\\
+        \it Master of Engineering\\
+        \it Master of Science\\
+    }
+     \vskip1cm
+    {\bfseries\huge
+        Nonlinear thermal and structural finite element analysis of selected in-vessel components of W7-X\\
+    }
+    \vskip3cm
+    \setlength{\columnsep}{0cm}
+    \begin{multicols}{2}
+        \begin{flushleft}
+        {\it\small{Author:}}
+        \\
+        {\bfseries\large{Nicolas Olive-Leriche}}
+        \\ 
+        {\normalsize{Mechanical engineering/Applied physics and physical engineering}}
+        \\
+        \end{flushleft}
+    \columnbreak
+        \begin{flushright}
+        {\it\small{Academic supervisor:}}
+        \\
+        {\bfseries\normalsize{MdC. \textsc{Mathieu Solar}}}
+        \\ 
+        {\normalsize{INSA Strasbourg}}
+        \\
+        {\normalsize{Institut Charles Sadron}}
+        \vskip.25cm
+        {\it\small{Professional tutor:}}
+        \\
+        {\bfseries\normalsize{\textsc{Mikhail Khokhlov}}}
+        \\ 
+        {\normalsize{Max Planck Institute for Plasma Physics}}
+        \\
+        \end{flushright}
+    \end{multicols}
+    \vskip1cm
+    {\small
+        Greifswald, \the\year\\
+    }
+\end{titlepage}
+
+\pagenumbering{roman}
+\fancyhead[ro, le]{\it Page \thepage}
+\fancypagestyle{plain}{
+\fancyhf{} % Efface les en-têtes et pieds de page actuels
+\fancyfoot[ro, le]{}
+\fancyhead[ro, le]{\it Page \thepage} % Ajoute le numéro de page à droite
+\renewcommand{\headrulewidth}{0pt} % Supprime la ligne d'en-tête
+}
+
+\afterpage{\null\newpage}
+\afterpage{\null\newpage}
+\chapter*{Acknowledgement}
+\newpage
+\chapter*{Abstract}
+\newpage
+% \chapter*{Table of content}
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+
+\printnoidxglossaries[type=\acronymtype]
+\printacronyms
+
+\newpage
+\fancyhead[ro, le]{\it Page \thepage\ of \pageref{LastPage}}
+\pagenumbering{arabic}
+\fancypagestyle{plain}{
+\fancyhf{} % Efface les en-têtes et pieds de page actuels
+\fancyfoot[ro, le]{}
+\fancyhead[ro, le]{\it Page \thepage\ of \pageref{LastPage}} % Ajoute le numéro de page à droite
+\renewcommand{\headrulewidth}{0pt} % Supprime la ligne d'en-tête
+}
+
+% Chapter implementation
+\include{ch_1/ch_1}
+\newpage
+\include{ch_2/ch_2}
+
+
+% Generate bibliography
+\printbibliography
+
+\end{document}

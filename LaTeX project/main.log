@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  14 MAY 2024 09:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  17 MAY 2024 13:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1131,28 +1131,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--214
 
  (chapters/ch_2/ch_2.tex
 Chapter 2.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-<figures/fig_1.png, id=141, 770.88pt x 506.6428pt>
+<figures/fig_1.png, id=142, 770.88pt x 506.6428pt>
 File: figures/fig_1.png Graphic file (type png)
 <use figures/fig_1.png>
 Package pdftex.def Info: figures/fig_1.png  used on input line 9.
 (pdftex.def)             Requested size: 294.27939pt x 193.40756pt.
-<figures/fig_5.png, id=146, 741.77126pt x 681.54625pt>
+
+chapters/ch_2/ch_2.tex:16: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{equation}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+chapters/ch_2/ch_2.tex:16: You can't use `\eqno' in horizontal mode.
+\veqno ->\@kernel@eqno 
+                       \aftergroup \ignorespaces 
+l.16 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+chapters/ch_2/ch_2.tex:16: LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{equation}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+chapters/ch_2/ch_2.tex:16: Missing $ inserted.
+<inserted text> 
+                $
+l.16 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+chapters/ch_2/ch_2.tex:16: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.16 \end{equation}
+                   
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+chapters/ch_2/ch_2.tex:16: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.16 \end{equation}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+[3
+
+
+
+
+ <./figures/fig_1.png>]
+<figures/fig_5.png, id=159, 741.77126pt x 681.54625pt>
 File: figures/fig_5.png Graphic file (type png)
 <use figures/fig_5.png>
 Package pdftex.def Info: figures/fig_5.png  used on input line 35.
 (pdftex.def)             Requested size: 228.88452pt x 210.29959pt.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 40.
-(C:\Program Files\Miktex\tex/latex/psnfss\ts1ptm.fd
+ (C:\Program Files\Miktex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<figures/fig_2.png, id=152, 853.1875pt x 648.4225pt>
+<figures/fig_2.png, id=165, 853.1875pt x 648.4225pt>
 File: figures/fig_2.png Graphic file (type png)
 <use figures/fig_2.png>
 Package pdftex.def Info: figures/fig_2.png  used on input line 50.
 (pdftex.def)             Requested size: 294.27939pt x 223.65652pt.
-<figures/fig_3.png, id=153, 853.1875pt x 648.4225pt>
+<figures/fig_3.png, id=166, 853.1875pt x 648.4225pt>
 File: figures/fig_3.png Graphic file (type png)
 <use figures/fig_3.png>
 Package pdftex.def Info: figures/fig_3.png  used on input line 61.
@@ -1168,8 +1234,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--66
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--66
-
+Overfull \hbox (3.59772pt too wide) in paragraph at lines 29--66
+[]\T1/ptm/m/n/10 There are two dif-fer-ent type of mag-netic con-fine-ment con-cepts that are widely
  []
 
 
@@ -1177,19 +1243,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--66
 
  []
 
-[3
 
+Underfull \hbox (badness 10000) in paragraph at lines 29--66
 
+ []
 
-
- <./figures/fig_1.png>] [4 <./figures/fig_5.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./figures/fig_2.png>]) [6 <./figures/fig_3.png>]
+[4 <./figures/fig_5.png>] [5 <./figures/fig_2.png>]) [6 <./figures/fig_3.png>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 220.
  (C:\Program Files\Miktex\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
@@ -1211,17 +1270,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24708 strings out of 474385
- 430081 string characters out of 5750167
- 1951496 words of memory out of 5000000
- 46591 multiletter control sequences out of 15000+600000
- 628347 words of font info for 123 fonts, out of 8000000 for 9000
+ 24697 strings out of 474385
+ 429951 string characters out of 5750167
+ 1943496 words of memory out of 5000000
+ 46584 multiletter control sequences out of 15000+600000
+ 624721 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,13n,93p,2370b,1541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,16n,93p,2370b,1531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Miktex/fonts/type1/public/cm-super/sftt1000.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmb8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on main.pdf (15 pages, 1254093 bytes).
+Output written on main.pdf (15 pages, 1254564 bytes).
 PDF statistics:
  246 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
+ 49 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

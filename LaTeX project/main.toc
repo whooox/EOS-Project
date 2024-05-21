@@ -7,3 +7,5 @@
 \contentsline {section}{\numberline {2.3}HEAT TRANSFER}{6}{section.2.3}%
 \contentsline {section}{\numberline {2.4}SOLID MECHANICS}{6}{section.2.4}%
 \contentsline {section}{\numberline {2.5}FINITE ELEMENT METHOD}{6}{section.2.5}%
+\contentsline {chapter}{\numberline {3}STATE OF THE ART}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {4}METHODS AND CONFIGURATIONS}{8}{chapter.4}%

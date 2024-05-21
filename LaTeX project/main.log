@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  21 MAY 2024 08:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  21 MAY 2024 10:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -903,7 +903,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))
 \@quotelevel=\count509
 \@quotereset=\count510
- (main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux))
+ (main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux) (chapters/ch_3/ch_3.aux) (chapters/ch_4/ch_4.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
@@ -1019,7 +1019,7 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
 Package biblatex Info: Reference section=0 on input line 115.
 Package biblatex Info: Reference segment=0 on input line 115.
-<figures/logo.jpg, id=39, 4338.2075pt x 1003.75pt>
+<figures/logo.jpg, id=47, 4338.2075pt x 1003.75pt>
 File: figures/logo.jpg Graphic file (type jpg)
 <use figures/logo.jpg>
 Package pdftex.def Info: figures/logo.jpg  used on input line 118.
@@ -1071,7 +1071,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 ]
 
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 200.
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 201.
 
 Using TeX to sort glossary entries---this may take a while
 No file main.acr.
@@ -1122,7 +1122,7 @@ l.18
 
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 20--214
+Underfull \hbox (badness 10000) in paragraph at lines 20--215
 
  []
 
@@ -1131,7 +1131,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--214
 
  (chapters/ch_2/ch_2.tex
 Chapter 2.
-<figures/fig_1.png, id=142, 770.88pt x 506.6428pt>
+<figures/fig_1.png, id=155, 770.88pt x 506.6428pt>
 File: figures/fig_1.png Graphic file (type png)
 <use figures/fig_1.png>
 Package pdftex.def Info: figures/fig_1.png  used on input line 9.
@@ -1142,7 +1142,7 @@ Package pdftex.def Info: figures/fig_1.png  used on input line 9.
 
 
  <./figures/fig_1.png>]
-<figures/fig_5.png, id=160, 741.77126pt x 681.54625pt>
+<figures/fig_5.png, id=173, 741.77126pt x 681.54625pt>
 File: figures/fig_5.png Graphic file (type png)
 <use figures/fig_5.png>
 Package pdftex.def Info: figures/fig_5.png  used on input line 35.
@@ -1151,12 +1151,12 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 40
  (C:\Program Files\Miktex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<figures/fig_2.png, id=166, 853.1875pt x 648.4225pt>
+<figures/fig_2.png, id=179, 853.1875pt x 648.4225pt>
 File: figures/fig_2.png Graphic file (type png)
 <use figures/fig_2.png>
 Package pdftex.def Info: figures/fig_2.png  used on input line 50.
 (pdftex.def)             Requested size: 294.27939pt x 223.65652pt.
-<figures/fig_3.png, id=167, 853.1875pt x 648.4225pt>
+<figures/fig_3.png, id=180, 853.1875pt x 648.4225pt>
 File: figures/fig_3.png Graphic file (type png)
 <use figures/fig_3.png>
 Package pdftex.def Info: figures/fig_3.png  used on input line 61.
@@ -1187,38 +1187,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--66
  []
 
 [4 <./figures/fig_5.png>] [5 <./figures/fig_2.png>]) [6 <./figures/fig_3.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 220.
+\openout2 = `chapters/ch_3/ch_3.aux'.
+
+ (chapters/ch_3/ch_3.tex
+Chapter 3.
+) [7
+
+
+
+
+]
+\openout2 = `chapters/ch_4/ch_4.aux'.
+
+ (chapters/ch_4/ch_4.tex
+Chapter 4.
+) [8
+
+
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 224.
  (C:\Program Files\Miktex\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [7
+) [9
 
 
 
 {C:/Program Files/Miktex/fonts/enc/dvips/cm-super/cm-super-t1.enc}] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux))
+(main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux) (chapters/ch_3/ch_3.aux) (chapters/ch_4/ch_4.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8AB82E7084EB3C610C34E238E20703EF;1612.
+(rerunfilecheck)             Checksum: DF1DEBF94B3F38FDBBDBA54DF2D7F636;1949.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24698 strings out of 474385
- 429965 string characters out of 5750167
+ 24760 strings out of 474385
+ 432073 string characters out of 5750167
  1944496 words of memory out of 5000000
- 46584 multiletter control sequences out of 15000+600000
- 624721 words of font info for 114 fonts, out of 8000000 for 9000
+ 46624 multiletter control sequences out of 15000+600000
+ 625035 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,13n,93p,2370b,1531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Miktex/fonts/type1/public/cm-super/sftt1000.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmb8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on main.pdf (15 pages, 1254476 bytes).
+Output written on main.pdf (17 pages, 1260042 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

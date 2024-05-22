@@ -106,5 +106,28 @@
     \field{month}{07}
     \field{year}{2020}
   \endentry
+
+  \entry{zhu_parametric_2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ZJ}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Jiawu},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZJ1}
+    \strng{fullhash}{ZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    TZM tile, ECRH reflecter, thermal analysis, mechanical analysis%
+    }
+    \field{title}{Parametric thermal and mechanical analysis of {ECRH}
+  reflecting tile ({TZM})}
+    \field{year}{2019}
+  \endentry
 \enddatalist
 \endinput

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  21 MAY 2024 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  22 MAY 2024 15:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1224,11 +1224,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--15
 
 
 
- <./figures/TWOBEAMDISTRI.png>])) [9]
+ <./figures/TWOBEAMDISTRI.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
+
+ []
+
+chapters/ch_4/subch_4/subch_4_4.tex:52: Undefined control sequence.
+l.52 ... is thus possible to define $q_0 \coloneqq
+                                                   P_{ECRH}^{beam} \cdot k_{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+
+ []
+
+))
+Underfull \hbox (badness 10000) in paragraph at lines 60--223
+
+ []
+
+[10]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 227.
  (C:\Program Files\Miktex\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [10
+) [11
 
 
 
@@ -1246,17 +1303,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25281 strings out of 474385
- 438599 string characters out of 5750167
+ 25302 strings out of 474385
+ 438991 string characters out of 5750167
  1944496 words of memory out of 5000000
- 47117 multiletter control sequences out of 15000+600000
- 628037 words of font info for 129 fonts, out of 8000000 for 9000
+ 47122 multiletter control sequences out of 15000+600000
+ 631609 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,13n,93p,2370b,1531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/Miktex/fonts/type1/public/cm-super/sftt1000.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmb8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on main.pdf (18 pages, 1598442 bytes).
+Output written on main.pdf (19 pages, 1607524 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

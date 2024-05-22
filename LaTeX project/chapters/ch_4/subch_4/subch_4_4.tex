@@ -7,15 +7,55 @@
     \caption{\it Representation of the two ECRH beam heat flux distribution cases}
 \end{figure}
 \\
-\normalsize{\indent The calculation of the integral parameters as well as the analytical calculation of the surface integrals were done on Wolfram Mathematica\textsuperscript{\textregistered}. There are two different cases, one axisymmetric and another non-axisymmetric (elliptical). For the first case, almost all of the power ~99\% hits the ECRH reflector tile. The standard deviation is defined to be 35mm, for debug and validation purposes, 86\% of the power should be included within a disk of radius 35mm. For the elliptical distribution, much less power hits the reflector tile. The distribution properties are also different and feature two different radii, the minor semi-radius and the major semi-radius. Their values are respectively 35mm and 68mm, both of them defining an ellipse. Similarly, to the circular distribution, for debugging, 86\% of the overall power should be included within the area of the ellipse.}
+\normalsize{\indent The calculation of the integral parameters as well as the analytical calculation of the surface integrals were done on Wolfram Mathematica\textsuperscript{\textregistered}. There are two different cases, one axisymmetric (circular) and another non-axisymmetric (elliptical). For the first case, almost all of the power ~99\% hits the ECRH reflector tile. The standard deviation is defined to be 35mm, for debug and validation purposes, 86\% of the power should be included within a disk of radius 35mm. For the elliptical distribution, much less power hits the reflector tile. The distribution properties are also different and feature two different radii, the minor semi-radius and the major semi-radius. Their values are respectively 35mm and 68mm, both of them defining an ellipse. Similarly to the circular distribution, for debugging, 86\% of the overall power should be included within the area of the ellipse.}
 \\
 \break
-\normalsize{\indent With help of those information, the integration coefficients could be calculated. The first integral was expressed in a cylindrical coordinate system. The first APDL code written by (J. Zhu) in 2019 only featured the circular heat flux distribution and was based on calculations made by Torsten Stange. The integrated function for Gaussian distribution has the form $exp(-2r^2)$. The surface integral can be written:}
+\normalsize{\indent With help of those information, the integration coefficients could be calculated. The first integral was expressed in a cylindrical coordinate system. The first APDL code written by J. Zhu \cite{zhu_parametric_2019} in 2019 only featured the circular heat flux distribution and was based on calculations made by Torsten Stange. The integrated function for Gaussian distribution has the form $\exp(-2r^2)$. The surface integral can be written:}
 \\
 \begin{equation}
-    \int_{\Omega} exp(-2r^2) \,dS \
+    \int\displaylimits_{\Omega} \exp(-2r^2) \,dS \
 \end{equation}
 \\
-\normalsize{in cylindrical coordinates, \it{$dS = rdrd\theta$} and $\Omega$ a surface in $\mathbb{R}$.}
+\normalsize{in cylindrical coordinates, \it{$dS = rdrd\theta$}}
+\normalsize{and $\Omega$ a surface in $\mathbb{R}$. When taking the normal distribution, is it possible to rewrite the function and include the standard deviation $r_0$. The integral $\mathbb{I}$ of $f$ on $\Omega$ is:}
 \\
-\break
+\begin{equation}
+    \mathbb{I}_f^\Omega = \int\displaylimits_{\Omega} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \,dS
+\end{equation}
+\\
+\normalsize{When developing the differential (in cartesian coordinates), the integral becomes:}
+\\
+\begin{equation}
+    \int\displaylimits_{\Omega} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \,dS = \int\displaylimits_0^{+ \infty} \int\displaylimits_0^{2 \pi} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \,rdrd\theta
+\end{equation}
+\\
+\begin{equation}
+    \int\displaylimits_0^{+ \infty} \int\displaylimits_0^{2 \pi} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \,rdrd\theta = \int\displaylimits_0^{+\infty} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \ rdr \int\displaylimits_0^{2 \pi} \ d \theta
+\end{equation}
+\\
+\begin{equation}
+    = 2 \pi \int\displaylimits_0^{+\infty} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \ rdr
+\end{equation}
+\\
+\normalsize{When calculated, the value of this integral is:}
+\\
+\begin{equation}
+    2 \pi \int\displaylimits_0^{+\infty} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \ rdr = 6,125 \cdot 10^{-4} \pi
+\end{equation}
+\\
+\normalsize{\indent This function is then normalized by multiplying both side by a coefficient $k_{norm}$ such as $k_{norm} \cdot 6,125 \cdot 10^{-4} \pi = 1$ This coefficient has a value of $519,689 m^{-2}$. Since heat flux is in $[Wm^{-2}]$, $k_{norm}$ needs to be in $[m^{-2}]$.  To validate the normalization, it is possible to integrate the same function, but only for the radius between 0 and standard deviation and multiplying the function by $k_{norm}$. This gives:}
+\\
+\begin{equation}
+    k_{norm} \left[ \int\displaylimits_0^{r_0} \int\displaylimits_0^{2 \pi} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \,rdrd\theta \right] = 0,8646
+\end{equation}
+\\
+\normalsize{\indent The integral power of the ECRH beam is 912 W. This means that normalized ECRH beam power distribution can be multiplied by the integral power. It is thus possible to define $q_0 \coloneqq P_{ECRH}^{beam} \cdot k_{norm}$. In the case of the circular ECRH Gaussian heat flux distribution, the value of $q_0=473957 Wm^{-2}$, this value will be used in the APDL code. The function is, in cartesian coordinates, thus:}
+\\
+\begin{equation}
+    f_{axisym.}^{cyl. CS}(r) = P_{ECRH}^{beam} k_{norm} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) [W/m^2]
+\end{equation}
+\\ 
+\begin{equation}
+    f_{axisym.}^{cyl. CS}(r) = 473957 \exp\left(-2\left(\frac{r}{35[mm]}\right)^2 \right) [W/m^2]
+\end{equation}
+\\

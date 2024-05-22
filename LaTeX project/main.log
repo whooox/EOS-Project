@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  22 MAY 2024 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  22 MAY 2024 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -908,42 +908,58 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-\@quotelevel=\count509
-\@quotereset=\count510
+)) (C:\Program Files\Miktex\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+ (C:\Program Files\Miktex\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count509
+\l_MT_multwidth_dim=\dimen273
+\origjot=\skip117
+\l_MT_shortvdotswithinadjustabove_dim=\dimen274
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen275
+\l_MT_above_intertext_sep=\dimen276
+\l_MT_below_intertext_sep=\dimen277
+\l_MT_above_shortintertext_sep=\dimen278
+\l_MT_below_shortintertext_sep=\dimen279
+\xmathstrut@box=\box114
+\xmathstrut@dim=\dimen280
+)
+\@quotelevel=\count510
+\@quotereset=\count511
  (main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux) (chapters/ch_3/ch_3.aux) (chapters/ch_4/ch_4.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
  (C:\Program Files\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count511
-\scratchdimen=\dimen273
-\scratchbox=\box114
-\nofMPsegments=\count512
-\nofMParguments=\count513
+\scratchcounter=\count512
+\scratchdimen=\dimen281
+\scratchbox=\box115
+\nofMPsegments=\count513
+\nofMParguments=\count514
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count514
-\MPscratchDim=\dimen274
-\MPnumerator=\count515
-\makeMPintoPDFobject=\count516
+\MPscratchCnt=\count515
+\MPscratchDim=\dimen282
+\MPnumerator=\count516
+\makeMPintoPDFobject=\count517
 \everyMPtoPDFconversion=\toks44
 ) (C:\Program Files\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -995,13 +1011,13 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Program Files\Miktex\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 117.
+Package hyperref Info: Link coloring ON on input line 118.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 
-Package chemgreek Info: Activating mapping `default' on line 117.
+Package chemgreek Info: Activating mapping `default' on line 118.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1019,12 +1035,12 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 117.
-Package biblatex Info: Reference segment=0 on input line 117.
+Package biblatex Info: Reference section=0 on input line 118.
+Package biblatex Info: Reference segment=0 on input line 118.
 <figures/logo.jpg, id=63, 4338.2075pt x 1003.75pt>
 File: figures/logo.jpg Graphic file (type jpg)
 <use figures/logo.jpg>
-Package pdftex.def Info: figures/logo.jpg  used on input line 120.
+Package pdftex.def Info: figures/logo.jpg  used on input line 121.
 (pdftex.def)             Requested size: 325.35153pt x 75.278pt.
  [1
 
@@ -1073,7 +1089,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 ]
 
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 203.
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 204.
 
 Using TeX to sort glossary entries---this may take a while
 No file main.acr.
@@ -1124,7 +1140,7 @@ l.18
 
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 20--217
+Underfull \hbox (badness 10000) in paragraph at lines 20--218
 
  []
 
@@ -1133,7 +1149,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--217
 
  (chapters/ch_2/ch_2.tex
 Chapter 2.
-<figures/fig_1.png, id=180, 770.88pt x 506.6428pt>
+<figures/fig_1.png, id=182, 770.88pt x 506.6428pt>
 File: figures/fig_1.png Graphic file (type png)
 <use figures/fig_1.png>
 Package pdftex.def Info: figures/fig_1.png  used on input line 8.
@@ -1144,7 +1160,7 @@ Package pdftex.def Info: figures/fig_1.png  used on input line 8.
 
 
  <./figures/fig_1.png>]
-<figures/fig_5.png, id=198, 741.77126pt x 681.54625pt>
+<figures/fig_5.png, id=200, 741.77126pt x 681.54625pt>
 File: figures/fig_5.png Graphic file (type png)
 <use figures/fig_5.png>
 Package pdftex.def Info: figures/fig_5.png  used on input line 35.
@@ -1153,12 +1169,12 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 40
  (C:\Program Files\Miktex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<figures/fig_2.png, id=204, 853.1875pt x 648.4225pt>
+<figures/fig_2.png, id=206, 853.1875pt x 648.4225pt>
 File: figures/fig_2.png Graphic file (type png)
 <use figures/fig_2.png>
 Package pdftex.def Info: figures/fig_2.png  used on input line 50.
 (pdftex.def)             Requested size: 294.27939pt x 223.65652pt.
-<figures/fig_3.png, id=205, 853.1875pt x 648.4225pt>
+<figures/fig_3.png, id=207, 853.1875pt x 648.4225pt>
 File: figures/fig_3.png Graphic file (type png)
 <use figures/fig_3.png>
 Package pdftex.def Info: figures/fig_3.png  used on input line 61.
@@ -1204,7 +1220,7 @@ Chapter 3.
  (chapters/ch_4/ch_4.tex
 Chapter 4.
 (chapters/ch_4/subch_4/subch_4_1.tex) (chapters/ch_4/subch_4/subch_4_2.tex) (chapters/ch_4/subch_4/subch_4_3.tex) (chapters/ch_4/subch_4/subch_4_4.tex
-<figures/TWOBEAMDISTRI.png, id=234, 750.55406pt x 499.8675pt>
+<figures/TWOBEAMDISTRI.png, id=236, 750.55406pt x 499.8675pt>
 File: figures/TWOBEAMDISTRI.png Graphic file (type png)
 <use figures/TWOBEAMDISTRI.png>
 Package pdftex.def Info: figures/TWOBEAMDISTRI.png  used on input line 6.
@@ -1254,15 +1270,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--48
 
  []
 
-chapters/ch_4/subch_4/subch_4_4.tex:52: Undefined control sequence.
-l.52 ... is thus possible to define $q_0 \coloneqq
-                                                   P_{ECRH}^{beam} \cdot k_{...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
@@ -1276,13 +1283,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
-))
-Underfull \hbox (badness 10000) in paragraph at lines 60--223
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
 
  []
 
-[10]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 227.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+
+ []
+
+)) [10]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 228.
  (C:\Program Files\Miktex\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [11
@@ -1303,17 +1315,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25302 strings out of 474385
- 438991 string characters out of 5750167
+ 25851 strings out of 474385
+ 449203 string characters out of 5750167
  1944496 words of memory out of 5000000
- 47122 multiletter control sequences out of 15000+600000
+ 47662 multiletter control sequences out of 15000+600000
  631609 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,13n,93p,2370b,1531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/Miktex/fonts/type1/public/cm-super/sftt1000.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmb8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on main.pdf (19 pages, 1607524 bytes).
+Output written on main.pdf (19 pages, 1609797 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
+ 349 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

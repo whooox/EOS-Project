@@ -56,6 +56,17 @@
 \end{equation}
 \\ 
 \begin{equation}
-    f_{axisym.}^{cyl. CS}(r) = 473957 \exp\left(-2\left(\frac{r}{35[mm]}\right)^2 \right) [W/m^2]
+    \color{red}\boxed{\color{black} f_{axisym.}^{cyl. CS}(r) = 473957 \exp\left(-2\left(\frac{r}{35[mm]}\right)^2 \right) [W/m^2]}
 \end{equation}
 \\
+\normalsize{\indent For the Cartesian coordinates, the method of normalization is analog to the method used for the integral normalization in cylindrical coordinates. The choice of the Cartesian coordinate system is because of the function for the elliptical \acrshort{ECRH} power distribution case and the way the ellipse is defined. Although it is possible to vary the radius in function of the angle while working in cylindrical coordinates, or use the ellipse equation and application of Fubini’s theorem in Cartesian coordinates, another more practical approach was used to compute the integral. The function $f$ written in Cartesian is as follows ($a$ is the minor semi-radius and $b$ is the major semi-radius):}
+\\ 
+\begin{equation}
+    f(x,y) = \exp\left(-2\left(\left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 \right) \right)
+\end{equation}
+\\
+\normalsize{The integral of the function over $\Omega$ is written:}
+\\ 
+\begin{equation}
+    \mathbb{I}_f^\Omega = \int\displaylimits_{\Omega} \exp\left(-2\left(\left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 \right) \right) \ dS
+\end{equation}

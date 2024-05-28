@@ -21,6 +21,7 @@
 \\
 \begin{equation}
     \mathbb{I}_f^\Omega = \int\displaylimits_{\Omega} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \,dS
+    \label{eqn:4.2}
 \end{equation}
 \\
 \normalsize{When developing the differential (in cartesian coordinates), the integral becomes:}
@@ -40,11 +41,10 @@
 \normalsize{When calculated, the value of this integral is:}
 \\
 \begin{equation}
-    2 \pi \int\displaylimits_0^{+\infty} \exp\left(-2\l
-    eft(\frac{r}{r_0}\right)^2 \right) \ rdr = 6,125 \cdot 10^{-4} \pi
+    2 \pi \int\displaylimits_0^{+\infty} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \ rdr = 6,125 \cdot 10^{-4} \pi
 \end{equation}
 \\
-\normalsize{\indent This function is then normalized by multiplying both side by a coefficient $k_{norm}$ such as $k_{norm} \cdot 6,125 \cdot 10^{-4} \pi = 1$ This coefficient has a value of $519,689 m^{-2}$. Since heat flux is in $[Wm^{-2}]$, $k_{norm}$ needs to be in $[m^{-2}]$.  To validate the normalization, it is possible to integrate the same function, but only for the radius between 0 and standard deviation and multiplying the function by $k_{norm}$. This gives:}
+\normalsize{\indent This function is then normalized by multiplying both side by a coefficient $k_{norm}$ such as $k_{norm} \cdot 6,125 \cdot 10^{-4} \pi = 1$ This coefficient has a value of $519,68 m^{-2}$. Since heat flux is in $[Wm^{-2}]$, $k_{norm}$ needs to be in $[m^{-2}]$.  To validate the normalization, it is possible to integrate the same function, but only for the radius between 0 and standard deviation and multiplying the function by $k_{norm}$. This gives:}
 \\
 \begin{equation}
     k_{norm} \left[ \int\displaylimits_0^{r_0} \int\displaylimits_0^{2 \pi} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \,rdrd\theta \right] = 0,8646
@@ -65,6 +65,7 @@
 \\ 
 \begin{equation}
     f(x,y) = \exp\left(-2\left(\left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 \right) \right)
+    \label{eqn:carCSGDnn}
 \end{equation}
 \\
 \normalsize{The integral of the function over $\Omega$ is written:}
@@ -74,4 +75,24 @@
 \end{equation}
 \\
 \normalsize{in cartesian coordinates, \it{$dS = dxdy$}}
-\normalsize{and $\Omega$ a surface in $\mathbb{R}^2$. When taking the normal distribution, is it possible to rewrite the function and include the standard deviation $r_0$. The integral $\mathbb{I}$ of $f$ on $\Omega$ is:}
+\normalsize{and $\Omega$ a surface in $\mathbb{R}^2$. For the moment, the function \eqref{eqn:carCSGDnn} is integrated over $\mathbb{R}^2$. To normalize the integral, it is possible to proceed the same way than for the cylindrical integral \eqref{eqn:4.2}. }
+\\
+\begin{equation}
+    \int\displaylimits_{\mathbb{R}^2} \exp\left(-2\left(\left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 \right) \right) \ dS = \int\displaylimits_{- \infty}^{+ \infty} \int\displaylimits_{- \infty}^{+ \infty} \exp\left(-2\left(\left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 \right) \right) \ dxdy
+\end{equation}
+\\
+\normalsize{If $a$ and $b$ are equal, the distribution is circular. The normalization coefficient for the cartesian should therefore be the same as the cylindrical one since the standard deviation of the distribution is the same, the function is just expressed in a cartesian coordinate system. Let $a = b = 35mm$, the integral becomes:}
+\\
+\begin{equation}
+    \int\displaylimits_{- \infty}^{+ \infty} \int\displaylimits_{- \infty}^{+ \infty} \exp\left(-2\left(\left(\frac{x+y}{32[mm]}\right)^2 \right) \right) \ dxdy = 6,125 \cdot 10^{-4} \pi
+\end{equation}
+\\
+\normalsize{The normalization coefficient is $519,68 m^{-2}$. This coefficient is the same as the one for the distribution expressed a cylindrical coordinates. To validate this, it possible to proceed the same as with the cylindrical distribution, integrating over a disk of radius $35mm$. There is a problem with integrating the function on a circle in Cartesian coordinates, because the surface is a square of a rectangle. It is however possible to find an alternative solution to this problem using the Heaviside step function. The 2D-Heaviside step function is a discontinuous function defined as follows:}
+\\
+\begin{equation}
+     \ H_{\Omega}(x,y) =
+    \begin{cases}
+        1 & \text{if } (x,y) \in \Omega\\
+        0 & \text{if } (x,y) \in \mathbb{R}\setminus\Omega
+    \end{cases}
+\end{equation}

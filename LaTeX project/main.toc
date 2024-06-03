@@ -5,11 +5,11 @@
 \contentsline {section}{\numberline {2.1}GENERAL THEORY OF FUSION REACTORS}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}W7-X SYSTEMS}{6}{section.2.2}%
 \contentsline {section}{\numberline {2.3}HEAT TRANSFER}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}SOLID MECHANICS}{6}{section.2.4}%
-\contentsline {section}{\numberline {2.5}FINITE ELEMENT METHOD}{6}{section.2.5}%
-\contentsline {chapter}{\numberline {3}STATE OF THE ART}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}METHODS AND CONFIGURATIONS}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1}MATERIAL PROPERTIES AND PHYSICAL MODELS}{8}{section.4.1}%
-\contentsline {section}{\numberline {4.2}CONTACT CONFIGURATION}{8}{section.4.2}%
-\contentsline {section}{\numberline {4.3}PLASMA HEAT LOAD}{8}{section.4.3}%
-\contentsline {section}{\numberline {4.4}MODELLING OF THE ECRH BEAM}{8}{section.4.4}%
+\contentsline {section}{\numberline {2.4}SOLID MECHANICS}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}FINITE ELEMENT METHOD}{7}{section.2.5}%
+\contentsline {chapter}{\numberline {3}STATE OF THE ART}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {4}METHODS AND CONFIGURATIONS}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}MATERIAL PROPERTIES AND PHYSICAL MODELS}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}CONTACT CONFIGURATION}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}PLASMA HEAT LOAD}{9}{section.4.3}%
+\contentsline {section}{\numberline {4.4}MODELLING OF THE ECRH BEAM}{9}{section.4.4}%

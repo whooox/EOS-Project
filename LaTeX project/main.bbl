@@ -85,28 +85,6 @@
     \field{year}{2007}
   \endentry
 
-  \entry{Moiraf2020}{thesis}{}
-    \name{author}{1}{}{%
-      {{hash=MD}{%
-         family={Moiraf},
-         familyi={M\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MD1}
-    \strng{fullhash}{MD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{title}{The use of Plasma Mirror for Relativistic Electron Generation
-  Relevant to Fast Ignition in Inertial Confinement Fusion}
-    \field{type}{phdthesis}
-    \field{month}{07}
-    \field{year}{2020}
-  \endentry
-
   \entry{zhu_parametric_2019}{misc}{}
     \name{author}{1}{}{%
       {{hash=ZJ}{%

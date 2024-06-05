@@ -1,4 +1,5 @@
 \section{MODELLING OF THE ECRH BEAM}
+\subsection{Calculation of the integration coefficients}
 \normalsize{The issue was in the parameters of the \acrshort{ECRH} beam load distribution since it was not clearly defined in the recalculation task requested by Torsten Stange. The little information about the parameters of the beam load were the nominal total heat flow of 912W, Gaussian shape of power distribution and the geometric properties of both axisymmetric and non-axisymmetric distribution. Based on these data, a series of calculations aiming to recalculate the load distribution on the tile surface  were undergone and provided good results.}
 \begin{figure}[h!]
     \label{fig_4_1} 
@@ -44,13 +45,13 @@
     2 \pi \int\displaylimits_0^{+\infty} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \ rdr = 6,125 \cdot 10^{-4} \pi
 \end{equation}
 \\
-\normalsize{\indent This function is then normalized by multiplying both side by a coefficient $k_{norm}$ such as $k_{norm} \cdot 6,125 \cdot 10^{-4} \pi = 1$ This coefficient has a value of $519,68 m^{-2}$. Since heat flux is in $[Wm^{-2}]$, $k_{norm}$ needs to be in $[m^{-2}]$.  To validate the normalization, it is possible to integrate the same function, but only for the radius between 0 and standard deviation and multiplying the function by $k_{norm}$. This gives:}
+\normalsize{\indent This function is then normalized by multiplying both side by a coefficient $k_{norm}$ such as $k_{norm} \cdot 6,125 \cdot 10^{-4} \pi = 1$ This coefficient has a value of $519,69 \ m^{-2}$. Since heat flux is in $[Wm^{-2}]$, $k_{norm}$ needs to be in $[m^{-2}]$.  To validate the normalization, it is possible to integrate the same function, but only for the radius between 0 and standard deviation and multiplying the function by $k_{norm}$. This gives:}
 \\
 \begin{equation}
     k_{norm} \left[ \int\displaylimits_0^{r_0} \int\displaylimits_0^{2 \pi} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) \,rdrd\theta \right] = 0,8646
 \end{equation}
 \\
-\normalsize{\indent The integral power of the ECRH beam is 912 W. This means that normalized ECRH beam power distribution can be multiplied by the integral power. It is thus possible to define $q_0 \coloneqq P_{ECRH}^{beam} \cdot k_{norm}$. In the case of the circular ECRH Gaussian heat flux distribution, the value of $q_0=473957 Wm^{-2}$, this value will be used in the APDL code. The implemented function is, in cylindrical coordinates \eqref{eqn:cylCSGHD}:}
+\normalsize{\indent The integral power of the ECRH beam is 912 W. This means that normalized ECRH beam power distribution can be multiplied by the integral power. It is thus possible to define $q_0 \coloneqq P_{ECRH}^{beam} \cdot k_{norm}$. In the case of the circular ECRH Gaussian heat flux distribution, the value of $q_0=473957 \ Wm^{-2}$, this value will be used in the APDL code. The implemented function is, in cylindrical coordinates \eqref{eqn:cylCSGHD}:}
 \\
 \begin{equation}
     f_{axisym.}^{cyl. CS}(r) = P_{ECRH}^{beam} k_{norm} \exp\left(-2\left(\frac{r}{r_0}\right)^2 \right) [W/m^2]
@@ -84,10 +85,10 @@
 \normalsize{\indent If $a$ and $b$ are equal, the distribution is circular. The normalization coefficient for the cartesian should therefore be the same as the cylindrical one since the standard deviation of the distribution is the same, the function is just expressed in a cartesian coordinate system. Let $a = b = 35mm$, the integral becomes:}
 \\
 \begin{equation}
-    \int\displaylimits_{- \infty}^{+ \infty} \int\displaylimits_{- \infty}^{+ \infty} \exp\left(-2\left(\left(\frac{x+y}{32[mm]}\right)^2 \right) \right) \ dxdy = 6,125 \cdot 10^{-4} \pi
+    \int\displaylimits_{- \infty}^{+ \infty} \int\displaylimits_{- \infty}^{+ \infty} \exp\left(-2\left(\frac{x+y}{35[mm]}\right)^2\right) \ dxdy = 6,125 \cdot 10^{-4} \pi
 \end{equation}
 \\
-\normalsize{\indent The normalization coefficient is $519,68 m^{-2}$. This coefficient is the same as the one for the distribution expressed a cylindrical coordinates. To validate this, it possible to proceed the same as with the cylindrical distribution, integrating over a disk of radius $35mm$. There is a problem with integrating the function on a circle in Cartesian coordinates, because the surface is a square of a rectangle. It is however possible to find an alternative solution to this problem using the Heaviside step function. The 2D-Heaviside step function is a discontinuous function defined as follows:}
+\normalsize{\indent The normalization coefficient is $519,69 \ m^{-2}$ and the integration coefficient $q_0=473957 \ Wm^{-2}$. This coefficient is the same as the one for the distribution expressed a cylindrical coordinates. To validate this, it possible to proceed the same as with the cylindrical distribution, integrating over a disk of radius $35 \ mm$. There is a problem with integrating the function on a circle in Cartesian coordinates, because the surface is a square of a rectangle. It is however possible to find an alternative solution to this problem using the Heaviside step function. The 2D-Heaviside step function is a discontinuous function defined as follows:}
 \\
 \begin{equation}
      \ H_{\Omega}(x,y) =
@@ -95,12 +96,13 @@
         1 & \text{if } (x,y) \in \Omega\\
         0 & \text{if } (x,y) \in \mathbb{R}\setminus\Omega
     \end{cases}
+    \label{eqn:HSF}
 \end{equation}
 \\
-\normalsize{\indent The idea to calculate the integral over a circle or an ellipse is to multiply the integrated function by the Heaviside function to project its values over a non-zero area defined by $\partial \Omega$, the closed perimeter of the surface.}
+\normalsize{\indent The idea to calculate the integral over a circle or an ellipse is to multiply the integrated function by the Heaviside function \eqref{eqn:HSF} to project its values over a non-zero area defined by $\partial \Omega$, the closed perimeter of the surface.}
 \\
 \break
-\normalsize{\indent The domain on which it is necessary to integrate is bounded by the circle equation $x^2 + y^2 = r_0^2$. Because the domain is a disk, the equation becomes $x^2 + y^2 \leq r_0^2$. The domain of the circle is thus $\Omega = \{ (x,y) \in \mathbb{R}^2, r_0 \in \mathbb{R} : r_0^2 - x^2 - y^2 \leq 0 \}$ and by the way the Heaviside step function is defined in Wolfram Mathematica\textsuperscript{\textregistered}, it becomes $H(r_0^2 - x^2 - y^2)$.}
+\normalsize{\indent The domain on which it is necessary to integrate is bounded by the circle equation $x^2 + y^2 = r_0^2$. Because the domain is a disk, the equation becomes $x^2 + y^2 \leq r_0^2$. The domain of the circle is thus $\Omega = \{ (x,y) \in \mathbb{R}^2, r_0 \in \mathbb{R} : r_0^2 - x^2 - y^2 \leq 0 \}$ and by the way the Heaviside step function \eqref{eqn:HSF} is defined in Wolfram Mathematica\textsuperscript{\textregistered}, it becomes $H(r_0^2 - x^2 - y^2)$.}
 \\
 \begin{figure}[h!] 
     \centering
@@ -109,7 +111,7 @@
     \label{fig:fig_4_2}
 \end{figure}
 \\
-\normalsize{\indent To validate the coefficient $k=519, 68 m^{-2}$, it is possible to now integrate in Cartesian coordinates but on a disk. As said previously, the idea is to project the values of a function $f$ on a non-zero area $\Omega$ defined by $H_\Omega$, this is written as follows:}
+\normalsize{\indent To validate the coefficient $k=519,69 \ m^{-2}$, it is possible to now integrate in Cartesian coordinates but on a disk. As said previously, the idea is to project the values of a function $f$ on a non-zero area $\Omega$ defined by $H_\Omega$, this is written as follows:}
 \\
 \begin{equation}
     \int\displaylimits_{\Omega_{cyl}} f \ rdrd\theta = \int\displaylimits_{\Omega_{car}} \proj{f}{H_\Omega} \ dxdy
@@ -118,12 +120,25 @@
 \normalsize{with $\Omega_{cyl}$ being the cylindrical integration limits and $\Omega_{cyl}$ the cartesian integration limits. The fully written and calculated integral is :}
 \\
 \begin{equation}
-    k \int\displaylimits_{-a}^{a} \int\displaylimits_{-b}^{b} \proj{\exp\left(-2\left(\left(\frac{x}{a}\right)^2 + \left(\frac{y}{b}\right)^2 \right) \right)}{H(r_0^2 - x^2 - y^2 )} \ rdrd\theta = 0,867
+    k \int\displaylimits_{-a}^{a} \int\displaylimits_{-b}^{b} \proj{\exp\left(-2\left(\frac{x+y}{35[mm]}\right)^2 \right)}{H(35[mm]^2 - x^2 - y^2 )} \ dxdy = 0,867
 \end{equation}
 \\
-\normalsize{\indent The value of the integral is correct , and the integration coefficient for the Cartesian coordinates heat flux distribution is $q_0=473957 Wm^{-2}$,  which is the same as the cylindrical one. This is a good sight since the distribution are defined to be the same, it is reassuring to get the same outcome. For the elliptical one, the method is the same as the circular one except the argument in the Heaviside step function isn’t derived for the circle equation but from the ellipse equation. The function for axisymmetric heat flux distribution written in cartesian coordinates is \eqref{eqn:carCSGHD}:}
+\normalsize{\indent The value of the integral is correct, and the integration coefficient for the Cartesian coordinates heat flux distribution is $q_0=473957 Wm^{-2}$,  which is the same as the cylindrical one. This is a good sight since the distribution are defined to be the same, it is reassuring to get the same result. For the elliptical one, the method is the same as the circular one except the argument in the Heaviside step function \eqref{eqn:HSF} isn’t derived for the circle equation but from the ellipse equation. The function for axisymmetric heat flux distribution written in cartesian coordinates is \eqref{eqn:carCSGHD}:}
 \\
 \begin{equation}
-    \color{red}\boxed{\color{black} f_{axisym.}^{car. CS}(r) = 473957 \exp\left(-2\left(\left(\frac{x}{35[mm]}\right)^2 + \left(\frac{y}{35[mm]}\right)^2 \right) \right) [W/m^2]}
+    \color{red}\boxed{\color{black} f_{axisym.}^{car. CS}(x,y) = 473957 \exp\left(-2\left(\frac{x+y}{35[mm]}\right)^2 \right) [W/m^2]}
     \label{eqn:carCSGHD}
 \end{equation}
+\\
+\normalsize{\indent For the calculation of the non-axisymmetric integration coefficient (semi-minor radius of $35 \ mm$ and semi-major radius of $68 \ mm$), it is possible to proceed the same way as above. The ellipse is defined via the ellipse equation $(\frac{x}{a})^2 + (\frac{y}{b})^2 = 1$ with $a$ and $b$ being respectively the minor semi-radius and major semi-radius. The Heaviside step function \eqref{eqn:HSF} is written $H\left(1 - \left(\frac{x}{a}\right)^2 - \left(\frac{y}{b}\right)^2 \right)$. The normalization of the integral as well as the calculation of the integral on the ellipse is done the same way as before. The function on which the distribution $f$ is projected is the Heaviside step function \eqref{eqn:HSF} defined on an ellipse. The projection $\proj{f}{H_{\Omega}}$ is integrated and the results yields a normalization coefficient $k_{norm}$ of $267,5 \ m^{-2}$ and an integration coefficient $q_0$ of $243948 \ W/m^{2}$. The function for non-axisymmetric heat flux distribution written in cartesian coordinates is \eqref{eqn:carCSGHDNA}:}
+\\
+\begin{equation}
+    \color{red}\boxed{\color{black} f_{non-axisym.}^{car. CS}(x,y) = 243948 \exp\left(-2\left(\left(\frac{x}{35[mm]}\right)^2 + \left(\frac{y}{68[mm]}\right)^2 \right) \right) [W/m^2]}
+    \label{eqn:carCSGHDNA}
+\end{equation}
+\\
+\normalsize{\indent All integration coefficients as well as the standard deviations of the distributions are summarized below:}
+
+% INSERT THE SUMMARY TABLE
+
+\subsection{Calculation of the surface integrales}

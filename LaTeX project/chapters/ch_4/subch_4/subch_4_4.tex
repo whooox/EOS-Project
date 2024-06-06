@@ -1,6 +1,7 @@
 \section{MODELLING OF THE ECRH BEAM}
 \subsection{Calculation of the integration coefficients}
 \normalsize{The issue was in the parameters of the \acrshort{ECRH} beam load distribution since it was not clearly defined in the recalculation task requested by Torsten Stange. The little information about the parameters of the beam load were the nominal total heat flow of 912W, Gaussian shape of power distribution and the geometric properties of both axisymmetric and non-axisymmetric distribution. Based on these data, a series of calculations aiming to recalculate the load distribution on the tile surface  were undergone and provided good results.}
+\\
 \begin{figure}[h!]
     \label{fig_4_1} 
     \centering
@@ -141,4 +142,13 @@
 
 % INSERT THE SUMMARY TABLE
 
+\subsection{Coding strategy and implementation in ANSYS\textsuperscript{\textregistered} }
+\normalsize{In ANSYS\textsuperscript{\textregistered} Mechanical, the heat flux applies a uniform heat load over the whole boundary. This, of course, could be used to model the \acrshort{ECRH} beam on the TZM tile plasma facing surfaces. While possible, this would be too conservative for the results and provide unrealistic data. This is why, a custom heat load is used to model the heat distribution of the \acrshort{ECRH} beam. ANSYS\textsuperscript{\textregistered} Mechanical does feature an APDL command function that creates an APDL environment where it is possible to write a script that is executed when needed.}
+\\
+\break
+\normalsize{\indent After calculating the \acrshort{ECRH} beam load distribution function for different cases, the functions need to be implemented in ANSYS\textsuperscript{\textregistered}. The code written by J. Zhu \cites{zhu_parametric_2019} in 2019 can be reused and modified to accommodate for coordinate system change. The original code was written in cylindrical coordinates with only one loop for one variable, the radius $r$. However, the future code should support both axisymmetric and non-axisymmetric distributions, which means having two variables, $x$ and $y$. First, the code calculated the heat flux following the heat flux distribution functions $\eqref{eqn:carCSGHD} \eqref{eqn:carCSGHDNA}$ and stores the values in a table. The code then selects all elements within a small area and apply to all of them the value of the calculated heat flux from the midpoint of this area.}
+
+\lstinputlisting[language=Fortran]{code/ECRH_JZHU_CODE.mac}
+
 \subsection{Calculation of the surface integrales}
+\normalsize{}

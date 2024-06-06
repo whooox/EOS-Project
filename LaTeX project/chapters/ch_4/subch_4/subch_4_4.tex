@@ -14,7 +14,7 @@
 \normalsize{\indent With help of those information, the integration coefficients could be calculated. The first integral was expressed in a cylindrical coordinate system. The first APDL code written by J. Zhu \cite{zhu_parametric_2019} in 2019 only featured the circular heat flux distribution and was based on calculations made by Torsten Stange. The integrated function for Gaussian distribution has the form $\exp(-2r^2)$. The surface integral can be written:}
 \\
 \begin{equation}
-    \int\displaylimits_{\Omega} \exp(-2r^2) \,dS \
+    \int\displaylimits_{\Omega} \exp(-2r^2) \ dS \
 \end{equation}
 \\
 \normalsize{in cylindrical coordinates, \it{$dS = rdrd\theta$}}
@@ -123,7 +123,7 @@
     k \int\displaylimits_{-a}^{a} \int\displaylimits_{-b}^{b} \proj{\exp\left(-2\left(\frac{x+y}{35[mm]}\right)^2 \right)}{H(35[mm]^2 - x^2 - y^2 )} \ dxdy = 0,867
 \end{equation}
 \\
-\normalsize{\indent The value of the integral is correct, and the integration coefficient for the Cartesian coordinates heat flux distribution is $q_0=473957 Wm^{-2}$,  which is the same as the cylindrical one. This is a good sight since the distribution are defined to be the same, it is reassuring to get the same result. For the elliptical one, the method is the same as the circular one except the argument in the Heaviside step function \eqref{eqn:HSF} isn’t derived for the circle equation but from the ellipse equation. The function for axisymmetric heat flux distribution written in cartesian coordinates is \eqref{eqn:carCSGHD}:}
+\normalsize{\indent The value of the integral is correct, and the integration coefficient for the Cartesian coordinates heat flux distribution is $q_0=473957 \ Wm^{-2}$,  which is the same as the cylindrical one. This is a good sight since the distribution are defined to be the same, it is reassuring to get the same result. For the elliptical one, the method is the same as the circular one except the argument in the Heaviside step function \eqref{eqn:HSF} isn’t derived for the circle equation but from the ellipse equation. The function for axisymmetric heat flux distribution written in cartesian coordinates is \eqref{eqn:carCSGHD}:}
 \\
 \begin{equation}
     \color{red}\boxed{\color{black} f_{axisym.}^{car. CS}(x,y) = 473957 \exp\left(-2\left(\frac{x+y}{35[mm]}\right)^2 \right) [W/m^2]}

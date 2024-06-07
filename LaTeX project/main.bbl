@@ -127,6 +127,43 @@
     \field{year}{2024}
   \endentry
 
+  \entry{UDVARDY_1983}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MDFU}{%
+         family={MIKLOS D.\bibnamedelima F.},
+         familyi={M\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+         given={UDVARDY},
+         giveni={U\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{MDFU1}
+    \strng{fullhash}{MDFU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Four species of hummingbirds (Archilochus alexandri, Cal_vpte anna,
+  Selasphorus sasin, and S. rufus) were observed to keep their feet and toes in
+  a special patch of downy belly feathers at low ambient temperatures (T,),
+  gradually expose them as temperatures rise, and hold them fully exposed at
+  high T, when hovering and perching. Since the position of the feet depends
+  upon T,, it probably influences the birds’ heat transfer coefficient.%
+    }
+    \field{title}{THE ROLE OF THE FEET IN BEHAVIORAL THERMOREGULATION OF
+  HUMMINGBIRDS}
+    \verb{url}
+    \verb https://sora.unm.edu/sites/default/files/journals/condor/v085n03/p028
+    \verb 1-p0285.pdf
+    \endverb
+    \field{journaltitle}{The Cooper Ornithological Society}
+    \field{year}{1983}
+  \endentry
+
   \entry{zhu_parametric_2019}{misc}{}
     \name{author}{1}{}{%
       {{hash=ZJ}{%

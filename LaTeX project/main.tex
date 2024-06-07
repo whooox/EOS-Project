@@ -58,8 +58,12 @@
 \usepackage{mathtools}
 \usepackage{listings}
 \usepackage{xcolor}
-% \usepackage{fontspec} this deosn't work and its fucking frustrating
 \usepackage{color}
+\usepackage{tcolorbox}
+\usepackage{mdframed} %nice frames
+% \usepackage{fontspec} this doesn't work and its fucking frustrating
+\usepackage{inconsolata}
+
 % \usepackage{mathalfa}
 
 % \usepackage[grid]{eso-pic}
@@ -108,30 +112,72 @@
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{backcolour}{rgb}{0.95,0.99,1}
+\definecolor{framecolor}{rgb}{0.5058823529411764,0.7098039215686275,0.6509803921568628}
+% \definecolor{rulecolor}{rgb}{0.92,0.98,1}
+\definecolor{rulecolor}{rgb}{0.9647058823529412, 1, 0.8509803921568627}
+\definecolor{blackblack}{rgb}{0,0,0}
+\definecolor{whitewhite}{rgb}{1,1,1} % Light gray for the frame
+\definecolor{MaterialGrey}{rgb}{0.25882352941176473,0.25882352941176473,0.25882352941176473}
+\definecolor{vibrant}{rgb}{0.011764705882352941, 0.6509803921568628, 0.5647058823529412}
 
+% APDL Definition
+\lstdefinelanguage{APDL}
+{
+morekeywords ={K,SOLU,SOLVE,FINISH,csys,cmsel,esln,esel,nsle,cm,sfe,alls,kbc,s,r,x,all,HFLU,ne,then,elem,count,temp,elem,nint},keywordstyle = \bfseries\color{vibrant},
+classoffset = 1,
+morekeywords={DK,D,FK,ANTYPE,PSTRES,BUCOPT,EXPASS,MXPAND,do,if,enddo,endif,get},keywordstyle = \color{blue},
+classoffset = 0,
+sensitive=false,
+morecomment=[l]{!},
+morecomment=[s]{/*}{*/},
+morestring
+=[b]",
+}
+
+% Define the listing style
 \lstset{
-    basicstyle=\ttfamily\smallsize, 
+    basicstyle=\ttfamily, 
     keywordstyle=\color{blue},
     commentstyle=\color{gray},
     stringstyle=\color{red},
-    numbers=left,
-    numberstyle=\tiny\color{gray},
+    numbers=right,
+    numberstyle=\ttfamily\normalsize\color{blackblack},
     stepnumber=1,
-    numbersep=10pt,
-    backgroundcolor=\color{white},
+    numbersep=-10pt,
+    backgroundcolor=\color{backcolour},
     showspaces=false,
     showstringspaces=false,
     showtabs=false,
-    frame=single,
+    % frame=single,
     tabsize=4,
     captionpos=b,
     breaklines=true,
     breakatwhitespace=false,
-    title=\lstname,
-    escapeinside={(*@}{@*)}
+    % title=\lstname
 }
 
+% Define a tcolorbox style for listings
+\tcbuselibrary{listingsutf8}
+\newtcblisting{mylisting}[2][]{
+    listing only,
+    listing style=mystyle,
+    colback=backcolour,
+    colframe=rulecolor,
+    fonttitle=\bfseries,
+    title=#2,
+    #1
+}
+
+\newtcblisting[auto counter]{sexylisting}[2][]{
+    sharp corners,
+    fonttitle=\ttfamily\bfseries\color{whitewhite},
+    colframe={MaterialGrey},
+    colback=backcolour,
+    listing only, 
+    listing options={basicstyle=\ttfamily,language=APDL}, 
+    title=Listing \thetcbcounter: #2, #1
+}
 
 %----------------------------------------------------------------------------------------%
 % ACRONYMS

@@ -85,6 +85,48 @@
     \field{year}{2007}
   \endentry
 
+  \entry{ahtt6e}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=LJHV}{%
+         family={Lienhard},
+         familyi={L\bibinitperiod},
+         suffix={V},
+         suffixi={V},
+         given={J.\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=LJHI}{%
+         family={Lienhard},
+         familyi={L\bibinitperiod},
+         suffix={IV},
+         suffixi={I\bibinitperiod},
+         given={J.\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Phlogiston Press}%
+    }
+    \strng{namehash}{LVJHLIJH1}
+    \strng{fullhash}{LVJHLIJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{edition}{6th}
+    \field{note}{Version 6.00}
+    \field{pagetotal}{810}
+    \field{title}{A Heat Transfer Textbook}
+    \verb{url}
+    \verb https://ahtt.mit.edu
+    \endverb
+    \list{location}{1}{%
+      {Cambridge, MA}%
+    }
+    \field{month}{04}
+    \field{year}{2024}
+  \endentry
+
   \entry{zhu_parametric_2019}{misc}{}
     \name{author}{1}{}{%
       {{hash=ZJ}{%

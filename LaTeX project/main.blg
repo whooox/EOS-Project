@@ -30,47 +30,52 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: main-blx.bib
 Database file #2: citations.bib
+Warning--entry type for "ahtt6e" isn't style-file defined
+--line 101 of file citations.bib
+Warning--string name "english" is undefined
+--line 111 of file citations.bib
 Biblatex version: 3.19
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 4 entries,
+You've used 5 entries,
             6399 wiz_defined-function locations,
-            1230 strings with 9648 characters,
-and the built_in function-call counts, 21209 in all, are:
-= -- 1449
-> -- 672
-< -- 162
-+ -- 720
-- -- 355
-* -- 1219
-:= -- 2316
+            1240 strings with 9791 characters,
+and the built_in function-call counts, 31830 in all, are:
+= -- 2362
+> -- 822
+< -- 224
++ -- 1012
+- -- 403
+* -- 1987
+:= -- 3467
 add.period$ -- 0
-call.type$ -- 4
-change.case$ -- 97
-chr.to.int$ -- 66
-cite$ -- 6
-duplicate$ -- 2036
-empty$ -- 1798
-format.name$ -- 165
-if$ -- 4320
+call.type$ -- 5
+change.case$ -- 136
+chr.to.int$ -- 72
+cite$ -- 8
+duplicate$ -- 3065
+empty$ -- 2706
+format.name$ -- 236
+if$ -- 6503
 int.to.chr$ -- 0
-int.to.str$ -- 10
+int.to.str$ -- 14
 missing$ -- 0
-newline$ -- 109
-num.names$ -- 201
-pop$ -- 1057
+newline$ -- 151
+num.names$ -- 276
+pop$ -- 1417
 preamble$ -- 1
-purify$ -- 106
+purify$ -- 150
 quote$ -- 0
-skip$ -- 795
+skip$ -- 1063
 stack$ -- 0
-substring$ -- 2424
-swap$ -- 496
-text.length$ -- 111
-text.prefix$ -- 3
+substring$ -- 4176
+swap$ -- 706
+text.length$ -- 145
+text.prefix$ -- 5
 top$ -- 1
-type$ -- 124
+type$ -- 157
 warning$ -- 0
-while$ -- 280
+while$ -- 413
 width$ -- 0
-write$ -- 106
+write$ -- 147
+(There were 2 warnings)

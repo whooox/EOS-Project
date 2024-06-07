@@ -146,9 +146,43 @@
 \normalsize{In ANSYS\textsuperscript{\textregistered} Mechanical, the heat flux applies a uniform heat load over the whole boundary. This, of course, could be used to model the \acrshort{ECRH} beam on the TZM tile plasma facing surfaces. While possible, this would be too conservative for the results and provide unrealistic data. This is why, a custom heat load is used to model the heat distribution of the \acrshort{ECRH} beam. ANSYS\textsuperscript{\textregistered} Mechanical does feature an APDL command function that creates an APDL environment where it is possible to write a script that is executed when needed.}
 \\
 \break
-\normalsize{\indent After calculating the \acrshort{ECRH} beam load distribution function for different cases, the functions need to be implemented in ANSYS\textsuperscript{\textregistered}. The code written by J. Zhu \cites{zhu_parametric_2019} in 2019 can be reused and modified to accommodate for coordinate system change. The original code was written in cylindrical coordinates with only one loop for one variable, the radius $r$. However, the future code should support both axisymmetric and non-axisymmetric distributions, which means having two variables, $x$ and $y$. First, the code calculated the heat flux following the heat flux distribution functions $\eqref{eqn:carCSGHD} \eqref{eqn:carCSGHDNA}$ and stores the values in a table. The code then selects all elements within a small area and apply to all of them the value of the calculated heat flux from the midpoint of this area.}
+\normalsize{\indent After calculating the \acrshort{ECRH} beam load distribution function for different cases, the functions need to be implemented in ANSYS\textsuperscript{\textregistered}. The code written by J. Zhu \cites{zhu_parametric_2019} in 2019 can be reused and modified to accommodate for coordinate system change. The original code was written in cylindrical coordinates with only one loop for one variable, the radius $r$. However, the future code should support both axisymmetric and non-axisymmetric distributions, which means having two variables, $x$ and $y$. First, the code calculated the heat flux following the heat flux distribution functions at the midpoint of this area $\eqref{eqn:carCSGHD} \eqref{eqn:carCSGHDNA}$. The code then selects all elements within a small area and apply to all of them the value of the calculated heat flux from the midpoint of this area.}
+\\
+\begin{sexylisting}{APDL script of the gaussian heat distribution developed by J. Zhu \cites{zhu_parametric_2019} }
+csys,100
+cmsel,s,plasma_srf
+esln
+esel,r,ename,,152
+nsle
+cm,temp,elem
 
-\lstinputlisting[language=Fortran]{code/ECRH_JZHU_CODE.mac}
+cycn=arg3/arg2+1
+cycn=nint(cycn)
+
+!----------------------------------!
+*do,n_,1,cycn !positive
+	cmsel,s,temp
+	x1=(n_-1)*arg2
+	x2=n_*arg2
+	x0=(x1+x2)/2
+
+	esel,r,cent,x,x1,x2
+	*get,elemn_,elem,0,count
+
+	!calc the heat flux follow the above formula
+	flux_0=-2*(x0/0.05)**2
+	flux_x=250000*exp(flux_0)+arg1
+
+	*if,elemn_,ne,0,then
+		sfe,all,1,HFLU,1,flux_x
+	*endif
+*enddo
+
+!------------------------------------!
+alls $ csys,0
+
+kbc,1
+\end{sexylisting}
 
 \subsection{Calculation of the surface integrales}
-\normalsize{}
+\normalsize{To compare between the old and new tile design but also validate the FE model, calculating the surface integral can be of use. This idea behind this is to check for energy conservation after integration the heat flux of the \acrshort{ECRH} beam on the tile surface. }

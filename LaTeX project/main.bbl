@@ -17,6 +17,32 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{cengel2004heat}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CY}{%
+         family={Cengel},
+         familyi={C\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw-Hill Education}%
+    }
+    \strng{namehash}{CY1}
+    \strng{fullhash}{CY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{isbn}{9780071236447}
+    \field{title}{Heat Transfer: A Practical Approach}
+    \verb{url}
+    \verb https://books.google.de/books?id=xYASMQAACAAJ
+    \endverb
+    \field{year}{2004}
+  \endentry
+
   \entry{diekmann_energie:_2014}{book}{}
     \name{author}{2}{}{%
       {{hash=DB}{%

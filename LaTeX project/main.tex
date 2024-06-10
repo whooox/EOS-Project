@@ -36,6 +36,7 @@
     hypertexnames=true,
     linktocpage=true,
 ]{hyperref}
+\usepackage{siunitx}
 
 \usepackage{lastpage}
 \usepackage{fancyhdr}
@@ -178,6 +179,15 @@ morestring
     listing options={basicstyle=\ttfamily,language=APDL}, 
     title=Listing \thetcbcounter: #2, #1
 }
+
+\makeatletter
+\providecommand\add@text{}
+\newcommand\tagaddtext[1]{%
+  \gdef\add@text{#1\gdef\add@text{}}}% 
+\renewcommand\tagform@[1]{%
+  \maketag@@@{\llap{\add@text\quad}(\ignorespaces#1\unskip\@@italiccorr)}%
+}
+\makeatother
 
 %----------------------------------------------------------------------------------------%
 % ACRONYMS

@@ -89,6 +89,34 @@
     \field{urlyear}{2024}
   \endentry
 
+  \entry{Fellinger_2013}{report}{}
+    \name{author}{1}{}{%
+      {{hash=FJ}{%
+         family={Fellinger},
+         familyi={F\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FJ1}
+    \strng{fullhash}{FJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{28Y3JJ}
+    \field{title}{Thermal-mechanical assessment of heat shields and baffles}
+    \list{location}{1}{%
+      {Wendelsteinstraße 1, Greiswald, Germany}%
+    }
+    \list{institution}{1}{%
+      {Max-Planck Institute for Plasma Physics}%
+    }
+    \field{type}{techreport}
+    \field{month}{05}
+    \field{year}{2013}
+  \endentry
+
   \entry{Freidberg_2007}{book}{}
     \name{author}{1}{}{%
       {{hash=FJP}{%

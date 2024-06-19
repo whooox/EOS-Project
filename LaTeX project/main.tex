@@ -65,6 +65,8 @@
 % \usepackage{fontspec} this doesn't work and its fucking frustrating
 \usepackage{inconsolata}
 
+\usepackage{booktabs}
+
 % \usepackage{mathalfa}
 
 % \usepackage[grid]{eso-pic}
@@ -189,6 +191,10 @@ morestring
 }
 \makeatother
 
+% SETUP OF THE TABLES
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+
 %----------------------------------------------------------------------------------------%
 % ACRONYMS
 
@@ -201,6 +207,9 @@ morestring
 \newacronym{BCs}{BCs}{Boundary Conditions}
 \newacronym{HS}{HS}{Heat Shield}
 \newacronym{ECRH}{ECRH}{Electron Cyclotron Resonance Heating}
+\newacronym{CuCrZr}{CuCrZr}{Copper Nickel Zirconium}
+\newacronym{TZM}{TZM}{Titanium Zirconium Molybdenum}
+\newacronym{BM}{BM}{Baffle Module}
 
 
 %----------------------------------------------------------------------------------------%
@@ -312,6 +321,8 @@ morestring
 \include{chapters/ch_3/ch_3}
 \newpage
 \include{chapters/ch_4/ch_4}
+\newpage
+\include{chapters/ch_5/ch_5}
 
 
 % Generate bibliography

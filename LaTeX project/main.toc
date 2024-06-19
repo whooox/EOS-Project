@@ -4,19 +4,29 @@
 \contentsline {chapter}{\numberline {2}THEORETICAL FRAMEWORK}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}GENERAL THEORY OF FUSION REACTORS}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}W7-X SYSTEMS}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}HEAT TRANSFER}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.3}HEAT TRANSFER}{7}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}General problem of heat exchange}{7}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Heat conduction}{7}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Heat conduction}{8}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Convective heat transfer}{8}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Thermal radiation}{8}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}SOLID MECHANICS}{8}{section.2.4}%
-\contentsline {section}{\numberline {2.5}FINITE ELEMENT METHOD}{8}{section.2.5}%
-\contentsline {chapter}{\numberline {3}STATE OF THE ART}{9}{chapter.3}%
-\contentsline {chapter}{\numberline {4}METHODS AND CONFIGURATIONS}{10}{chapter.4}%
-\contentsline {section}{\numberline {4.1}MATERIAL PROPERTIES AND PHYSICAL MODELS}{10}{section.4.1}%
-\contentsline {section}{\numberline {4.2}CONTACT CONFIGURATION}{10}{section.4.2}%
-\contentsline {section}{\numberline {4.3}PLASMA HEAT LOAD}{10}{section.4.3}%
-\contentsline {section}{\numberline {4.4}MODELLING OF THE ECRH BEAM}{10}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Calculation of the integration coefficients}{10}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Coding strategy and implementation in ANSYS\textsuperscript {\textregistered } }{14}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Calculation of the surface integrales}{15}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {2.3.4}Thermal radiation}{9}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}SOLID MECHANICS}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}FINITE ELEMENT METHOD}{9}{section.2.5}%
+\contentsline {chapter}{\numberline {3}STATE OF THE ART}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1} PREVIOUS ANALYSES OF THE ECRH REFLECTOR TILE}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}ISSUES OF THE TILE}{11}{section.3.2}%
+\contentsline {chapter}{\numberline {4}METHODS AND CONFIGURATIONS}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}MATERIAL PROPERTIES AND PHYSICAL MODELS}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}CONTACT CONFIGURATION}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}PLASMA HEAT LOAD}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.4}MODELLING OF THE ECRH BEAM}{12}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Calculation of the integration coefficients}{12}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Coding strategy and implementation in ANSYS\textsuperscript {\textregistered } }{16}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Calculation of the surface integrales}{17}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}DUMMY MODELS}{18}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Bolt/washers/nut model}{18}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Coupled fields contact model}{18}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {5}ANALYSES SETUP AND RESULTS}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}STEADY-STATE THERMAL ANALYSIS}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}TRANSIENT THERMAL ANALYSIS}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}STATIC STRUCTURAL ANALYSIS}{19}{section.5.3}%
+\contentsline {section}{\numberline {5.4}COUPLED FIELDS ANALYSIS}{19}{section.5.4}%

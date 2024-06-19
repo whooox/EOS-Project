@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  19 JUN 2024 11:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  19 JUN 2024 13:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1537,7 +1537,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--317
 
  (chapters/ch_2/ch_2.tex
 Chapter 2.
-<figures/fig_1.png, id=303, 770.88pt x 506.6428pt>
+<figures/fig_1.png, id=300, 770.88pt x 506.6428pt>
 File: figures/fig_1.png Graphic file (type png)
 <use figures/fig_1.png>
 Package pdftex.def Info: figures/fig_1.png  used on input line 8.
@@ -1546,22 +1546,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-<figures/crosssection.png, id=309, 651.18282pt x 423.08063pt>
+<figures/crosssection.png, id=306, 651.18282pt x 423.08063pt>
 File: figures/crosssection.png Graphic file (type png)
 <use figures/crosssection.png>
 Package pdftex.def Info: figures/crosssection.png  used on input line 35.
 (pdftex.def)             Requested size: 229.32741pt x 148.99713pt.
-<figures/reactionrate.png, id=313, 728.7225pt x 501.37312pt>
+<figures/reactionrate.png, id=310, 728.7225pt x 501.37312pt>
 File: figures/reactionrate.png Graphic file (type png)
 <use figures/reactionrate.png>
 Package pdftex.def Info: figures/reactionrate.png  used on input line 44.
 (pdftex.def)             Requested size: 247.82283pt x 170.50285pt.
-<figures/fig_2.png, id=319, 853.1875pt x 648.4225pt>
+<figures/fig_2.png, id=316, 853.1875pt x 648.4225pt>
 File: figures/fig_2.png Graphic file (type png)
 <use figures/fig_2.png>
 Package pdftex.def Info: figures/fig_2.png  used on input line 61.
 (pdftex.def)             Requested size: 221.93375pt x 168.66502pt.
-<figures/fig_3.png, id=320, 853.1875pt x 648.4225pt>
+<figures/fig_3.png, id=317, 853.1875pt x 648.4225pt>
 File: figures/fig_3.png Graphic file (type png)
 <use figures/fig_3.png>
 Package pdftex.def Info: figures/fig_3.png  used on input line 72.
@@ -1661,23 +1661,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--45
 
  (chapters/ch_3/ch_3.tex
 Chapter 3.
-<figures/JFellingerFEModel.png, id=397, 225.84375pt x 414.79968pt>
+<figures/JFellingerFEModel.png, id=394, 225.84375pt x 414.79968pt>
 File: figures/JFellingerFEModel.png Graphic file (type png)
 <use figures/JFellingerFEModel.png>
 Package pdftex.def Info: figures/JFellingerFEModel.png  used on input line 10.
 (pdftex.def)             Requested size: 166.4475pt x 305.7254pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--20
+Underfull \hbox (badness 10000) in paragraph at lines 3--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--20
+Underfull \hbox (badness 10000) in paragraph at lines 3--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--20
+Underfull \hbox (badness 10000) in paragraph at lines 3--21
 
  []
 
@@ -1687,12 +1687,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--20
 
 
  <./figures/JFellingerFEModel.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
+Underfull \hbox (badness 10000) in paragraph at lines 24--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
+Underfull \hbox (badness 10000) in paragraph at lines 24--32
 
  []
 
@@ -1711,7 +1711,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-<figures/TWOBEAMDISTRI.png, id=423, 750.55406pt x 499.8675pt>
+<figures/TWOBEAMDISTRI.png, id=420, 750.55406pt x 499.8675pt>
 File: figures/TWOBEAMDISTRI.png Graphic file (type png)
 <use figures/TWOBEAMDISTRI.png>
 Package pdftex.def Info: figures/TWOBEAMDISTRI.png  used on input line 8.
@@ -1810,7 +1810,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--94
 
  []
 
-<figures/stepfunction.png, id=458, 726.46407pt x 438.8897pt>
+<figures/stepfunction.png, id=455, 726.46407pt x 438.8897pt>
 File: figures/stepfunction.png Graphic file (type png)
 <use figures/stepfunction.png>
 Package pdftex.def Info: figures/stepfunction.png  used on input line 110.
@@ -1910,7 +1910,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  42622 strings out of 474385
  842952 string characters out of 5750167
- 2022496 words of memory out of 5000000
+ 2021496 words of memory out of 5000000
  64051 multiletter control sequences out of 15000+600000
  638858 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1919,9 +1919,9 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmb8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on main.pdf (28 pages, 1798913 bytes).
+Output written on main.pdf (28 pages, 1797603 bytes).
 PDF statistics:
- 650 PDF objects out of 1000 (max. 8388607)
+ 646 PDF objects out of 1000 (max. 8388607)
  154 named destinations out of 1000 (max. 500000)
  314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

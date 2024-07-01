@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  19 JUN 2024 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  1 JUL 2024 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1422,7 +1422,7 @@ Package biblatex Info: Reference segment=0 on input line 217.
  (C:\Program Files\Miktex\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
-<figures/logo.jpg, id=134, 4338.2075pt x 1003.75pt>
+<figures/logo.jpg, id=146, 4338.2075pt x 1003.75pt>
 File: figures/logo.jpg Graphic file (type jpg)
 <use figures/logo.jpg>
 Package pdftex.def Info: figures/logo.jpg  used on input line 220.
@@ -1537,7 +1537,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--317
 
  (chapters/ch_2/ch_2.tex
 Chapter 2.
-<figures/fig_1.png, id=300, 770.88pt x 506.6428pt>
+<figures/fig_1.png, id=318, 770.88pt x 506.6428pt>
 File: figures/fig_1.png Graphic file (type png)
 <use figures/fig_1.png>
 Package pdftex.def Info: figures/fig_1.png  used on input line 8.
@@ -1546,22 +1546,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-<figures/crosssection.png, id=306, 651.18282pt x 423.08063pt>
+<figures/crosssection.png, id=324, 651.18282pt x 423.08063pt>
 File: figures/crosssection.png Graphic file (type png)
 <use figures/crosssection.png>
 Package pdftex.def Info: figures/crosssection.png  used on input line 35.
 (pdftex.def)             Requested size: 229.32741pt x 148.99713pt.
-<figures/reactionrate.png, id=310, 728.7225pt x 501.37312pt>
+<figures/reactionrate.png, id=328, 728.7225pt x 501.37312pt>
 File: figures/reactionrate.png Graphic file (type png)
 <use figures/reactionrate.png>
 Package pdftex.def Info: figures/reactionrate.png  used on input line 44.
 (pdftex.def)             Requested size: 247.82283pt x 170.50285pt.
-<figures/fig_2.png, id=316, 853.1875pt x 648.4225pt>
+<figures/fig_2.png, id=334, 853.1875pt x 648.4225pt>
 File: figures/fig_2.png Graphic file (type png)
 <use figures/fig_2.png>
 Package pdftex.def Info: figures/fig_2.png  used on input line 61.
 (pdftex.def)             Requested size: 221.93375pt x 168.66502pt.
-<figures/fig_3.png, id=317, 853.1875pt x 648.4225pt>
+<figures/fig_3.png, id=335, 853.1875pt x 648.4225pt>
 File: figures/fig_3.png Graphic file (type png)
 <use figures/fig_3.png>
 Package pdftex.def Info: figures/fig_3.png  used on input line 72.
@@ -1617,42 +1617,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--92
  []
 
 [6 <./figures/fig_3.png>] (chapters/ch_2/subch_2/subch_2_3.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--5
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--13
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--13
+Underfull \vbox (badness 1320) has occurred while \output is active []
 
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 15--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--20
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 14--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
+Underfull \hbox (badness 10000) in paragraph at lines 14--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
+Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
 
  []
 
@@ -1661,7 +1659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--45
 
  (chapters/ch_3/ch_3.tex
 Chapter 3.
-<figures/JFellingerFEModel.png, id=394, 225.84375pt x 414.79968pt>
+<figures/JFellingerFEModel.png, id=412, 225.84375pt x 414.79968pt>
 File: figures/JFellingerFEModel.png Graphic file (type png)
 <use figures/JFellingerFEModel.png>
 Package pdftex.def Info: figures/JFellingerFEModel.png  used on input line 10.
@@ -1711,7 +1709,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-<figures/TWOBEAMDISTRI.png, id=420, 750.55406pt x 499.8675pt>
+<figures/TWOBEAMDISTRI.png, id=438, 750.55406pt x 499.8675pt>
 File: figures/TWOBEAMDISTRI.png Graphic file (type png)
 <use figures/TWOBEAMDISTRI.png>
 Package pdftex.def Info: figures/TWOBEAMDISTRI.png  used on input line 8.
@@ -1810,7 +1808,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--94
 
  []
 
-<figures/stepfunction.png, id=455, 726.46407pt x 438.8897pt>
+<figures/stepfunction.png, id=473, 726.46407pt x 438.8897pt>
 File: figures/stepfunction.png Graphic file (type png)
 <use figures/stepfunction.png>
 Package pdftex.def Info: figures/stepfunction.png  used on input line 110.
@@ -1873,20 +1871,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--187
 
  []
 
-[16]) (chapters/ch_4/subch_4/subch_4_5.tex))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17{C:/Program Files/Miktex/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [18]
+[16]) (chapters/ch_4/subch_4/subch_4_5.tex)) [17{C:/Program Files/Miktex/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
 \openout2 = `chapters/ch_5/ch_5.aux'.
 
  (chapters/ch_5/ch_5.tex
 Chapter 5.
-(chapters/ch_5/subch_5/subch_5_1.tex) (chapters/ch_5/subch_5/subch_5_2.tex) (chapters/ch_5/subch_5/subch_5_3.tex) (chapters/ch_5/subch_5/subch_5_4.tex)) [19
+(chapters/ch_5/subch_5/subch_5_1.tex
+<figures/standalonetilemodel.png, id=561, 500.5902pt x 299.6796pt>
+File: figures/standalonetilemodel.png Graphic file (type png)
+<use figures/standalonetilemodel.png>
+Package pdftex.def Info: figures/standalonetilemodel.png  used on input line 12.
+(pdftex.def)             Requested size: 258.91895pt x 155.0066pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
+
+ []
+
+) (chapters/ch_5/subch_5/subch_5_2.tex) (chapters/ch_5/subch_5/subch_5_3.tex) (chapters/ch_5/subch_5/subch_5_4.tex))
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+ [18
 
 
 
 
-] [20
+ <./figures/standalonetilemodel.png>] [19] [20
 
 
 
@@ -1902,16 +1916,16 @@ L3 programming layer <2024-03-14>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 024A7B5F412F3CD60B8FCEFE1259D0D8;6748.
+(rerunfilecheck)             Checksum: 7BD224E9F2EDF5C8E34BA3D33AC6C580;7731.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42622 strings out of 474385
- 842952 string characters out of 5750167
+ 42638 strings out of 474385
+ 843366 string characters out of 5750167
  2021496 words of memory out of 5000000
- 64051 multiletter control sequences out of 15000+600000
+ 64063 multiletter control sequences out of 15000+600000
  638858 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,13n,93p,2370b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1919,9 +1933,9 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmb8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on main.pdf (28 pages, 1797603 bytes).
+Output written on main.pdf (28 pages, 1868601 bytes).
 PDF statistics:
- 646 PDF objects out of 1000 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
- 314 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -18,20 +18,22 @@
 \contentsline {section}{\numberline {4.1}MATERIAL PROPERTIES AND PHYSICAL MODELS}{12}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Thermal properties}{13}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Mechanical properties}{13}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}CONTACT CONFIGURATION}{16}{section.4.2}%
-\contentsline {section}{\numberline {4.3}PLASMA HEAT LOAD}{16}{section.4.3}%
-\contentsline {section}{\numberline {4.4}MODELLING OF THE ECRH BEAM}{16}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Calculation of the integration coefficients}{16}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Coding strategy and implementation in ANSYS\textsuperscript {\textregistered }}{20}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}DUMMY MODELS}{21}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Bolt/washers/nut model}{21}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Coupled fields contact model}{21}{subsection.4.5.2}%
-\contentsline {chapter}{\numberline {5}ANALYSES SETUP AND RESULTS}{22}{chapter.5}%
-\contentsline {section}{\numberline {5.1}STEADY-STATE THERMAL ANALYSIS}{22}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Calculation of the surface integrales}{22}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Comparison between old and new TZM tile design}{25}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Film coefficient influence on thermal behavior}{25}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Loadcase influence on thermal behavior}{25}{subsection.5.1.4}%
-\contentsline {section}{\numberline {5.2}TRANSIENT THERMAL ANALYSIS}{25}{section.5.2}%
-\contentsline {section}{\numberline {5.3}STATIC STRUCTURAL ANALYSIS}{25}{section.5.3}%
-\contentsline {section}{\numberline {5.4}COUPLED FIELDS ANALYSIS}{25}{section.5.4}%
+\contentsline {section}{\numberline {4.2}CONTACT CONFIGURATION}{17}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Initial contact setup}{17}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Fields coupling and contact configuration}{18}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}PLASMA HEAT LOAD}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}MODELLING OF THE ECRH BEAM}{18}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Calculation of the integration coefficients}{18}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Coding strategy and implementation in ANSYS\textsuperscript {\textregistered }}{22}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}DUMMY MODELS}{23}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Bolt/washers/nut model}{23}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Coupled fields contact model}{23}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {5}ANALYSES SETUP AND RESULTS}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}STEADY-STATE THERMAL ANALYSIS}{24}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Calculation of the surface integrales}{24}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Comparison between old and new TZM tile design}{27}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Film coefficient influence on thermal behavior}{27}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Loadcase influence on thermal behavior}{27}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}TRANSIENT THERMAL ANALYSIS}{27}{section.5.2}%
+\contentsline {section}{\numberline {5.3}STATIC STRUCTURAL ANALYSIS}{27}{section.5.3}%
+\contentsline {section}{\numberline {5.4}COUPLED FIELDS ANALYSIS}{27}{section.5.4}%

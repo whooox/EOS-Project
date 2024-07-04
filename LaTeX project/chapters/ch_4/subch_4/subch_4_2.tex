@@ -1,1 +1,28 @@
 \section{CONTACT CONFIGURATION}
+\normalsize{The \acrshort{ECRH} \acrshort{TZM} reflector tile is an assembly composed of different parts held together using a specific bolting system. It is crucial to correctly set the contacts of the parts to accurately model the real life phenomena. Contacts are a quite complex concept and introduce lots of different problematics when modelling them. They can have all sorts of properties such as the number of degrees of freedom and possible movement or a specific heat transfer coefficient. In the case of the reflector tile assembly, the contact are of different types, mainly unidirectional and bonded.}
+\\
+\break
+\normalsize{\indent Mathematically, contacts such as unidirectional contacts introduce discontinuities and nonlinearities that can influence convergence of the calculations. The methods chosen for the contacts will impact the speed and stability of the calculations, this is why the settings of the contacts were chosen with great care to avoid faulty calculations and improbable results.}
+\\
+\break
+\normalsize{\indent In real life, the \acrshort{TZM} tile is placed on top of the \acrshort{Sigraflex} thermal gasket. The \acrshort{CuCrZr} heat sink is placed in the other side of the \acrshort{Sigraflex} thermal gasket. Those two contacts (tile/thermal gasket and thermal gasket/heat sink) are all unidirectional and frictional. The \acrshort{SS} cooling pipe is brazed onto the \acrshort{CuCrZr} heat sink. This bonds the heat sink and the cooling pipe together. For this contact, it is assumed that both are thermally perfectly bonded, meaning that the temperature on one part at the boundary is the same as the temperature on the contact boundary of the other part. In some cases, this brazed contact will have a reduced contact area to simulate a "bad" brazing and assess the impact of a worsen thermal contact.}
+\\
+\break
+\normalsize{\indent The bolting system is a complex assembly and interacting parts composed of:
+\begin{itemize}
+    \item The \acrshort{TZM} bolts.
+    \item The \acrshort{TZM} holding pins.
+    \item The \acrshort{SS} nut.
+    \item The INCONEL Belleville washers.
+  \end{itemize}
+The reflector tile has a closed plasma-facing surface. The bolts thus need to the held in the tile, and because it is not possible to directly use the reflector tile to fix the bolt. It was decided to design \acrshort{TZM} holding pins screwed on the side of the reflector tile. Those holding/retaining pins are designed to retain the head of the bolt using fingers. In total, 8 of such pins are assembled in the reflector tile. The holding pin/reflector tile connection is threaded but it was deemed acceptable to consider it bonded. The contact between the holding pins and the bolts are, however, unidirectional and frictional. The contact nut to bolt is also threaded but is considered bonded in the model. To accomodate for possible thermal expansion and deformation of the parts while still assuring thermal contact between the \acrshort{TZM} reflector tile and the \acrshort{CuCrZr} heat sink, as stack composed of three INCONEL Belleville washers acting as a spring, putting pressure on the reflector tile and maintaining thermal contact. The washers push on the \acrshort{CuCrZr} heat sink. All those contacts (nut/washer, washer/washer and washer/heat sink) are considered to be unidirectional and frictional.}
+\subsection{Initial contact setup}
+\normalsize{Initially, the early calculations only included (all contacts bonded):
+\begin{itemize}
+    \item The \acrshort{TZM} tile
+    \item The \acrshort{Sigraflex} thermal gasket.
+    \item The \acrshort{CuCrZr} heat sink.
+    \item The \acrshort{SS} cooling pipe.
+  \end{itemize}
+This was done to test the modelling of the tile assembly and the bonding of the parts together. While this wasn't the most accurate model, the thermal claculations didn't need and more complex setup, and for the initial calculations, heat transfer was assumed to be perfect. The idea was then to add the bolting system. This means that the complex mechanical interaction between the boltins parts, especially the stack of Belleville washers needed to be modelled. }
+\subsection{Fields coupling and contact configuration}

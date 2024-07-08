@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  5 JUL 2024 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  8 JUL 2024 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,6 +1291,11 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 ) (C:\Program Files\Miktex\tex/latex/esint\esint.sty
 Package: esint 
 \symlargesymbolsA=\mathgroup8
+) (C:\Program Files\Miktex\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen343
+\c@nlinenum=\count559
+\TeXr@lab=\toks56
 ) (C:\Program Files\Miktex\tex/latex/tcolorbox\tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
 (C:\Program Files\Miktex\tex/latex/tcolorbox\tcblistings.code.tex
@@ -1300,16 +1305,16 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
 (C:\Program Files\Miktex\tex/latex/tcolorbox\tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
 )
-\c@tcblisting=\count559
+\c@tcblisting=\count560
 )) (C:\Program Files\Miktex\tex/latex/listingsutf8\listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
  (C:\Program Files\Miktex\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )))
-\c@tcb@cnt@sexylisting=\count560
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 223.
-\@quotelevel=\count561
-\@quotereset=\count562
+\c@tcb@cnt@sexylisting=\count561
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 224.
+\@quotelevel=\count562
+\@quotereset=\count563
  (main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux
 
 LaTeX Warning: Label `eqn:CondEq' multiply defined.
@@ -1321,40 +1326,40 @@ LaTeX Warning: Label `fig_4_1_0' multiply defined.
 
 LaTeX Warning: Label `fig_4_1_0' multiply defined.
 
-) (chapters/ch_5/ch_5.aux))
+) (chapters/ch_5/ch_5.aux) (chapters/ch_6/ch_6.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
  (C:\Program Files\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count563
-\scratchdimen=\dimen343
+\scratchcounter=\count564
+\scratchdimen=\dimen344
 \scratchbox=\box146
-\nofMPsegments=\count564
-\nofMParguments=\count565
-\everyMPshowfont=\toks56
-\MPscratchCnt=\count566
-\MPscratchDim=\dimen344
-\MPnumerator=\count567
-\makeMPintoPDFobject=\count568
-\everyMPtoPDFconversion=\toks57
+\nofMPsegments=\count565
+\nofMParguments=\count566
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count567
+\MPscratchDim=\dimen345
+\MPnumerator=\count568
+\makeMPintoPDFobject=\count569
+\everyMPtoPDFconversion=\toks58
 ) (C:\Program Files\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1398,7 +1403,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 (C:\Program Files\Miktex\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
-Package hyperref Info: Link coloring ON on input line 223.
+Package hyperref Info: Link coloring ON on input line 224.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1406,9 +1411,9 @@ Package hyperref Info: Link coloring ON on input line 223.
  (C:\Program Files\Miktex\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 223.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 224.
 
-Package chemgreek Info: Activating mapping `default' on line 223.
+Package chemgreek Info: Activating mapping `default' on line 224.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1426,16 +1431,16 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 223.
-Package biblatex Info: Reference segment=0 on input line 223.
-\c@lstlisting=\count569
+Package biblatex Info: Reference section=0 on input line 224.
+Package biblatex Info: Reference segment=0 on input line 224.
+\c@lstlisting=\count570
  (C:\Program Files\Miktex\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
-<figures/logo.jpg, id=166, 4338.2075pt x 1003.75pt>
+<figures/logo.jpg, id=170, 4338.2075pt x 1003.75pt>
 File: figures/logo.jpg Graphic file (type jpg)
 <use figures/logo.jpg>
-Package pdftex.def Info: figures/logo.jpg  used on input line 226.
+Package pdftex.def Info: figures/logo.jpg  used on input line 227.
 (pdftex.def)             Requested size: 325.35153pt x 75.278pt.
  [1
 
@@ -1491,7 +1496,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 ]
 
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 309.
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 310.
 
 Using TeX to sort glossary entries---this may take a while
 No file main.acr.
@@ -1542,7 +1547,7 @@ l.18
 
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 20--323
+Underfull \hbox (badness 10000) in paragraph at lines 20--324
 
  []
 
@@ -1551,7 +1556,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--323
 
  (chapters/ch_2/ch_2.tex
 Chapter 2.
-<figures/fig_1.png, id=388, 770.88pt x 506.6428pt>
+<figures/fig_1.png, id=398, 770.88pt x 506.6428pt>
 File: figures/fig_1.png Graphic file (type png)
 <use figures/fig_1.png>
 Package pdftex.def Info: figures/fig_1.png  used on input line 8.
@@ -1560,22 +1565,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-<figures/crosssection.png, id=394, 651.18282pt x 423.08063pt>
+<figures/crosssection.png, id=404, 651.18282pt x 423.08063pt>
 File: figures/crosssection.png Graphic file (type png)
 <use figures/crosssection.png>
 Package pdftex.def Info: figures/crosssection.png  used on input line 35.
 (pdftex.def)             Requested size: 229.32741pt x 148.99713pt.
-<figures/reactionrate.png, id=398, 728.7225pt x 501.37312pt>
+<figures/reactionrate.png, id=408, 728.7225pt x 501.37312pt>
 File: figures/reactionrate.png Graphic file (type png)
 <use figures/reactionrate.png>
 Package pdftex.def Info: figures/reactionrate.png  used on input line 44.
 (pdftex.def)             Requested size: 247.82283pt x 170.50285pt.
-<figures/fig_2.png, id=404, 853.1875pt x 648.4225pt>
+<figures/fig_2.png, id=414, 853.1875pt x 648.4225pt>
 File: figures/fig_2.png Graphic file (type png)
 <use figures/fig_2.png>
 Package pdftex.def Info: figures/fig_2.png  used on input line 61.
 (pdftex.def)             Requested size: 221.93375pt x 168.66502pt.
-<figures/fig_3.png, id=405, 853.1875pt x 648.4225pt>
+<figures/fig_3.png, id=415, 853.1875pt x 648.4225pt>
 File: figures/fig_3.png Graphic file (type png)
 <use figures/fig_3.png>
 Package pdftex.def Info: figures/fig_3.png  used on input line 72.
@@ -1675,48 +1680,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--45
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 2.
+(hyperref)                removing `\acrshort' on input line 3.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 2.
+(hyperref)                removing `\acrshort' on input line 3.
 
-<figures/JFellingerFEModel.png, id=484, 225.84375pt x 414.79968pt>
+<figures/JFellingerFEModel.png, id=494, 225.84375pt x 414.79968pt>
 File: figures/JFellingerFEModel.png Graphic file (type png)
 <use figures/JFellingerFEModel.png>
-Package pdftex.def Info: figures/JFellingerFEModel.png  used on input line 11.
+Package pdftex.def Info: figures/JFellingerFEModel.png  used on input line 12.
 (pdftex.def)             Requested size: 166.4475pt x 305.7254pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--22
+Underfull \hbox (badness 10000) in paragraph at lines 5--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--22
+Underfull \hbox (badness 10000) in paragraph at lines 5--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--22
-
- []
-
-[10
-
-
-
-
- <./figures/JFellingerFEModel.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 25--33
+Underfull \hbox (badness 10000) in paragraph at lines 5--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--33
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--34
 
  []
 
-) [11]
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--34
+
+ []
+
+) [10
+
+
+
+
+] [11 <./figures/JFellingerFEModel.png>]
 \openout2 = `chapters/ch_4/ch_4.aux'.
 
  (chapters/ch_4/ch_4.tex
@@ -1726,7 +1734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
-<figures/materialsforpartsII.png, id=510, 802.6788pt x 363.759pt>
+<figures/materialsforpartsII.png, id=521, 802.6788pt x 363.759pt>
 File: figures/materialsforpartsII.png Graphic file (type png)
 <use figures/materialsforpartsII.png>
 Package pdftex.def Info: figures/materialsforpartsII.png  used on input line 18.
@@ -1781,27 +1789,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--12
 
  []
 
-<figures/contacts.png, id=580, 469.755pt x 347.8596pt>
+<figures/contacts.png, id=591, 469.755pt x 347.8596pt>
 File: figures/contacts.png Graphic file (type png)
 <use figures/contacts.png>
-Package pdftex.def Info: figures/contacts.png  used on input line 28.
+Package pdftex.def Info: figures/contacts.png  used on input line 30.
 (pdftex.def)             Requested size: 332.89499pt x 246.51494pt.
-<figures/wonrgvsrightcs.png, id=581, 732.336pt x 307.8702pt>
+<figures/wonrgvsrightcs.png, id=592, 732.336pt x 307.8702pt>
 File: figures/wonrgvsrightcs.png Graphic file (type png)
 <use figures/wonrgvsrightcs.png>
-Package pdftex.def Info: figures/wonrgvsrightcs.png  used on input line 38.
-(pdftex.def)             Requested size: 369.88583pt x 155.49905pt.
+Package pdftex.def Info: figures/wonrgvsrightcs.png  used on input line 42.
+(pdftex.def)             Requested size: 295.90979pt x 124.40018pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--42
+Underfull \hbox (badness 10000) in paragraph at lines 21--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--42
+Underfull \hbox (badness 10000) in paragraph at lines 21--48
 
  []
 
-[17]) (chapters/ch_4/subch_4/subch_4_3.tex [18 <./figures/contacts.png> <./figures/wonrgvsrightcs.png>]) (chapters/ch_4/subch_4/subch_4_4.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--48
+
+ []
+
+[17] [18 <./figures/contacts.png> <./figures/wonrgvsrightcs.png>]) (chapters/ch_4/subch_4/subch_4_3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 49--1
+
+ []
+
+) (chapters/ch_4/subch_4/subch_4_4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
@@ -1811,84 +1839,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-<figures/TWOBEAMDISTRI.png, id=602, 750.55406pt x 499.8675pt>
+<figures/TWOBEAMDISTRI.png, id=617, 750.55406pt x 499.8675pt>
 File: figures/TWOBEAMDISTRI.png Graphic file (type png)
 <use figures/TWOBEAMDISTRI.png>
-Package pdftex.def Info: figures/TWOBEAMDISTRI.png  used on input line 8.
+Package pdftex.def Info: figures/TWOBEAMDISTRI.png  used on input line 9.
 (pdftex.def)             Requested size: 332.89499pt x 221.71191pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--17
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--17
-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 19--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./figures/TWOBEAMDISTRI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
+
+ []
+
+[20 <./figures/TWOBEAMDISTRI.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
+Underfull \hbox (badness 10000) in paragraph at lines 42--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--82
+Underfull \hbox (badness 10000) in paragraph at lines 54--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--88
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
 
  []
 
@@ -1896,91 +1906,127 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--88
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-Overfull \hbox (31.62497pt too wide) in paragraph at lines 90--94
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
+
+ []
+
+
+Overfull \hbox (31.62497pt too wide) in paragraph at lines 91--95
 []\T1/ptm/m/n/10 The nor-mal-iza-tion co-ef-fi-cient is $\OT1/ztmcm/m/n/10 519\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 69 \OML/ztmcm/m/it/10 m[]$ \T1/ptm/m/n/10 and the in-te-gra-tion co-ef-fi-cient $\OML/ztmcm/m/it/10 q[] \OT1/ztmcm/m/n/10 = 473957 \OML/ztmcm/m/it/10 Wm[]$\T1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--94
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
 
  []
 
-<figures/stepfunction.png, id=638, 726.46407pt x 438.8897pt>
+<figures/stepfunction.png, id=649, 726.46407pt x 438.8897pt>
 File: figures/stepfunction.png Graphic file (type png)
 <use figures/stepfunction.png>
-Package pdftex.def Info: figures/stepfunction.png  used on input line 110.
+Package pdftex.def Info: figures/stepfunction.png  used on input line 111.
 (pdftex.def)             Requested size: 258.91895pt x 156.42639pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--117
+Underfull \hbox (badness 10000) in paragraph at lines 102--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--117
+Underfull \hbox (badness 10000) in paragraph at lines 102--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--124
 
  []
 
 
-Underfull \vbox (badness 8151) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./figures/stepfunction.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 125--129
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
+ [23 <./figures/stepfunction.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 147.
+(hyperref)                removing `\z@' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 147.
+(hyperref)                removing `superscript' on input line 161.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 147.
-
+<figures/apdlscript3.png, id=689, 1131.2664pt x 608.5134pt>
+File: figures/apdlscript3.png Graphic file (type png)
+<use figures/apdlscript3.png>
+Package pdftex.def Info: figures/apdlscript3.png  used on input line 169.
+(pdftex.def)             Requested size: 369.88583pt x 198.9623pt.
 \g__tcobox_out_iow=\write8
 \openout8 = `main.listing'.
 
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 187.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 208.
 (C:\Program Files\Miktex\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 187.
+(Font)              scaled to size 10.0pt on input line 208.
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 10.0pt on input line 187.
+(Font)              scaled to size 10.0pt on input line 208.
  (main.listing)
-Underfull \hbox (badness 10000) in paragraph at lines 148--187
+Underfull \hbox (badness 10000) in paragraph at lines 162--208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--187
+Underfull \hbox (badness 10000) in paragraph at lines 162--208
 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (chapters/ch_4/subch_4/subch_4_5.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23])) [24{C:/Program Files/Miktex/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
+ [24]
+Overfull \vbox (40.39503pt too high) has occurred while \output is active []
+
+ [25{C:/Program Files/Miktex/fonts/enc/dvips/inconsolata/i4-t1-0.enc} <./figures/apdlscript3.png
+
+pdfTeX warning: pdflatex (file ./figures/apdlscript3.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
+>])) [26]
 \openout2 = `chapters/ch_5/ch_5.aux'.
 
  (chapters/ch_5/ch_5.tex
 Chapter 5.
 (chapters/ch_5/subch_5/subch_5_1.tex
-<figures/standalonetilemodel.png, id=725, 500.5902pt x 299.6796pt>
+<figures/standalonetilemodel.png, id=753, 500.5902pt x 299.6796pt>
 File: figures/standalonetilemodel.png Graphic file (type png)
 <use figures/standalonetilemodel.png>
 Package pdftex.def Info: figures/standalonetilemodel.png  used on input line 12.
@@ -1995,7 +2041,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--18
 
  []
 
-[25
+[27
 
 
 
@@ -2005,12 +2051,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
-<figures/modelforFEcalculationofsurfaceintegral.png, id=734, 634.0488pt x 309.7974pt>
+<figures/modelforFEcalculationofsurfaceintegral.png, id=762, 634.0488pt x 309.7974pt>
 File: figures/modelforFEcalculationofsurfaceintegral.png Graphic file (type png)
 <use figures/modelforFEcalculationofsurfaceintegral.png>
 Package pdftex.def Info: figures/modelforFEcalculationofsurfaceintegral.png  used on input line 40.
 (pdftex.def)             Requested size: 332.89499pt x 162.65552pt.
-<figures/surfaceintegraleansysTEMPBC.png, id=737, 493.845pt x 278.54062pt>
+<figures/surfaceintegraleansysTEMPBC.png, id=765, 493.845pt x 278.54062pt>
 File: figures/surfaceintegraleansysTEMPBC.png Graphic file (type png)
 <use figures/surfaceintegraleansysTEMPBC.png>
 Package pdftex.def Info: figures/surfaceintegraleansysTEMPBC.png  used on input line 50.
@@ -2040,13 +2086,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--58
 
  []
 
-[26 <./figures/modelforFEcalculationofsurfaceintegral.png>] [27 <./figures/surfaceintegraleansysTEMPBC.png>]) (chapters/ch_5/subch_5/subch_5_2.tex) (chapters/ch_5/subch_5/subch_5_3.tex) (chapters/ch_5/subch_5/subch_5_4.tex)) [28] [29
+[28 <./figures/modelforFEcalculationofsurfaceintegral.png>] [29 <./figures/surfaceintegraleansysTEMPBC.png>]) (chapters/ch_5/subch_5/subch_5_2.tex) (chapters/ch_5/subch_5/subch_5_3.tex) (chapters/ch_5/subch_5/subch_5_4.tex)) [30]
+\openout2 = `chapters/ch_6/ch_6.aux'.
+
+ (chapters/ch_6/ch_6.tex
+Chapter 6.
+) [31
+
+
+
+
+] [32
 
 
 
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux) (chapters/ch_3/ch_3.aux) (chapters/ch_4/ch_4.aux) (chapters/ch_5/ch_5.aux))
+(main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux) (chapters/ch_3/ch_3.aux) (chapters/ch_4/ch_4.aux) (chapters/ch_5/ch_5.aux) (chapters/ch_6/ch_6.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -2056,26 +2112,26 @@ L3 programming layer <2024-03-14>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 109EF4D5592DDAF0CAB7B67BE3F149F9;8897.
+(rerunfilecheck)             Checksum: 2E03E9315BBD9A361C1AD77E4769C398;9104.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42930 strings out of 474385
- 848682 string characters out of 5750167
- 2019496 words of memory out of 5000000
- 64315 multiletter control sequences out of 15000+600000
+ 43134 strings out of 474385
+ 851888 string characters out of 5750167
+ 2018496 words of memory out of 5000000
+ 64500 multiletter control sequences out of 15000+600000
  641439 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,13n,93p,2370b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,18n,93p,2370b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Miktex/fonts/type1/public/esint-type1/esint10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmb8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on main.pdf (37 pages, 2462796 bytes).
+Output written on main.pdf (40 pages, 2625745 bytes).
 PDF statistics:
- 873 PDF objects out of 1000 (max. 8388607)
- 189 named destinations out of 1000 (max. 500000)
- 408 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 907 PDF objects out of 1000 (max. 8388607)
+ 195 named destinations out of 1000 (max. 500000)
+ 421 words of extra memory for PDF output out of 10000 (max. 10000000)
 

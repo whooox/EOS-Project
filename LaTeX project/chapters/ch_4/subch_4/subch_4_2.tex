@@ -22,12 +22,16 @@ This was done to test the modelling of the tile assembly and the bonding of the 
 \\
 \break
 \normalsize{\indent It is now possible to establish a contact model for the whole assembly:}
+\\
+\break
 \begin{figure}[h!]
   \label{fig_4_1_0} 
   \centering
   \includegraphics[width=.9\textwidth]{figures/contacts.png}
   \caption{\it Contact configuration for thermal and structural analysis}
 \end{figure}
+\\
+\break
 \normalsize{This model is acceptable but will be sometimes modified to assess the impact of the contact modelling.}
 \\
 \break
@@ -35,9 +39,14 @@ This was done to test the modelling of the tile assembly and the bonding of the 
 \begin{figure}[h!]
   \label{fig_4_1_0} 
   \centering
-  \includegraphics[width=1\textwidth]{figures/wonrgvsrightcs.png}
+  \includegraphics[width=0.8\textwidth]{figures/wonrgvsrightcs.png}
   \caption{\it Contact status comparison}
 \end{figure}
-\normalsize{}
-\subsection{Fields coupling and contact configuration}
-\normalsize{Field}
+\\
+\break
+\normalsize{\indent Such inconsistent contacts can make the calculation unstable and potentially prevent good results. Contact offset can be used to {\it"close"} the gap of the contacts allowing a better contact onfiguration. Contact methods can also be modified to other formulations all having their own use cases. For bonded contact and frictional contact, programmed controlled is most used. MPC can also be used for bonded contact, it usually blocks all degrees of freedom using constrain equations. Thermal contact is considered perfect because of the brazing. It is assumed that the heat conduction is really high and the modelling is not possible without data.}
+\subsection{Field coupling and contact configuration}
+\normalsize{Contact are complex phenomena that can be dependant on multiples fields. In the case of thermal-structural analysis, temperature and displacement fields can have an influence on the contact status of a given contact (ie. the break of contact preventing heat conduction). In chapter \ref{ch_5.4}, field coupling is used to model the loss of contact between the heat sink and the Sigraflex. It is discussed how manual update of the contact configuration can be of use to assess the need for full field coupling. In the case of too complex }
+\\
+\break
+\normalsize{\indent For coupled field calculations (ie. thermal-structural), the elements used have more degrees of freedom (in this case these are displacement and temperature). The problem becomes large and convergence issues arise. It was decided to remove the bolting system as a first approach. The bonding of the \acrshort{Sigraflex} thermal gasket and the \acrshort{CuCrZr} heat sink was done in order to simplify the model and allow better if not convergence at all.}

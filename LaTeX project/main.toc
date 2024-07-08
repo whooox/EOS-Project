@@ -14,27 +14,28 @@
 \contentsline {chapter}{\numberline {3}STATE OF THE ART}{10}{chapter.3}%
 \contentsline {section}{\numberline {3.1}THE \acrshort {ECRH} \acrshort {TZM} REFLECTOR TILE ASSEMBLY}{10}{section.3.1}%
 \contentsline {section}{\numberline {3.2}PREVIOUS ANALYSES OF THE ECRH REFLECTOR TILE}{10}{section.3.2}%
-\contentsline {section}{\numberline {3.3}ISSUES OF THE TILE}{11}{section.3.3}%
+\contentsline {section}{\numberline {3.3}ISSUES OF THE TILE}{10}{section.3.3}%
 \contentsline {chapter}{\numberline {4}METHODS AND CONFIGURATIONS}{12}{chapter.4}%
 \contentsline {section}{\numberline {4.1}MATERIAL PROPERTIES AND PHYSICAL MODELS}{12}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Thermal properties}{13}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Mechanical properties}{13}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}CONTACT CONFIGURATION}{17}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Initial contact setup}{17}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Fields coupling and contact configuration}{19}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Field coupling and contact configuration}{19}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}PLASMA HEAT LOAD}{19}{section.4.3}%
 \contentsline {section}{\numberline {4.4}MODELLING OF THE ECRH BEAM}{19}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Calculation of the integration coefficients}{19}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Coding strategy and implementation in ANSYS\textsuperscript {\textregistered }}{23}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}DUMMY MODELS}{24}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Bolt/washers/nut model}{24}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Coupled fields contact model}{24}{subsection.4.5.2}%
-\contentsline {chapter}{\numberline {5}ANALYSES SETUP AND RESULTS}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}STEADY-STATE THERMAL ANALYSIS}{25}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Calculation of the surface integrales}{25}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Comparison between old and new TZM tile design}{28}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Film coefficient influence on thermal behavior}{28}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Loadcase influence on thermal behavior}{28}{subsection.5.1.4}%
-\contentsline {section}{\numberline {5.2}TRANSIENT THERMAL ANALYSIS}{28}{section.5.2}%
-\contentsline {section}{\numberline {5.3}STATIC STRUCTURAL ANALYSIS}{28}{section.5.3}%
-\contentsline {section}{\numberline {5.4}COUPLED FIELDS ANALYSIS}{28}{section.5.4}%
+\contentsline {subsection}{\numberline {4.4.1}Calculation of the integration coefficients}{20}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Coding strategy and implementation in ANSYS\textsuperscript {\textregistered }}{24}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}DUMMY MODELS}{26}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Bolt/washers/nut model}{26}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Coupled fields contact model}{26}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {5}ANALYSES SETUP AND RESULTS}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}STEADY-STATE THERMAL ANALYSIS}{27}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Calculation of the surface integrales}{27}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Comparison between old and new TZM tile design}{30}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Film coefficient influence on thermal behavior}{30}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Loadcase influence on thermal behavior}{30}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}TRANSIENT THERMAL ANALYSIS}{30}{section.5.2}%
+\contentsline {section}{\numberline {5.3}STATIC STRUCTURAL ANALYSIS}{30}{section.5.3}%
+\contentsline {section}{\numberline {5.4}COUPLED FIELDS ANALYSIS}{30}{section.5.4}%
+\contentsline {chapter}{\numberline {6}CONCLUSION AND RECOMMENDATIONS}{31}{chapter.6}%

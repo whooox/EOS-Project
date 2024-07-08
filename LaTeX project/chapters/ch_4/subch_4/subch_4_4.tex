@@ -1,4 +1,5 @@
 \section{MODELLING OF THE ECRH BEAM} \label{MODELLING OF THE ECRH BEAM}
+\normalsize{One of the most crucial aspect of this task is the modelling of the \acrshort{ECRH} beam. The correct modelling of this beam will help accurately model the real-life stray radiation of the beam.}
 \subsection{Calculation of the integration coefficients}
 \normalsize{The issue was in the parameters of the \acrshort{ECRH} beam load distribution since it was not clearly defined in the recalculation task requested by Torsten Stange. The little information about the parameters of the beam load were the nominal total heat flow of 912W, Gaussian shape of power distribution and the geometric properties of both axisymmetric and non-axisymmetric distribution. Based on these data, a series of calculations aiming to recalculate the load distribution on the tile surface  were undergone and provided good results.}
 \\
@@ -141,14 +142,34 @@
 \normalsize{\indent All integration coefficients as well as the standard deviations of the distributions are summarized below:}
 
 % INSERT THE SUMMARY TABLE
-
+\begin{table*}\centering
+    \ra{1.3}
+    \begin{tabular}{@{}cccccccccccc@{}}\toprule
+    $Load cases$ & $\makecell{Integration \\ coefficient}$ & $k_{norm}$ & $\makecell{Semi-minor \\ axis}$ & $\makecell{Semi-major \\ axis}$\\
+    \cmidrule{1-5}
+    $-$ & $[W \ m^{-2}]$ & $[m^{-2}]$ & $[m]$ & $[m]$\\
+    \midrule
+    $\makecell{Axisymmetric \\ heat flux \\ distribution \\ $[cyl. CS]$}$ & $473957$ & $519,69$ & $0,035$ & $0,035$\\
+    $\makecell{Axisymmetric \\ heat flux \\ distribution \\ $[car. CS]$}$ & $473957$ & $519,69$ & $0,035$ & $0,035$\\
+    $\makecell{Non-axisymmetric \\ heat flux \\ distribution \\ $[car. CS]$}$ & $243948$ & $267,5$ & $0,035$ & $0,068$\\
+\bottomrule
+\end{tabular}
+\caption{\acrshort{ECRH} beam gaussian distribution parameters}
+\end{table*}
     
-
+\break
 \subsection{Coding strategy and implementation in ANSYS\textsuperscript{\textregistered}}
 \normalsize{In ANSYS\textsuperscript{\textregistered} Mechanical, the heat flux applies a uniform heat load over the whole boundary. This, of course, could be used to model the \acrshort{ECRH} beam on the TZM tile plasma facing surfaces. While possible, this would be too conservative for the results and provide unrealistic data. This is why, a custom heat load is used to model the heat distribution of the \acrshort{ECRH} beam. ANSYS\textsuperscript{\textregistered} Mechanical does feature an APDL command function that creates an APDL environment where it is possible to write a script that is executed when needed.}
 \\
 \break
 \normalsize{\indent After calculating the \acrshort{ECRH} beam load distribution function for different cases, the functions need to be implemented in ANSYS\textsuperscript{\textregistered}. The code written by J. Zhu \cites{zhu_parametric_2019} in 2019 can be reused and modified to accommodate for coordinate system change. The original code was written in cylindrical coordinates with only one loop for one variable, the radius $r$. However, the future code should support both axisymmetric and non-axisymmetric distributions, which means having two variables, $x$ and $y$. First, the code calculated the heat flux following the heat flux distribution functions at the midpoint of this area $\eqref{eqn:carCSGHD} \eqref{eqn:carCSGHDNA}$. The code then selects all elements within a small area and apply to all of them the value of the calculated heat flux from the midpoint of this area.}
+\\
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{figures/apdlscript3.png}
+    \caption{\it Heat flux distribution script for APDL}
+    \label{fig:fig_4_4_2_1}
+\end{figure}
 \\
 \begin{sexylisting}{APDL script of the gaussian heat distribution developed by J. Zhu \cites{zhu_parametric_2019} }
 csys,100

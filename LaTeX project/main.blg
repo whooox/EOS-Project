@@ -15,6 +15,8 @@ Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: chapters/ch_4/ch_4.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: chapters/ch_5/ch_5.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: chapters/ch_6/ch_6.aux
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -41,7 +43,7 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 You've used 8 entries,
             6399 wiz_defined-function locations,
-            1265 strings with 10813 characters,
+            1266 strings with 10835 characters,
 and the built_in function-call counts, 50015 in all, are:
 = -- 3744
 > -- 1171

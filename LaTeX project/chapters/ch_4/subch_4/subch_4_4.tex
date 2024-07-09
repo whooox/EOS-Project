@@ -157,19 +157,21 @@
 \caption{\acrshort{ECRH} beam gaussian distribution parameters}
 \end{table*}
     
-\break
 \subsection{Coding strategy and implementation in ANSYS\textsuperscript{\textregistered}}
 \normalsize{In ANSYS\textsuperscript{\textregistered} Mechanical, the heat flux applies a uniform heat load over the whole boundary. This, of course, could be used to model the \acrshort{ECRH} beam on the TZM tile plasma facing surfaces. While possible, this would be too conservative for the results and provide unrealistic data. This is why, a custom heat load is used to model the heat distribution of the \acrshort{ECRH} beam. ANSYS\textsuperscript{\textregistered} Mechanical does feature an APDL command function that creates an APDL environment where it is possible to write a script that is executed when needed.}
 \\
-\break
-\normalsize{\indent After calculating the \acrshort{ECRH} beam load distribution function for different cases, the functions need to be implemented in ANSYS\textsuperscript{\textregistered}. The code written by J. Zhu \cites{zhu_parametric_2019} in 2019 can be reused and modified to accommodate for coordinate system change. The original code was written in cylindrical coordinates with only one loop for one variable, the radius $r$. However, the future code should support both axisymmetric and non-axisymmetric distributions, which means having two variables, $x$ and $y$. First, the code calculated the heat flux following the heat flux distribution functions at the midpoint of this area $\eqref{eqn:carCSGHD} \eqref{eqn:carCSGHDNA}$. The code then selects all elements within a small area and apply to all of them the value of the calculated heat flux from the midpoint of this area.}
-\\
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=1\textwidth]{figures/apdlscript3.png}
+    \includegraphics[width=1\textwidth]{figures/apdlscript5.png}
     \caption{\it Heat flux distribution script for APDL}
     \label{fig:fig_4_4_2_1}
 \end{figure}
+\\
+\break
+\normalsize{This figure shows how the cartesian code works, the original code was written in a cylindrical coordinate system.}
+\\
+\break
+\normalsize{\indent After calculating the \acrshort{ECRH} beam load distribution function for different cases, the functions need to be implemented in ANSYS\textsuperscript{\textregistered}. The code written by J. Zhu \cites{zhu_parametric_2019} in 2019 can be reused and modified to accommodate for coordinate system change. The original code was written in cylindrical coordinates with only one loop for one variable, the radius $r$. However, the future code should support both axisymmetric and non-axisymmetric distributions, which means having two variables, $x$ and $y$. First, the code calculated the heat flux following the heat flux distribution functions at the midpoint of this area $\eqref{eqn:carCSGHD} \eqref{eqn:carCSGHDNA}$. The code then selects all elements within a small area and apply to all of them the value of the calculated heat flux from the midpoint of this area.}
 \\
 \begin{sexylisting}{APDL script of the gaussian heat distribution developed by J. Zhu \cites{zhu_parametric_2019} }
 csys,100
@@ -199,6 +201,51 @@ cycn=nint(cycn)
 	*if,elemn_,ne,0,then
 		sfe,all,1,HFLU,1,flux_x
 	*endif
+*enddo
+
+!------------------------------------!
+alls $ csys,0
+
+kbc,1
+\end{sexylisting}
+\normalsize{\indent The code above was developed by J. Zhu for the \acrshort{ECRH} beam implementation in ANSYS\textsuperscript{\textregistered}. This code was reused to help compare the new code with the existing one. The new code below was developed to support both axisymmetric and non-axisymmetric heat load distribution. The non-axisymmetric distribution is expressed in a cartesian coodirnate system, the code should then be rewritten to include a double for-loop, one for the each axis. The new code is a little bit longer but can support any distribution. It was tested extensively by calculating the surface integral and comparing the results with the analytical calculations ({\it see \ref{Calculation of the surface integrales}}).}
+\\
+\begin{sexylisting}{APDL script of the gaussian heat distribution developed for both axisymmetric and non-axisymmetric}
+csys,110
+cmsel,s,plasma_srf
+esln
+esel,r,ename,,152
+nsle
+cm,temp,elem
+
+cycn=arg3/arg2+1
+cycn=nint(cycn)
+
+!----------------------------------!
+*do,i_,1,cycn
+	x1=(i_-2)*arg2
+	x2=(i_-1)*arg2
+	x0=(x1+x2)/2i
+
+	*do,j_,1,cycn
+		!selection of the temperature
+		cmsel,s,temp
+		y1=(j_-2)*arg2
+		y2=(j_-1)*arg2
+		y0=(y1+y2)/2
+
+		esel,r,cent,x,x1,x2
+		esel,r,cent,y,y1,y2
+		*get,elemn_,elem,0,count
+
+		!calc the heat flux follow the above formula
+		flux_0=-2*((((x0-0.052067)/0.035)**2)+(((y0-0.05142)/0.068)**2))
+		flux_x=243948*exp(flux_0)+arg1
+
+		*if,elemn_,ne,0,then
+			sfe,all,1,HFLU,1,flux_x
+		*endif
+	*enddo
 *enddo
 
 !------------------------------------!

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  8 JUL 2024 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  9 JUL 2024 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1315,11 +1315,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 224.
 \@quotelevel=\count562
 \@quotereset=\count563
- (main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux
-
-LaTeX Warning: Label `eqn:CondEq' multiply defined.
-
-) (chapters/ch_3/ch_3.aux) (chapters/ch_4/ch_4.aux
+ (main.aux (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux) (chapters/ch_3/ch_3.aux) (chapters/ch_4/ch_4.aux
 
 LaTeX Warning: Label `fig_4_1_0' multiply defined.
 
@@ -1437,7 +1433,7 @@ Package biblatex Info: Reference segment=0 on input line 224.
  (C:\Program Files\Miktex\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
-<figures/logo.jpg, id=170, 4338.2075pt x 1003.75pt>
+<figures/logo.jpg, id=158, 4338.2075pt x 1003.75pt>
 File: figures/logo.jpg Graphic file (type jpg)
 <use figures/logo.jpg>
 Package pdftex.def Info: figures/logo.jpg  used on input line 227.
@@ -1556,7 +1552,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--324
 
  (chapters/ch_2/ch_2.tex
 Chapter 2.
-<figures/fig_1.png, id=398, 770.88pt x 506.6428pt>
+<figures/fig_1.png, id=388, 770.88pt x 506.6428pt>
 File: figures/fig_1.png Graphic file (type png)
 <use figures/fig_1.png>
 Package pdftex.def Info: figures/fig_1.png  used on input line 8.
@@ -1565,22 +1561,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-<figures/crosssection.png, id=404, 651.18282pt x 423.08063pt>
+<figures/crosssection.png, id=394, 651.18282pt x 423.08063pt>
 File: figures/crosssection.png Graphic file (type png)
 <use figures/crosssection.png>
 Package pdftex.def Info: figures/crosssection.png  used on input line 35.
 (pdftex.def)             Requested size: 229.32741pt x 148.99713pt.
-<figures/reactionrate.png, id=408, 728.7225pt x 501.37312pt>
+<figures/reactionrate.png, id=398, 728.7225pt x 501.37312pt>
 File: figures/reactionrate.png Graphic file (type png)
 <use figures/reactionrate.png>
 Package pdftex.def Info: figures/reactionrate.png  used on input line 44.
 (pdftex.def)             Requested size: 247.82283pt x 170.50285pt.
-<figures/fig_2.png, id=414, 853.1875pt x 648.4225pt>
+<figures/fig_2.png, id=404, 853.1875pt x 648.4225pt>
 File: figures/fig_2.png Graphic file (type png)
 <use figures/fig_2.png>
 Package pdftex.def Info: figures/fig_2.png  used on input line 61.
 (pdftex.def)             Requested size: 221.93375pt x 168.66502pt.
-<figures/fig_3.png, id=415, 853.1875pt x 648.4225pt>
+<figures/fig_3.png, id=405, 853.1875pt x 648.4225pt>
 File: figures/fig_3.png Graphic file (type png)
 <use figures/fig_3.png>
 Package pdftex.def Info: figures/fig_3.png  used on input line 72.
@@ -1686,23 +1682,28 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\acrshort' on input line 3.
 
-<figures/JFellingerFEModel.png, id=494, 225.84375pt x 414.79968pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+
+ []
+
+<figures/JFellingerFEModel.png, id=490, 225.84375pt x 414.79968pt>
 File: figures/JFellingerFEModel.png Graphic file (type png)
 <use figures/JFellingerFEModel.png>
-Package pdftex.def Info: figures/JFellingerFEModel.png  used on input line 12.
+Package pdftex.def Info: figures/JFellingerFEModel.png  used on input line 16.
 (pdftex.def)             Requested size: 166.4475pt x 305.7254pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--23
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--23
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--23
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
 
  []
 
@@ -1710,21 +1711,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--23
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--34
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--34
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
 
  []
 
-) [10
+[10
 
 
 
 
-] [11 <./figures/JFellingerFEModel.png>]
+]) [11 <./figures/JFellingerFEModel.png>]
 \openout2 = `chapters/ch_4/ch_4.aux'.
 
  (chapters/ch_4/ch_4.tex
@@ -1734,7 +1735,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
-<figures/materialsforpartsII.png, id=521, 802.6788pt x 363.759pt>
+<figures/materialsforpartsII.png, id=516, 802.6788pt x 363.759pt>
 File: figures/materialsforpartsII.png Graphic file (type png)
 <use figures/materialsforpartsII.png>
 Package pdftex.def Info: figures/materialsforpartsII.png  used on input line 18.
@@ -1789,12 +1790,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--12
 
  []
 
-<figures/contacts.png, id=591, 469.755pt x 347.8596pt>
+<figures/contacts.png, id=586, 469.755pt x 347.8596pt>
 File: figures/contacts.png Graphic file (type png)
 <use figures/contacts.png>
 Package pdftex.def Info: figures/contacts.png  used on input line 30.
 (pdftex.def)             Requested size: 332.89499pt x 246.51494pt.
-<figures/wonrgvsrightcs.png, id=592, 732.336pt x 307.8702pt>
+<figures/wonrgvsrightcs.png, id=587, 732.336pt x 307.8702pt>
 File: figures/wonrgvsrightcs.png Graphic file (type png)
 <use figures/wonrgvsrightcs.png>
 Package pdftex.def Info: figures/wonrgvsrightcs.png  used on input line 42.
@@ -1829,6 +1830,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--1
 
  []
 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 5.
+
 ) (chapters/ch_4/subch_4/subch_4_4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
@@ -1839,7 +1843,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-<figures/TWOBEAMDISTRI.png, id=617, 750.55406pt x 499.8675pt>
+<figures/TWOBEAMDISTRI.png, id=614, 750.55406pt x 499.8675pt>
 File: figures/TWOBEAMDISTRI.png Graphic file (type png)
 <use figures/TWOBEAMDISTRI.png>
 Package pdftex.def Info: figures/TWOBEAMDISTRI.png  used on input line 9.
@@ -1855,7 +1859,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--18
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1226) has occurred while \output is active []
 
  [19]
 Underfull \hbox (badness 10000) in paragraph at lines 20--25
@@ -1930,7 +1934,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--95
 
  []
 
-<figures/stepfunction.png, id=649, 726.46407pt x 438.8897pt>
+<figures/stepfunction.png, id=646, 726.46407pt x 438.8897pt>
 File: figures/stepfunction.png Graphic file (type png)
 <use figures/stepfunction.png>
 Package pdftex.def Info: figures/stepfunction.png  used on input line 111.
@@ -1967,66 +1971,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--137
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23 <./figures/stepfunction.png>]
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 161.
+(hyperref)                removing `\mathsurround' on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 161.
+(hyperref)                removing `\z@' on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 161.
+(hyperref)                removing `superscript' on input line 160.
 
-<figures/apdlscript3.png, id=689, 1131.2664pt x 608.5134pt>
-File: figures/apdlscript3.png Graphic file (type png)
-<use figures/apdlscript3.png>
-Package pdftex.def Info: figures/apdlscript3.png  used on input line 169.
-(pdftex.def)             Requested size: 369.88583pt x 198.9623pt.
+<figures/apdlscript5.png, id=666, 1132.23pt x 550.6974pt>
+File: figures/apdlscript5.png Graphic file (type png)
+<use figures/apdlscript5.png>
+Package pdftex.def Info: figures/apdlscript5.png  used on input line 165.
+(pdftex.def)             Requested size: 369.88583pt x 179.90726pt.
 \g__tcobox_out_iow=\write8
 \openout8 = `main.listing'.
 
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 208.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 210.
 (C:\Program Files\Miktex\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 208.
+(Font)              scaled to size 10.0pt on input line 210.
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 10.0pt on input line 208.
+(Font)              scaled to size 10.0pt on input line 210.
  (main.listing)
-Underfull \hbox (badness 10000) in paragraph at lines 162--208
+Underfull \hbox (badness 10000) in paragraph at lines 161--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--208
+Underfull \hbox (badness 10000) in paragraph at lines 161--210
 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 161--210
 
-) (chapters/ch_4/subch_4/subch_4_5.tex
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-Overfull \vbox (40.39503pt too high) has occurred while \output is active []
+ [23 <./figures/stepfunction.png>] [24 <./figures/apdlscript5.png
 
- [25{C:/Program Files/Miktex/fonts/enc/dvips/inconsolata/i4-t1-0.enc} <./figures/apdlscript3.png
+pdfTeX warning: pdflatex (file ./figures/apdlscript5.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
+>]
+\openout8 = `main.listing'.
 
-pdfTeX warning: pdflatex (file ./figures/apdlscript3.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
->])) [26]
+ (main.listing)
+Underfull \hbox (badness 10000) in paragraph at lines 211--255
+
+ []
+
+)) [25{C:/Program Files/Miktex/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [26]
 \openout2 = `chapters/ch_5/ch_5.aux'.
 
  (chapters/ch_5/ch_5.tex
 Chapter 5.
 (chapters/ch_5/subch_5/subch_5_1.tex
-<figures/standalonetilemodel.png, id=753, 500.5902pt x 299.6796pt>
+<figures/standalonetilemodel.png, id=794, 500.5902pt x 299.6796pt>
 File: figures/standalonetilemodel.png Graphic file (type png)
 <use figures/standalonetilemodel.png>
 Package pdftex.def Info: figures/standalonetilemodel.png  used on input line 12.
@@ -2051,12 +2058,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
-<figures/modelforFEcalculationofsurfaceintegral.png, id=762, 634.0488pt x 309.7974pt>
+<figures/modelforFEcalculationofsurfaceintegral.png, id=803, 634.0488pt x 309.7974pt>
 File: figures/modelforFEcalculationofsurfaceintegral.png Graphic file (type png)
 <use figures/modelforFEcalculationofsurfaceintegral.png>
 Package pdftex.def Info: figures/modelforFEcalculationofsurfaceintegral.png  used on input line 40.
 (pdftex.def)             Requested size: 332.89499pt x 162.65552pt.
-<figures/surfaceintegraleansysTEMPBC.png, id=765, 493.845pt x 278.54062pt>
+<figures/surfaceintegraleansysTEMPBC.png, id=806, 493.845pt x 278.54062pt>
 File: figures/surfaceintegraleansysTEMPBC.png Graphic file (type png)
 <use figures/surfaceintegraleansysTEMPBC.png>
 Package pdftex.def Info: figures/surfaceintegraleansysTEMPBC.png  used on input line 50.
@@ -2112,16 +2119,16 @@ L3 programming layer <2024-03-14>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2E03E9315BBD9A361C1AD77E4769C398;9104.
+(rerunfilecheck)             Checksum: 50D2CABF52665A3425152BAC65055616;8511.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43134 strings out of 474385
- 851888 string characters out of 5750167
- 2018496 words of memory out of 5000000
- 64500 multiletter control sequences out of 15000+600000
+ 43180 strings out of 474385
+ 852373 string characters out of 5750167
+ 2083496 words of memory out of 5000000
+ 64506 multiletter control sequences out of 15000+600000
  641439 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,18n,93p,2370b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2129,9 +2136,9 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Miktex/fonts/type1/public/esint-type1/esint10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmb8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on main.pdf (40 pages, 2625745 bytes).
+Output written on main.pdf (40 pages, 2631085 bytes).
 PDF statistics:
- 907 PDF objects out of 1000 (max. 8388607)
- 195 named destinations out of 1000 (max. 500000)
- 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 958 PDF objects out of 1000 (max. 8388607)
+ 236 named destinations out of 1000 (max. 500000)
+ 397 words of extra memory for PDF output out of 10000 (max. 10000000)
 

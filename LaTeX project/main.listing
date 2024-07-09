@@ -1,4 +1,4 @@
-csys,100
+csys,110
 cmsel,s,plasma_srf
 esln
 esel,r,ename,,152
@@ -9,22 +9,30 @@ cycn=arg3/arg2+1
 cycn=nint(cycn)
 
 !----------------------------------!
-*do,n_,1,cycn !positive
-	cmsel,s,temp
-	x1=(n_-1)*arg2
-	x2=n_*arg2
-	x0=(x1+x2)/2
+*do,i_,1,cycn
+	x1=(i_-2)*arg2
+	x2=(i_-1)*arg2
+	x0=(x1+x2)/2i
 
-	esel,r,cent,x,x1,x2
-	*get,elemn_,elem,0,count
+	*do,j_,1,cycn
+		!selection of the temperature
+		cmsel,s,temp
+		y1=(j_-2)*arg2
+		y2=(j_-1)*arg2
+		y0=(y1+y2)/2
 
-	!calc the heat flux follow the above formula
-	flux_0=-2*(x0/0.05)**2
-	flux_x=250000*exp(flux_0)+arg1
+		esel,r,cent,x,x1,x2
+		esel,r,cent,y,y1,y2
+		*get,elemn_,elem,0,count
 
-	*if,elemn_,ne,0,then
-		sfe,all,1,HFLU,1,flux_x
-	*endif
+		!calc the heat flux follow the above formula
+		flux_0=-2*((((x0-0.052067)/0.035)**2)+(((y0-0.05142)/0.068)**2))
+		flux_x=243948*exp(flux_0)+arg1
+
+		*if,elemn_,ne,0,then
+			sfe,all,1,HFLU,1,flux_x
+		*endif
+	*enddo
 *enddo
 
 !------------------------------------!

@@ -6,16 +6,17 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces \it Schematics of a Tokamak confinement, courtesy of C. Brandt}}{5}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces \it Schematics of a Stellarator confinement, courtesy of C. Brandt}}{6}{figure.2.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \it FE model of the tile assembly \blx@tocontentsinit {0}\cite {Fellinger_2013}}}{11}{figure.3.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \it A: }}{10}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \it FE model of the tile assembly \blx@tocontentsinit {0}\cite {Fellinger_2013}}}{11}{figure.3.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \it Material assignation}}{12}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \it Contact configuration for thermal and structural analysis}}{18}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \it Contact status comparison}}{18}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces \it Representation of the two ECRH beam heat flux distribution cases}}{20}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \it 3D graph of the Heaviside step function defined over $\Omega $}}{23}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces \it Heat flux distribution script for APDL}}{24}{figure.4.6}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \it Material assignation}}{13}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \it Contact configuration for thermal and structural analysis}}{19}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \it Contact status comparison}}{19}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \it Representation of the two ECRH beam heat flux distribution cases}}{21}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \it 3D graph of the Heaviside step function defined over $\Omega $}}{24}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \it Heat flux distribution script for APDL}}{25}{figure.4.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \it 3D model of the TZM tiles for integral calculation}}{27}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces \it Model of the 1-D conduction test}}{28}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces \it Prescribed temperature of the ANSYS\textsuperscript {\textregistered } model for surface integral calculations}}{29}{figure.5.3}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \it 3D model of the TZM tiles for integral calculation}}{28}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \it Model of the 1-D conduction test}}{29}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \it Prescribed temperature of the ANSYS\textsuperscript {\textregistered } model for surface integral calculations}}{30}{figure.5.3}%
 \addvspace {10\p@ }

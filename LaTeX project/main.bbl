@@ -181,6 +181,107 @@
     \field{year}{2024}
   \endentry
 
+  \entry{Linke_2019}{article}{}
+    \name{author}{7}{}{%
+      {{hash=LJ}{%
+         family={Linke},
+         familyi={L\bibinitperiod},
+         given={Jochen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Du},
+         familyi={D\bibinitperiod},
+         given={Juan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Loewenhoff},
+         familyi={L\bibinitperiod},
+         given={Thorsten},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Pintsuk},
+         familyi={P\bibinitperiod},
+         given={Gerald},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Spilker},
+         familyi={S\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Steudel},
+         familyi={S\bibinitperiod},
+         given={Isabel},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wirtz},
+         familyi={W\bibinitperiod},
+         given={Marius},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJ+1}
+    \strng{fullhash}{LJDJLTPGSBSIWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    { The interaction processes between the burning plasma and the first wall
+  in a fusion reactor are diverse: the first wall will be exposed to extreme
+  thermal loads of up to several tens of megawatts per square meter during
+  quasistationary operation, combined with repeated intense thermal shocks
+  (with energy densities of up to several megajoules per square meter and pulse
+  durations on a millisecond time scale). In addition to these thermal loads,
+  the wall will be subjected to bombardment by plasma ions and neutral
+  particles (D, T, and He) and by energetic neutrons with energies up to 14
+  MeV. Hopefully, ITER will not only demonstrate that thermonuclear fusion of
+  deuterium and tritium is feasible in magnetic confinement regimes; it will
+  also act as a first test device for plasma-facing materials (PFMs) and
+  plasma-facing components (PFCs) under realistic synergistic loading scenarios
+  that cover all the above-mentioned load types. In the absence of an
+  integrated test device, material tests are being performed primarily in
+  specialized facilities that concentrate only on the most essential material
+  properties. New multipurpose test facilities are now available that can also
+  focus on more complex loading scenarios and thus help to minimize the risk of
+  an unexpected material or component failure. Thermonuclear fusion—both with
+  magnetic and with inertial confinement—is making great progress, and the
+  goal of scientific break-even will be reached soon. However, to achieve that
+  end, significant technical problems, particularly in the field of
+  high-temperature and radiation-resistant materials, must be solved. With
+  ITER, the first nuclear reactor that burns a deuterium–tritium plasma with
+  a fusion power gain Q ≥ 10 will start operation in the next decade. To
+  guarantee safe operation of this rather sophisticated fusion device, new PFMs
+  and PFCs that are qualified to withstand the harsh environments in such a
+  tokamak reactor have been developed and are now entering the manufacturing
+  stage. }%
+    }
+    \verb{doi}
+    \verb 10.1063/1.5090100
+    \endverb
+    \verb{eprint}
+    \verb https://pubs.aip.org/aip/mre/article-pdf/doi/10.1063/1.5090100/138865
+    \verb 20/056201\_1\_online.pdf
+    \endverb
+    \field{issn}{2468-2047}
+    \field{number}{5}
+    \field{pages}{056201}
+    \field{title}{{Challenges for plasma-facing components in nuclear fusion}}
+    \verb{url}
+    \verb https://doi.org/10.1063/1.5090100
+    \endverb
+    \field{volume}{4}
+    \field{journaltitle}{Matter and Radiation at Extremes}
+    \field{month}{08}
+    \field{year}{2019}
+  \endentry
+
   \entry{UDVARDY_1983}{article}{}
     \name{author}{1}{}{%
       {{hash=MDFU}{%

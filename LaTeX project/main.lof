@@ -7,17 +7,20 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces \it Schematics of a Stellarator confinement, courtesy of C. Brandt}}{6}{figure.2.5}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces \it Different views of the \acrshort {ECRH} launchers and reflector tiling}}{10}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \it FE model of the tile assembly \blx@tocontentsinit {0}\cite {Fellinger_2013}}}{11}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \it FE model of the tile assembly \blx@tocontentsinit {0}\cite {Fellinger_2013}}}{12}{figure.3.3}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \it Components and montage of the reflector tile assembly}}{11}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \it Physical constraints for burning plasma \acrshort {PFCs} \blx@tocontentsinit {0}\cites {Linke_2019}}}{12}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \it FE model of the tile assembly \blx@tocontentsinit {0}\cite {Fellinger_2013}}}{12}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \it Model of the tile assembly \blx@tocontentsinit {0}\cite {zhu_parametric_2019}}}{13}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \it Temperature field (in [\si {\degree }C]) of the \acrshort {CuCrZr} heat sink for the two heat fluxes \blx@tocontentsinit {0}\cite {zhu_parametric_2019}}}{14}{figure.3.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \it Material assignation}}{14}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \it Contact configuration for thermal and structural analysis}}{20}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \it Contact status comparison}}{20}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces \it Representation of the two ECRH beam heat flux distribution cases}}{22}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \it 3D graph of the Heaviside step function defined over $\Omega $}}{25}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces \it Heat flux distribution script for APDL}}{26}{figure.4.6}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \it Material assignation}}{15}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \it Contact configuration for thermal and structural analysis}}{21}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \it Contact status comparison}}{21}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \it Representation of the two ECRH beam heat flux distribution cases}}{23}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \it 3D graph of the Heaviside step function defined over $\Omega $}}{26}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \it Heat flux distribution script for APDL}}{27}{figure.4.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \it 3D model of the TZM tiles for integral calculation}}{29}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces \it Model of the 1-D conduction test}}{30}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces \it Prescribed temperature of the ANSYS\textsuperscript {\textregistered } model for surface integral calculations}}{31}{figure.5.3}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \it 3D model of the TZM tiles for integral calculation}}{30}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \it Model of the 1-D conduction test}}{31}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \it Prescribed temperature of the ANSYS\textsuperscript {\textregistered } model for surface integral calculations}}{32}{figure.5.3}%
 \addvspace {10\p@ }

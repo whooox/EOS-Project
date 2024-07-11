@@ -5,6 +5,8 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: biblatex.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: chapters/Acknowledgment.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: chapters/ch_1/ch_1.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
@@ -41,45 +43,45 @@ Warning--string name "english" is undefined
 Biblatex version: 3.19
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 8 entries,
+You've used 9 entries,
             6399 wiz_defined-function locations,
-            1266 strings with 10835 characters,
-and the built_in function-call counts, 50015 in all, are:
-= -- 3744
-> -- 1171
-< -- 403
-+ -- 1392
-- -- 483
-* -- 3073
-:= -- 4972
+            1278 strings with 13279 characters,
+and the built_in function-call counts, 65085 in all, are:
+= -- 5100
+> -- 1308
+< -- 431
++ -- 1973
+- -- 547
+* -- 4149
+:= -- 6979
 add.period$ -- 0
-call.type$ -- 8
-change.case$ -- 267
-chr.to.int$ -- 78
-cite$ -- 14
-duplicate$ -- 4918
-empty$ -- 4389
-format.name$ -- 381
-if$ -- 10506
+call.type$ -- 9
+change.case$ -- 277
+chr.to.int$ -- 84
+cite$ -- 16
+duplicate$ -- 6697
+empty$ -- 5562
+format.name$ -- 494
+if$ -- 13300
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 26
 missing$ -- 0
-newline$ -- 235
-num.names$ -- 511
-pop$ -- 2406
+newline$ -- 309
+num.names$ -- 552
+pop$ -- 2847
 preamble$ -- 1
-purify$ -- 287
+purify$ -- 311
 quote$ -- 0
-skip$ -- 1844
+skip$ -- 2022
 stack$ -- 0
-substring$ -- 6410
-swap$ -- 1201
-text.length$ -- 222
-text.prefix$ -- 8
+substring$ -- 8925
+swap$ -- 1452
+text.length$ -- 254
+text.prefix$ -- 9
 top$ -- 1
-type$ -- 258
+type$ -- 292
 warning$ -- 0
-while$ -- 580
+while$ -- 857
 width$ -- 0
-write$ -- 228
+write$ -- 301
 (There were 2 warnings)

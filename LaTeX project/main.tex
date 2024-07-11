@@ -217,7 +217,8 @@ morestring
 \newacronym{Sigraflex}{Sigraflex}{Sigraflex}
 \newacronym{BM}{BM}{Baffle Module}
 \newacronym{KiP}{KiP}{Komponenten im Plasmagefaeß}
-
+\newacronym{ELMs}{ELMs}{Edge Localized Modes}
+\newacronym{FE}{FE}{Finite Element}
 
 %----------------------------------------------------------------------------------------%
 % SETUP OF THE DOCUMENT
@@ -294,11 +295,14 @@ morestring
 \renewcommand{\headrulewidth}{0pt} % Supprime la ligne d'en-tête
 }
 
+%\afterpage{\null\newpage}
 \afterpage{\null\newpage}
-\afterpage{\null\newpage}
-\chapter*{Acknowledgement}
+% \chapter*{Acknowledgement} TITLE INCLUDED IN THE .TEX FILE
+\include{chapters/Acknowledgment}
 \newpage
 \chapter*{Abstract}
+\newpage
+\chapter*{Résumé}
 \newpage
 % \chapter*{Table of content}
 \tableofcontents

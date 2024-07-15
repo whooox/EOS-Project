@@ -83,7 +83,7 @@ In a real powerplant condition (using Deuterium-Tritium mix as fuel), the \acrsh
     \item Thermal analysis
     \item Structural analysis (ie. fatigue analysis)
 \end{itemize}
-For the thermal analysis, the plasma heat load was initially $250 \unit{kWm^{-1}}$ and the \acrshort{ECRH} heat flow was $912 \unit{W}$ over a gaussian distribution to model the beam stray radiation. The results showed overheating of the \acrshort{CuCrZr} heat sink (in steady-state operation) and the plasma heat load was subsequently lowered to avoid reaching critical temperature of the bronze alloy of the heat sink. The heat flux was lowered to $220 \unit{kWm^{-1}}$ which represents {\bfseries $88 \unit{\%}$ of the specified heat load for \acrshort{OP2} (which is not enough to respect the operational specifications of \acrshort{OP2})}. The thermal analysis was redone $(see \ \ref{fig:fig_3_6})$ with the new heat load and showed acceptable temperature field for the heat sink. The issue with the recrystallization (as \ stated \ in \ \cite{Fellinger_2013}) of the \acrshort{CuCrZr} still is relevant for these analysis.}
+For the thermal analysis, the plasma heat load was initially $250 \unit{kWm^{-2}}$ and the \acrshort{ECRH} heat flow was $912 \unit{W}$ over a gaussian distribution to model the beam stray radiation. The results showed overheating of the \acrshort{CuCrZr} heat sink (in steady-state operation) and the plasma heat load was subsequently lowered to avoid reaching critical temperature of the bronze alloy of the heat sink. The heat flux was lowered to $220 \unit{kWm^{-2}}$ which represents {\bfseries $88 \unit{\%}$ of the specified heat load for \acrshort{OP2} (which is not enough to respect the operational specifications of \acrshort{OP2})}. The thermal analysis was redone $(see \ \ref{fig:fig_3_6})$ with the new heat load and showed acceptable temperature field for the heat sink. The issue with the recrystallization (as \ stated \ in \ \cite{Fellinger_2013}) of the \acrshort{CuCrZr} still is relevant for these analysis.}
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1\textwidth]{figures/jZhuHS250vs220II.png}
@@ -93,5 +93,11 @@ For the thermal analysis, the plasma heat load was initially $250 \unit{kWm^{-1}
 \\
 \break
 \normalsize{\indent The structural analysis of the tile assembly was done by importing the temperature field in the mechanical analysis. one end of the cooling pipe is fixed and the other one let loose. The bending of the whole assembly is thus not constrained. The main point of concern was the assumption of perfect brazing between \acrshort{CuCrZr} heat sink and the \acrshort{SS} cooling pipe. In reality, it is possible that cracks may exist in the braze connection which could end up initiating a crack damaging the brazed connection \cite{zhu_parametric_2019}. While fracture mechanics are known, establishing a framework to effectively model multi-material interface fracture expansion remains a challenge that is out of the frame for this task.}
-\section{ISSUES OF THE TILE}
-\normalsize{ A}
+\section{ISSUES OF THE MODEL}
+\normalsize{After the analyses done by J. Fellinger and J. Zhu, different issues were shown. The first issue is one of the parameter for the cooling pipe. The value of the film coefficient for the cooling pipe convection used by J. Zhu in his study \cite{zhu_parametric_2019} was set to be $30 \unit{kWm^{-2}\si{\degree}C^{-1}}$. This value is unlikely to be realistic and was discussed to reach at most $18 \unit{kWm^{-2}\si{\degree}C^{-1}}$ with a mininum value of $15 \unit{kWm^{-2}\si{\degree}C^{-1}}$. This gives the range of $3 \unit{kWm^{-2}\si{\degree}C^{-1}}$. The reduction of the film coefficient could prevent optimal cooling and heat evacuation and needs to be assessed.}
+\\
+\break
+\normalsize{\indent The recrystallization of the \acrshort{CuCrZr} alloy could also negatively impact the mechanical properties. This phenomena is still not well known in this case because of lack of material data. The structural and fatigue behavior are also to be redone for $250 \unit{kWm^{-2}}$. The material properties also need to be revised to taken into account new material properties.}
+\\
+\break
+\normalsize{\indent With that in mind, it is possible to build a new numerical model based on revised boundary conditions and material properties.}

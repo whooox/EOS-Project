@@ -89,6 +89,35 @@
     \field{urlyear}{2024}
   \endentry
 
+  \entry{Van_Eeten_2022}{report}{}
+    \name{author}{1}{}{%
+      {{hash=EV}{%
+         family={Eeten},
+         familyi={E\bibinitperiod},
+         given={Van},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EV1}
+    \strng{fullhash}{EV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{number}{1-AC-S0005.2}
+    \field{title}{Specification of Design Loads for In-vessel Components of
+  W7-X}
+    \list{location}{1}{%
+      {Wendelsteinstraße 1, Greiswald, Germany}%
+    }
+    \list{institution}{1}{%
+      {Max-Planck Institute for Plasma Physics}%
+    }
+    \field{type}{techreport}
+    \field{month}{09}
+    \field{year}{2022}
+  \endentry
+
   \entry{Fellinger_2013}{report}{}
     \name{author}{1}{}{%
       {{hash=FJ}{%

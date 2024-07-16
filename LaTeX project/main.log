@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  15 JUL 2024 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  16 JUL 2024 16:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1296,6 +1296,63 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen343
 \c@nlinenum=\count559
 \TeXr@lab=\toks56
+) (C:\Program Files\Miktex\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\Miktex\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\Miktex\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\Miktex\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\Miktex\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\Miktex\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\Miktex\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen344
+\pgffor@skip=\dimen345
+\pgffor@stack=\toks57
+\pgffor@toks=\toks58
+)) (C:\Program Files\Miktex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Program Files\Miktex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count560
+\pgfplotmarksize=\dimen346
+)
+\tikz@lastx=\dimen347
+\tikz@lasty=\dimen348
+\tikz@lastxsaved=\dimen349
+\tikz@lastysaved=\dimen350
+\tikz@lastmovetox=\dimen351
+\tikz@lastmovetoy=\dimen352
+\tikzleveldistance=\dimen353
+\tikzsiblingdistance=\dimen354
+\tikz@figbox=\box146
+\tikz@figbox@bg=\box147
+\tikz@tempbox=\box148
+\tikz@tempbox@bg=\box149
+\tikztreelevel=\count561
+\tikznumberofchildren=\count562
+\tikznumberofcurrentchild=\count563
+\tikz@fig@count=\count564
+ (C:\Program Files\Miktex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count565
+\pgfmatrixcurrentcolumn=\count566
+\pgf@matrix@numberofcolumns=\count567
+)
+\tikz@expandcount=\count568
+ (C:\Program Files\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Program Files\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Program Files\Miktex\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Program Files\Miktex\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Program Files\Miktex\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Program Files\Miktex\tex/latex/xcolor\svgnam.def
+File: svgnam.def 2023/11/15 v3.01 Predefined colors according to SVG 1.1 (UK)
+) (C:\Program Files\Miktex\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
+\everycr=\toks59
+\minrowclearance=\skip185
+\rownum=\count569
 ) (C:\Program Files\Miktex\tex/latex/tcolorbox\tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
 (C:\Program Files\Miktex\tex/latex/tcolorbox\tcblistings.code.tex
@@ -1305,16 +1362,16 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
 (C:\Program Files\Miktex\tex/latex/tcolorbox\tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
 )
-\c@tcblisting=\count560
+\c@tcblisting=\count570
 )) (C:\Program Files\Miktex\tex/latex/listingsutf8\listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
  (C:\Program Files\Miktex\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )))
-\c@tcb@cnt@sexylisting=\count561
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 225.
-\@quotelevel=\count562
-\@quotereset=\count563
+\c@tcb@cnt@sexylisting=\count571
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 235.
+\@quotelevel=\count572
+\@quotereset=\count573
  (main.aux (chapters/Acknowledgment.aux) (chapters/ch_1/ch_1.aux) (chapters/ch_2/ch_2.aux) (chapters/ch_3/ch_3.aux) (chapters/ch_4/ch_4.aux
 
 LaTeX Warning: Label `fig_4_1_0' multiply defined.
@@ -1328,37 +1385,37 @@ LaTeX Warning: Label `fig_4_1_0' multiply defined.
 ) (chapters/ch_5/ch_5.aux) (chapters/ch_6/ch_6.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
  (C:\Program Files\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count564
-\scratchdimen=\dimen344
-\scratchbox=\box146
-\nofMPsegments=\count565
-\nofMParguments=\count566
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count567
-\MPscratchDim=\dimen345
-\MPnumerator=\count568
-\makeMPintoPDFobject=\count569
-\everyMPtoPDFconversion=\toks58
+\scratchcounter=\count574
+\scratchdimen=\dimen355
+\scratchbox=\box150
+\nofMPsegments=\count575
+\nofMParguments=\count576
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count577
+\MPscratchDim=\dimen356
+\MPnumerator=\count578
+\makeMPintoPDFobject=\count579
+\everyMPtoPDFconversion=\toks61
 ) (C:\Program Files\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1402,7 +1459,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 (C:\Program Files\Miktex\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
-Package hyperref Info: Link coloring ON on input line 225.
+Package hyperref Info: Link coloring ON on input line 235.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1410,9 +1467,9 @@ Package hyperref Info: Link coloring ON on input line 225.
  (C:\Program Files\Miktex\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 225.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 235.
 
-Package chemgreek Info: Activating mapping `default' on line 225.
+Package chemgreek Info: Activating mapping `default' on line 235.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1430,16 +1487,16 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 225.
-Package biblatex Info: Reference segment=0 on input line 225.
-\c@lstlisting=\count570
+Package biblatex Info: Reference section=0 on input line 235.
+Package biblatex Info: Reference segment=0 on input line 235.
+\c@lstlisting=\count580
  (C:\Program Files\Miktex\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
 <figures/logo.jpg, id=158, 4338.2075pt x 1003.75pt>
 File: figures/logo.jpg Graphic file (type jpg)
 <use figures/logo.jpg>
-Package pdftex.def Info: figures/logo.jpg  used on input line 228.
+Package pdftex.def Info: figures/logo.jpg  used on input line 238.
 (pdftex.def)             Requested size: 325.35153pt x 75.278pt.
  [1
 
@@ -1504,7 +1561,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 ]
 
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 314.
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 324.
 
 Using TeX to sort glossary entries---this may take a while
 No file main.acr.
@@ -1555,7 +1612,7 @@ l.18
 
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 20--328
+Underfull \hbox (badness 10000) in paragraph at lines 20--338
 
  []
 
@@ -1793,12 +1850,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--96
  []
 
 [13 <./figures/jZhumodel.png>])
-Underfull \hbox (badness 10000) in paragraph at lines 97--332
+Underfull \hbox (badness 10000) in paragraph at lines 97--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--332
+Underfull \hbox (badness 10000) in paragraph at lines 97--342
 
  []
 
@@ -1848,7 +1905,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--72
  []
 
 
-Overfull \hbox (61.55016pt too wide) in paragraph at lines 161--176
+Overfull \hbox (61.55002pt too wide) in paragraph at lines 161--176
  [][] 
  []
 
@@ -2160,17 +2217,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--57
 
  []
 
-[32 <./figures/modelforFEcalculationofsurfaceintegral.png>] [33 <./figures/surfaceintegraleansysTEMPBC.png>]) (chapters/ch_5/subch_5/subch_5_2.tex) (chapters/ch_5/subch_5/subch_5_3.tex) (chapters/ch_5/subch_5/subch_5_4.tex)) [34]
+[32 <./figures/modelforFEcalculationofsurfaceintegral.png>]
+Overfull \hbox (4.39085pt too wide) in paragraph at lines 65--65
+[]|$[] [] []$| 
+ []
+
+
+Overfull \hbox (1.27081pt too wide) in paragraph at lines 65--65
+[]|$[] [] []$| 
+ []
+
+
+Overfull \hbox (1.9708pt too wide) in paragraph at lines 65--65
+[]|$[] [] []$| 
+ []
+
+
+Overfull \hbox (6.06387pt too wide) in paragraph at lines 94--95
+[]|$[] [] []$| 
+ []
+
+
+Overfull \hbox (13.59552pt too wide) in paragraph at lines 119--119
+[]|[]| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33 <./figures/surfaceintegraleansysTEMPBC.png>]) (chapters/ch_5/subch_5/subch_5_2.tex) (chapters/ch_5/subch_5/subch_5_3.tex) (chapters/ch_5/subch_5/subch_5_4.tex))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34] [35]
 \openout2 = `chapters/ch_6/ch_6.aux'.
 
  (chapters/ch_6/ch_6.tex
 Chapter 6.
-) [35
+) [36
 
 
 
 
-] [36
+] [37
 
 
 
@@ -2192,20 +2280,20 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43340 strings out of 474385
- 856372 string characters out of 5750167
+ 46282 strings out of 474385
+ 924719 string characters out of 5750167
  2049496 words of memory out of 5000000
- 64641 multiletter control sequences out of 15000+600000
+ 67523 multiletter control sequences out of 15000+600000
  641439 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,20n,93p,2370b,2064s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,23n,93p,2370b,2064s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Miktex/fonts/type1/public/esint-type1/esint10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmb8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on main.pdf (44 pages, 73925436 bytes).
+Output written on main.pdf (45 pages, 73928214 bytes).
 PDF statistics:
- 1089 PDF objects out of 1200 (max. 8388607)
- 252 named destinations out of 1000 (max. 500000)
+ 1098 PDF objects out of 1200 (max. 8388607)
+ 254 named destinations out of 1000 (max. 500000)
  427 words of extra memory for PDF output out of 10000 (max. 10000000)
 

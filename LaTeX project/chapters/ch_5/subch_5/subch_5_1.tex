@@ -59,38 +59,86 @@
 \begin{table*}[h!]
     \centering
     \ra{1.3}
-    \begin{tabular}{@{}cccccccccccc@{}}\toprule
-    $Load cases$ & $\makecell{Plasma \\ radiation}$ & $\makecell{ECRH \\ Heat \ load}$ & $\makecell{Film \\ coefficients}$\\
-    \cmidrule{1-4}
-    $\makecell{Plasma \ rad. \\ ONLY \\ (Case \ 1) }$ & $yes$ & $no$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
-    $\makecell{Plasma \ rad. \ + \\ ECRH \ axisym. \\ (Case \ 2) }$ & $yes$ & $yes$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
-    $\makecell{Plasma \ rad. \ + \\ ECRH \ non-axisym. \\ (Case \ 3) }$ & $yes$ & $yes^*$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
-    $\makecell{Plasma \ rad. \ + \\ ECRH \ axisym. \\ $[J. Zhu parameters]$ \ $\cite{zhu_parametric_2019}$ \\ (Case \ 4)}$ & $yes$ & $yes^{**}$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
+    %\begin{tabular}{@{}cccc@{}}
+    \begin{tabular}{p{4cm}p{1,3cm}p{1,3cm}p{1,3cm}p{2,3cm} }
+    \toprule
+    $Load \ cases$ & $\makecell{Load \ case \\ number}$ & $\makecell{Plasma \\ radiation}$ & $\makecell{ECRH \\ heat \ load}$ & $\makecell{Film \\ coefficients}$\\
+    \cmidrule{1-5}
+
+    %$\makecell{Plasma \ rad. \\ ONLY \\ (Case \ 1) }$ & $yes$ & $no$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
+    %$\makecell{Plasma \ rad. \ + \\ \acrshort{ECRH} \ axisym. \\ (Case \ 2) }$ & $yes$ & $yes$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
+    %$\makecell{Plasma \ rad. \ + \\ \acrshort{ECRH} \ non-axisym. \\ (Case \ 3) }$ & $yes$ & $yes^*$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
+    %$\makecell{Plasma \ rad. \ + \\ \acrshort{ECRH} \ axisym. \\ $[J. Zhu parameters]$ \ $\cite{zhu_parametric_2019}$ \\ (Case \ 4)}$ & $yes$ & $yes^{**}$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
+
+    Plasma rad. ONLY & $1$ & $yes$ & $no$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
+    \myrowcolour%
+    Plasma rad.  + \acrshort{ECRH} axisym. & $2$ & $yes$ & $yes$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
+    Plasma rad. + \acrshort{ECRH} non-axisym. & $3$ & $yes$ & $yes^*$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
+    \myrowcolour%
+    Plasma rad. + \acrshort{ECRH} axisym. [J. Zhu parameters] \cite{zhu_parametric_2019} & $4$ & $yes$ & $yes^{**}$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
+
     \midrule
 \bottomrule
 \end{tabular}
 \caption{Simulation scenarios, $^{*}$non-axisymmetric heat flux distribution, $^{**}$integration coefficients from J. Zhu \cite{zhu_parametric_2019} }
 \end{table*}
 
-\normalsize{\indent The integral can be calculated analytically on Wolfram Mathematica\textsuperscript{\textregistered} for the different load cases. The surfaces of the analytical calculations were simplified (to a rectangle) to avoid too complex calculations. The analytical calculations were done to estimate the order of magnitude of the heat flow through the tile. }
-
+\normalsize{\indent The integral can be calculated analytically on Wolfram Mathematica\textsuperscript{\textregistered} for the different load cases. The surfaces of the analytical calculations were simplified (to a rectangle) to avoid too complex calculations. It would have been possible to define a Heaviside over a surface defined by an intersection of different linear functions bouding the domain of the surface . The analytical calculations were done to estimate the order of magnitude of the heat flow through the tile. }
+\\
 \begin{table*}[h!]
     \centering
     \ra{1.3}
-    \begin{tabular}{@{}cccccccccccc@{}}\toprule
-    $Load cases$ & $\makecell{Surface \\ integral \ for \\ old \ design^{*}, \ [ \unit{W}] }$ & $\makecell{Surface \\ integral \ for \\ new \ design^{**}, \ [ \unit{W}] }$ \\
+    %\begin{tabular}{@{}cccc@{}}
+    \begin{tabular}{p{6cm}p{2,4cm}p{2,4cm} }
+    \toprule
+    $Load \ cases$ & $\makecell{Surface \\ integral \ for \\ old \ design^{*}, \ [ \unit{W}] }$ & $\makecell{Surface \\ integral \ for \\ new \ design^{**}, \ [ \unit{W}] }$ \\
     \cmidrule{1-3}
-    $\makecell{Plasma \ heat \ load \\ (250 \unit{kWm^{-2} })}$ & $2700,75$ & $2653$\\
-    $\makecell{\acrshort{ECRH} \ axisym. \\ ONLY }$ & $yes$ & $yes$\\
-    $\makecell{\acrshort{ECRH} \ non-axisym. \\ ONLY }$ & $yes$ & $yes^*$\\
-    $\makecell{Plasma \ heat \ load \ + \\ \acrshort{ECRH} \ axisym.}$ & $yes$ & $yes^{**}$\\
-    $\makecell{Plasma \ heat \ load \ + \\ \acrshort{ECRH} \ non-axisym.}$ & $yes$ & $yes^{**}$\\
+
+    Plasma heat load (250 \unit{kWm^{-2} }) & $2700,75$ & $2653$\\
+    \myrowcolour
+    \acrshort{ECRH} axisym. ONLY & $912$ & $912$\\
+    \acrshort{ECRH} non-axisym. ONLY & $791,4$ & $791,4$\\
+    \myrowcolour
+    Plasma heat load + \acrshort{ECRH} axisym. & $3612,75$ & $3565$\\
+    Plasma heat load + \acrshort{ECRH} non-axisym. & $3492,15$ & $3444,4$\\
+
     \midrule
 \bottomrule
 \end{tabular}
-\caption{Simulation scenarios, $^{*}$non-axisymmetric heat flux distribution, $^{**}$integration coefficients from J. Zhu \cite{zhu_parametric_2019} }
+\caption{Analytical calculations of the surface integrales, $^{*}$Old tile surface = 0,010803 \unit{m^2}, $^{**}$New tile surface = 0,010612 \unit{m^2} }
 \end{table*}
-
+\\
+\normalsize{\indent The calculation of the surface integrals on ANSYS\textsuperscript{\textregistered} will be compared to the analytical results. They will be used as reference values. The calculations are done with different elemental order (linear and quadratic). In general, for thermal calculations, the elemental order is linear as the results wont change much with respect to the order. }
+\\
+\begin{table*}[h!]
+    \centering
+    \ra{1.3}
+    % \begin{tabular}{@{}rrrrcrrr@{}}
+    \begin{tabular}{p{3cm}p{1,7cm}p{1,7cm}p{0,01cm}p{1,7cm}p{1,7cm} }
+    \toprule
+    Load case & \multicolumn{2}{c}{\makecell{Surface integral for \\ old design [\unit{W}]} } & \phantom{abc}& \multicolumn{2}{c}{\makecell{Surface integral \\ for new design [\unit{W}]} }\\
+    \cmidrule{2-3} \cmidrule{5-6}
+    Element size & $1 \unit{mm}$ & $2 \unit{mm}$ && $1 \unit{mm}$ & $2 \unit{mm}$ \\
+    \midrule
+    $Linear \ elements$\\
+    $1$ & 2700,6 & 2700,6 && 2652,9 & 2652,9\\
+    \myrowcolour
+    $2$ & 3608 & 3607,6 && 3559,4 & 3560,3\\
+    $3$ & 3495,9 & 3495,6 && 3446,8 & 3447,8\\
+    \myrowcolour
+    $4$ & 3612,1 & 3611,5 && 3562,2 & 3562,3\\
+    $Quadratic \ elements$\\
+    $1$ & 2700,6 & 2700,6 && 2652,9 & 2652,9\\
+    \myrowcolour
+    $2$ & 3608 & 3607,6 && 3559,4 & 3560,3\\
+    $3$ & 3495,9 & 3495,6 && 3446,8 & 3447,8\\
+    \myrowcolour
+    $4$ & 3612,1 & 3611,5 && 3562,2 & 3562,3\\
+    \bottomrule
+    \end{tabular}
+    \caption{Caption}
+    \end{table*}
+    
 
 \subsection{Comparison between old and new TZM tile design}
 \subsection{Film coefficient influence on thermal behavior}

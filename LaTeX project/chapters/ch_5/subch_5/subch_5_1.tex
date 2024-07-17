@@ -11,6 +11,7 @@
     \centering
     \includegraphics[width=.7\textwidth]{figures/standalonetilemodel.png}
     \caption{\it 3D model of the TZM tiles for integral calculation}
+    \label{fig:5.1}
 \end{figure}
 \\
 \break
@@ -77,10 +78,11 @@
     \myrowcolour%
     Plasma rad. + \acrshort{ECRH} axisym. [J. Zhu parameters] \cite{zhu_parametric_2019} & $4$ & $yes$ & $yes^{**}$ & $15 \ \unit{kWm^{-2}\si{\degree}C^{-1}}$\\
 
-    \midrule
+    % \midrule
 \bottomrule
 \end{tabular}
 \caption{Simulation scenarios, $^{*}$non-axisymmetric heat flux distribution, $^{**}$integration coefficients from J. Zhu \cite{zhu_parametric_2019} }
+\label{table:scenarios}
 \end{table*}
 
 \normalsize{\indent The integral can be calculated analytically on Wolfram Mathematica\textsuperscript{\textregistered} for the different load cases. The surfaces of the analytical calculations were simplified (to a rectangle) to avoid too complex calculations. It would have been possible to define a Heaviside over a surface defined by an intersection of different linear functions bouding the domain of the surface . The analytical calculations were done to estimate the order of magnitude of the heat flow through the tile. }
@@ -94,52 +96,87 @@
     $Load \ cases$ & $\makecell{Surface \\ integral \ for \\ old \ design^{*}, \ [ \unit{W}] }$ & $\makecell{Surface \\ integral \ for \\ new \ design^{**}, \ [ \unit{W}] }$ \\
     \cmidrule{1-3}
 
-    Plasma heat load (250 \unit{kWm^{-2} }) & $2700,75$ & $2653$\\
+    Plasma heat load (250 \unit{kWm^{-2} }) & $2700,8$ & $2653,0$\\
     \myrowcolour
-    \acrshort{ECRH} axisym. ONLY & $912$ & $912$\\
+    \acrshort{ECRH} axisym. ONLY & $912,0$ & $912,0$\\
     \acrshort{ECRH} non-axisym. ONLY & $791,4$ & $791,4$\\
     \myrowcolour
-    Plasma heat load + \acrshort{ECRH} axisym. & $3612,75$ & $3565$\\
-    Plasma heat load + \acrshort{ECRH} non-axisym. & $3492,15$ & $3444,4$\\
+    Plasma heat load + \acrshort{ECRH} axisym. & $3612,8$ & $3565,0$\\
+    Plasma heat load + \acrshort{ECRH} non-axisym. & $3492,2$ & $3444,4$\\
 
-    \midrule
+    % \midrule
 \bottomrule
 \end{tabular}
 \caption{Analytical calculations of the surface integrales, $^{*}$Old tile surface = 0,010803 \unit{m^2}, $^{**}$New tile surface = 0,010612 \unit{m^2} }
 \end{table*}
-\\
 \normalsize{\indent The calculation of the surface integrals on ANSYS\textsuperscript{\textregistered} will be compared to the analytical results. They will be used as reference values. The calculations are done with different elemental order (linear and quadratic). In general, for thermal calculations, the elemental order is linear as the results wont change much with respect to the order. }
-\\
+
 \begin{table*}[h!]
     \centering
     \ra{1.3}
     % \begin{tabular}{@{}rrrrcrrr@{}}
-    \begin{tabular}{p{3cm}p{1,7cm}p{1,7cm}p{0,01cm}p{1,7cm}p{1,7cm} }
+    \begin{tabular}{p{3,8cm}p{1,5cm}p{1,5cm}p{0,01cm}p{1,5cm}p{1,5cm} }
     \toprule
-    Load case & \multicolumn{2}{c}{\makecell{Surface integral for \\ old design [\unit{W}]} } & \phantom{abc}& \multicolumn{2}{c}{\makecell{Surface integral \\ for new design [\unit{W}]} }\\
+    Load case & \multicolumn{2}{c}{\makecell{Surface integral for \\ old design, [\unit{W}]} } & \phantom{abc}& \multicolumn{2}{c}{\makecell{Surface integral \\ for new design, [\unit{W}]} }\\
     \cmidrule{2-3} \cmidrule{5-6}
     Element size & $1 \unit{mm}$ & $2 \unit{mm}$ && $1 \unit{mm}$ & $2 \unit{mm}$ \\
     \midrule
-    $Linear \ elements$\\
-    $1$ & 2700,6 & 2700,6 && 2652,9 & 2652,9\\
-    \myrowcolour
-    $2$ & 3608 & 3607,6 && 3559,4 & 3560,3\\
-    $3$ & 3495,9 & 3495,6 && 3446,8 & 3447,8\\
-    \myrowcolour
-    $4$ & 3612,1 & 3611,5 && 3562,2 & 3562,3\\
-    $Quadratic \ elements$\\
-    $1$ & 2700,6 & 2700,6 && 2652,9 & 2652,9\\
-    \myrowcolour
-    $2$ & 3608 & 3607,6 && 3559,4 & 3560,3\\
-    $3$ & 3495,9 & 3495,6 && 3446,8 & 3447,8\\
-    \myrowcolour
-    $4$ & 3612,1 & 3611,5 && 3562,2 & 3562,3\\
-    \bottomrule
-    \end{tabular}
-    \caption{Caption}
-    \end{table*}
     
+    %$Linear \ elements$\\
+    %\cmidrule{1-1}
+    %$1$ & 2700,6 & 2700,6 && 2652,9 & 2652,9\\
+    %\myrowcolour
+    %$2$ & 3608 & 3607,6 && 3559,4 & 3560,3\\
+    %$3$ & 3495,9 & 3495,6 && 3446,8 & 3447,8\\
+    %\myrowcolour
+    %$4$ & 3612,1 & 3611,5 && 3562,2 & 3562,3\\
+    %$Quadratic \ elements$\\
+    %\cmidrule{1-1}
+    %$1$ & 2700,6 & 2700,6 && 2652,9 & 2652,9\\
+    %\myrowcolour
+    %$2$ & 3607,2 & 3607,4 && 3559,4 & 3560,5\\
+    %$3$ & 3495,6 & 3495,7 && 3446,9 & 3447,6\\
+    %\myrowcolour
+    %$4$ & 3611,8 & 3611,3 && 3562,2 & 3562,4\\
+
+    $Linear \ elements$\\
+    \cmidrule{1-1}
+    Plasma heat load ONLY & 2700,6 & 2700,6 && 2652,9 & 2652,9\\
+    \myrowcolour
+    Plasma rad.  + \acrshort{ECRH} axisym. & 3608,0 & 3607,6 && 3559,4 & 3560,3\\
+    Plasma rad. + \acrshort{ECRH} non-axisym. & 3495,9 & 3495,6 && 3446,8 & 3447,8\\
+    \myrowcolour
+    Plasma rad. + \acrshort{ECRH} axisym. [J. Zhu parameters] \cite{zhu_parametric_2019} & 3612,1 & 3611,5 && 3562,2 & 3562,3\\
+    
+    $Quadratic \ elements$\\
+    \cmidrule{1-1}
+    Plasma heat load ONLY & 2700,6 & 2700,6 && 2652,9 & 2652,9\\
+    \myrowcolour
+    Plasma rad.  + \acrshort{ECRH} axisym. & 3607,2 & 3607,4 && 3559,4 & 3560,5\\
+    Plasma rad. + \acrshort{ECRH} non-axisym. & 3495,6 & 3495,7 && 3446,9 & 3447,6\\
+    \myrowcolour
+    Plasma rad. + \acrshort{ECRH} axisym. [J. Zhu parameters] \cite{zhu_parametric_2019} & 3611,8 & 3611,3 && 3562,2 & 3562,4\\
+
+    \bottomrule
+\end{tabular}
+\caption{Finite element calculations of the surface integrales using the model \ref{fig:5.1}}
+\end{table*}
+
+\normalsize{\indent There are a few things that can be discussed. Firstly the elemental order doesn't drastically change value of the integral (the value of the integral changes by about 0,1 \unit{W} between linear and quadratic elements). For the thermal analysis of the whole tile assembly, linear elements will be used to mesh the geometries. Another parameter is the element size that varies between 1 and 2 \unit{mm} and the variation also doesn't affect the results (the surface integrales vary by about $max.$ 1 \unit{W}). The numerical calculations allow to verify the analytical calculations and show little variation between values with only about 0,08 \% variation of heat flow in average between the two calculations methods.}
+\\
+\break
+\normalsize{\indent The surface integrales of the two design can also be used to assess the decrease of heat flow through the surfaces.}
 
 \subsection{Comparison between old and new TZM tile design}
+\normalsize{The surface integrales of the two design can also be used to assess the decrease of heat flow through the surfaces. It is also possible to calculate the energy balance to check the validity of the calculation.}
+\\
+\begin{figure}[h!]
+    \label{fig_5_3} 
+    \centering
+    \includegraphics[width=.51\textwidth]{figures/energybalancemodel.png}
+    \caption{\it Prescribed temperature of the ANSYS\textsuperscript{\textregistered} model for surface integral calculations}
+\end{figure}
+\\
+\normalsize{\indent The four load cases {\ it see table \ref{table:scenarios}} were calculated for the tile assembly. The radiation on the plasma-side and \acrshort{PV}-side of the \acrshort{TZM} tile as well as the \acrshort{CuCrZr} heat sink and \acrshort{SS} cooling pipe is applied.}
 \subsection{Film coefficient influence on thermal behavior}
 \subsection{Loadcase influence on thermal behavior}

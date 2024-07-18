@@ -25,4 +25,7 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces \it Model of the 1-D conduction test}}{32}{figure.5.2}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces \it Prescribed temperature of the ANSYS\textsuperscript {\textregistered } model for surface integral calculations}}{33}{figure.5.3}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces \it Prescribed temperature of the ANSYS\textsuperscript {\textregistered } model for surface integral calculations}}{35}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \it Temperature fields for resp. old and new design. Viwa A is the entire model, view B is just the \acrshort {TZM} reflector tile and view C is the \acrshort {CuCrZr} heat sink.}}{36}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \it Maximum part temperature in function of load case. The maximum operational temperature is not fixed for \acrshort {CuCrZr}.}}{37}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces \it Maximum part temperature in function of load case. The maximum operational temperature is not fixed for \acrshort {CuCrZr}. View A is the old \acrshort {TZM} reflector tile design's heat sink and view B is the new \acrshort {TZM} reflector tile design's heat sink}}{38}{figure.5.7}%
 \addvspace {10\p@ }

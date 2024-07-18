@@ -168,15 +168,79 @@
 \normalsize{\indent The surface integrales of the two design can also be used to assess the decrease of heat flow through the surfaces.}
 
 \subsection{Comparison between old and new TZM tile design}
-\normalsize{The surface integrales of the two design can also be used to assess the decrease of heat flow through the surfaces. It is also possible to calculate the energy balance to check the validity of the calculation.}
+\normalsize{The surface integrales of the two design can also be used to assess the decrease of heat flow through the surfaces. It is also possible to calculate the energy balance to check the validity of the calculation. Analytically, it is already possible to see the decrease in power flow through the tile. This approximately 1,7 \% decrease in power flow is in accordance to the 2 \% surface area decrease. The geometry change does have the desired effect.}
 \\
 \begin{figure}[h!]
-    \label{fig_5_3} 
+    \label{fig_5_6} 
     \centering
     \includegraphics[width=.51\textwidth]{figures/energybalancemodel.png}
     \caption{\it Prescribed temperature of the ANSYS\textsuperscript{\textregistered} model for surface integral calculations}
 \end{figure}
 \\
-\normalsize{\indent The four load cases {\ it see table \ref{table:scenarios}} were calculated for the tile assembly. The radiation on the plasma-side and \acrshort{PV}-side of the \acrshort{TZM} tile as well as the \acrshort{CuCrZr} heat sink and \acrshort{SS} cooling pipe is applied.}
+\normalsize{\indent The four load cases ({\it see table \ref{table:scenarios}}) were calculated for the tile assembly. The radiation on the plasma-side and \acrshort{PV}-side of the \acrshort{TZM} tile as well as the \acrshort{CuCrZr} heat sink and \acrshort{SS} cooling pipe is applied.}
+\\
+\break
+\normalsize{\indent The calculations are done and the reaction of the boundary conditions is calculated and summed ($\Sigma Power_{out}$) and compared to the \acrshort{FE} calculations. So it is possible to validate the numerical model:}
+
+\begin{table*}[h!]
+    \centering
+    %\caption{Power conservation summary table}
+    \ra{1.3}
+    %\begin{tabular}{@{}cccc@{}}
+    \begin{tabular}{p{6cm}p{2cm}p{2cm} }
+    \toprule
+    $Load \ cases$ & $\makecell{Surface \\ integral, \ [ \unit{W}] }$ & $\makecell{\Sigma Power_{out}, \ [ \unit{W}] }$ \\
+    \cmidrule{1-3}
+
+    Plasma heat load (250 \unit{kWm^{-2} }) & $2652,9$ & $2652,9$\\
+    \myrowcolour
+    Plasma heat load + \acrshort{ECRH} axisym. & $3560,3$ & $3559,8$\\
+    Plasma heat load + \acrshort{ECRH} non-axisym. & $3447,8$ & $3450,4$\\
+    \myrowcolour
+    Plasma rad. + \acrshort{ECRH} axisym. [J. Zhu parameters] \cite{zhu_parametric_2019} & $3562,3$ & $3562,2$\\
+
+    % \midrule
+\bottomrule
+\end{tabular}
+\caption{Power conservation summary table}
+\end{table*}
+
+\normalsize{\indent The calculation of the whole tile assembly provided good insight on the temperature distribution within the \acrshort{TZM} tile and the \acrshort{CuCrZr} heat sink. It is possible to see the temperature reduction as an effect of a lower exposed surface area of the \acrshort{TZM} tile. The temperature of the heat sink is also lower for the new design than the older one. The design change of the \acrshort{TZM} reflector tile thus have an effect on the temperature fields of the assembly parts. {\bfseries It is also important to keep in mind that the convection coefficient is set to 30 \unit{kWm^{-2}\si{\degree}C^{-1}}, which is not realistic}. This was assumed to compare the old calculations with the new model.}
+\\
+\begin{figure}[h!]
+    \label{fig_5_4} 
+    \centering
+    \includegraphics[width=.9\textwidth]{figures/OLDVSNEWTEMPERATUREFRINGES.png}
+    \caption{\it Temperature fields for resp. old and new design. Viwa A is the entire model, view B is just the \acrshort{TZM} reflector tile and view C is the \acrshort{CuCrZr} heat sink.}
+\end{figure}
+\\
+\normalsize{\indent The power conservation is indeed respected and it is possible to conclude several points:
+    \begin{itemize}
+        \item The power conservation is respected and validates the numerical model.
+        \item The analytical and numerical calculations show that the new design (reduction of the \acrshort{TZM} tile surface area) reduced power flow through the assembly by about 1,85 \% the initial power of the plasma heat load (\acrshort{ECRH} heat flux being small near the edges of the \acrshort{TZM} tile, it doesnt affect much the integral heat flow).
+        \item The new design also lowered the temperature of all assembly parts, especially the \acrshort{CuCrZr} heat sink with a decrease of about 3,33 \% of initial design temperature.
+    \end{itemize}
+}
+
 \subsection{Film coefficient influence on thermal behavior}
-\subsection{Loadcase influence on thermal behavior}
+\normalsize{After calculating the surface integrales, it is possible to perform the thermal analysis for the different film ceofficients to assess the influence of it on the temperature field inside of the assembly parts. The calculations were perfomed used the model defined in chapter \ref{chapter:3.1}. Early calculations without \acrshort{ECRH} heat load showed non-negligible influence of film coefficient variations on thermal behavior of the \acrshort{TZM} reflector tile assembly. The film coefficient's value was swept and only the lowest and highest were graphed as they are the most interesting points.}
+\\
+\begin{figure}[h!]
+    \label{fig_5_7} 
+    \centering
+    \includegraphics[width=.9\textwidth]{figures/filmcoefficient15and30.png}
+    \caption{\it Maximum part temperature in function of load case. The maximum operational temperature is not fixed for \acrshort{CuCrZr}.}
+\end{figure}
+\\
+\normalsize{\indent It is possible to assess the temperature differences on the temperature fringe of the ANSYS\textsuperscript{\textregistered} Mechanical post-processor. The lowest film coefficient (the one most likely to be attained during operation) is not enough to keep the heat sink from overheating (if said maximum operational temperature of \acrshort{CuCrZr} is set to 450 \unit{\si{\degree}C}).}
+\\
+\begin{figure}[h!]
+    \label{fig_5_8} 
+    \centering
+    \includegraphics[width=1\textwidth]{figures/filmcoefficient15and30TEMPERATREFRINGEHS.png}
+    \caption{\it Maximum part temperature in function of load case. The maximum operational temperature is not fixed for \acrshort{CuCrZr}. View A is the old \acrshort{TZM} reflector tile design's heat sink and view B is the new \acrshort{TZM} reflector tile design's heat sink}
+\end{figure}
+\\
+\normalsize{\indent The maximum temperature of the heat sink at 15 \unit{kWm^{-2}\si{\degree}C} exceeds the maximum temperature of 450 \unit{\si{\degree}}C \cite{Fellinger_2013} \cite{zhu_parametric_2019} by about 13,7 \% (511,67 \unit{\si{\degree}}C). If the maximum temperature was set to be 500 \unit{\si{\degree}}C, the lowest film coefficient still wouldn't allow 250 \unit{kWm^{-2}}. {\bfseries It is possible to conclude that the film coefficient range stated by J. Fellinger is not enough to keep the heat sink from overheating/recrystallizing.}}
+\subsection{Load case influence on thermal behavior}
+\Huge{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHH}

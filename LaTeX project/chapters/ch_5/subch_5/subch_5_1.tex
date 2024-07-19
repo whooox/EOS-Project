@@ -55,7 +55,6 @@
 \break
 \normalsize{\indent The loadcases are the standard loadcases chosen to analyse the tile assembly. The were designed to assess the influence of different \acrshort{ECRH} beam heat flux distributions on the thermal behavior of the \acrshort{TZM} tile. They are: }
 \\
-
 % INSERT THE SUMMARY TABLE
 \begin{table*}[h!]
     \centering
@@ -86,7 +85,7 @@
 \end{table*}
 
 \normalsize{\indent The integral can be calculated analytically on Wolfram Mathematica\textsuperscript{\textregistered} for the different load cases. The surfaces of the analytical calculations were simplified (to a rectangle) to avoid too complex calculations. It would have been possible to define a Heaviside over a surface defined by an intersection of different linear functions bouding the domain of the surface . The analytical calculations were done to estimate the order of magnitude of the heat flow through the tile. }
-\\
+
 \begin{table*}[h!]
     \centering
     \ra{1.3}
@@ -185,6 +184,7 @@
 \begin{table*}[h!]
     \centering
     %\caption{Power conservation summary table}
+    \label{table:5.4}
     \ra{1.3}
     %\begin{tabular}{@{}cccc@{}}
     \begin{tabular}{p{6cm}p{2cm}p{2cm} }
@@ -228,19 +228,26 @@
 \begin{figure}[h!]
     \label{fig_5_7} 
     \centering
-    \includegraphics[width=.9\textwidth]{figures/filmcoefficient15and30.png}
+    \includegraphics[width=.7\textwidth]{figures/filmcoefficient15and30.png}
     \caption{\it Maximum part temperature in function of load case. The maximum operational temperature is not fixed for \acrshort{CuCrZr}.}
 \end{figure}
 \\
-\normalsize{\indent It is possible to assess the temperature differences on the temperature fringe of the ANSYS\textsuperscript{\textregistered} Mechanical post-processor. The lowest film coefficient (the one most likely to be attained during operation) is not enough to keep the heat sink from overheating (if said maximum operational temperature of \acrshort{CuCrZr} is set to 450 \unit{\si{\degree}C}).}
-\\
+\normalsize{\indent It is possible to assess the temperature differences on the temperature fringe of the ANSYS\textsuperscript{\textregistered} Mechanical post-processor. The lowest film coefficient (the one most likely to be attained during operation) is not enough to keep the heat sink from overheating (if said maximum operational temperature of \acrshort{CuCrZr} is set to 450 \unit{\si{\degree}C}).Another temperature limit discussed with Axel Lorenz was set to 500 \unit{\si{\degree}C} (after the \acrshort{CuCrZr} was tested at the Karlsruhe Institute for Technology and no signs of considerable damage was seen).}
 \begin{figure}[h!]
     \label{fig_5_8} 
     \centering
     \includegraphics[width=1\textwidth]{figures/filmcoefficient15and30TEMPERATREFRINGEHS.png}
     \caption{\it Maximum part temperature in function of load case. The maximum operational temperature is not fixed for \acrshort{CuCrZr}. View A is the old \acrshort{TZM} reflector tile design's heat sink and view B is the new \acrshort{TZM} reflector tile design's heat sink}
 \end{figure}
-\\
+
 \normalsize{\indent The maximum temperature of the heat sink at 15 \unit{kWm^{-2}\si{\degree}C} exceeds the maximum temperature of 450 \unit{\si{\degree}}C \cite{Fellinger_2013} \cite{zhu_parametric_2019} by about 13,7 \% (511,67 \unit{\si{\degree}}C). If the maximum temperature was set to be 500 \unit{\si{\degree}}C, the lowest film coefficient still wouldn't allow 250 \unit{kWm^{-2}}. {\bfseries It is possible to conclude that the film coefficient range stated by J. Fellinger is not enough to keep the heat sink from overheating/recrystallizing.}}
 \subsection{Load case influence on thermal behavior}
-\Huge{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHH}
+% \Huge{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHH}
+\normalsize{To gain more insight on the thermal behavior of the tile assembly and characterize its functionning, it is possible to perform static thermal analysis for various load cases, namely the load cases explained in table \ref{table:5.4}. }
+\\
+\begin{figure}[h!]
+    \label{fig_5_10} 
+    \centering
+    \includegraphics[width=1\textwidth]{figures/loadcasestaticthermalHSTF.png}
+    \caption{\it Mt sink}
+\end{figure}

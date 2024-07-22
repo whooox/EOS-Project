@@ -5,7 +5,6 @@ Project
 │   ├── chapter2.3
 │   └── chapter2.4
 ├── chapter5
-│   ├── chapter5.1
 │   ├── chapter5.2
 │   ├── chapter5.3
 │   └── chapter5.4

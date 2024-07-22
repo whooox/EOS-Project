@@ -228,7 +228,7 @@
 \begin{figure}[h!]
     \label{fig_5_7} 
     \centering
-    \includegraphics[width=.7\textwidth]{figures/filmcoefficient15and30.png}
+    \includegraphics[width=.6\textwidth]{figures/filmcoefficient15and30.png}
     \caption{\it Maximum part temperature in function of load case. The maximum operational temperature is not fixed for \acrshort{CuCrZr}.}
 \end{figure}
 \\
@@ -236,18 +236,23 @@
 \begin{figure}[h!]
     \label{fig_5_8} 
     \centering
-    \includegraphics[width=1\textwidth]{figures/filmcoefficient15and30TEMPERATREFRINGEHS.png}
-    \caption{\it Maximum part temperature in function of load case. The maximum operational temperature is not fixed for \acrshort{CuCrZr}. View A is the old \acrshort{TZM} reflector tile design's heat sink and view B is the new \acrshort{TZM} reflector tile design's heat sink}
+    \includegraphics[width=.7\textwidth]{figures/filmcoefficient15and30TEMPERATREFRINGEHS.png}
+    \caption{\it Maximum heat sink temperature for two film coefficients. View A is the old \acrshort{TZM} reflector tile design's heat sink and view B is the new \acrshort{TZM} reflector tile design's heat sink}
 \end{figure}
-
+\\
 \normalsize{\indent The maximum temperature of the heat sink at 15 \unit{kWm^{-2}\si{\degree}C} exceeds the maximum temperature of 450 \unit{\si{\degree}}C \cite{Fellinger_2013} \cite{zhu_parametric_2019} by about 13,7 \% (511,67 \unit{\si{\degree}}C). If the maximum temperature was set to be 500 \unit{\si{\degree}}C, the lowest film coefficient still wouldn't allow 250 \unit{kWm^{-2}}. {\bfseries It is possible to conclude that the film coefficient range stated by J. Fellinger is not enough to keep the heat sink from overheating/recrystallizing.}}
-\subsection{Load case influence on thermal behavior}
+\subsection{Load case influence on thermal behavior} \label{Load case influence on thermal behavior}
 % \Huge{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHH}
-\normalsize{To gain more insight on the thermal behavior of the tile assembly and characterize its functionning, it is possible to perform static thermal analysis for various load cases, namely the load cases explained in table \ref{table:5.4}. }
+\normalsize{To gain more insight on the thermal behavior of the tile assembly and characterize its functionning, it is possible to perform static thermal analysis for various load cases, namely the load cases explained in table \ref{table:5.4}. The film coefficient used fore these calculations is the low 15 \unit{kWm^{-2}\si{\degree}C}. }
 \\
 \begin{figure}[h!]
     \label{fig_5_10} 
     \centering
-    \includegraphics[width=1\textwidth]{figures/loadcasestaticthermalHSTF.png}
-    \caption{\it Mt sink}
+    \includegraphics[width=.7\textwidth]{figures/loadcasestaticthermalHSTF.png}
+    \caption{\it Maximum heat sink temperature in function of load case. View A is for plasma heat load ONLY case, View B is for plasma heat load + ECRH axisymmetric heat load, View C is for plasma heat load + ECRH NON-axisymmetric heat load  and View C is for plasma heat load + ECRH axisymmetric heat load with J. Zhu parameters.}
 \end{figure}
+\\
+\normalsize{\indent For the first case, there is no overheating of the heat sink. For the three other cases, the heat sink overheats with the last case (the ECRH heat load with the parameters from J. Zhu) being the worst with the highest maximum temperature. In all cases with ECRH beam on, a big fraction of the heat sink exceeds the maximum operational temperature. The issue of the recrystallization of the bronze alloy was discussed and deemed NOT necessarily problematic since the temperature of 450 \unit{\si{\degree}C} can be exceeded and it was stated during a discussion with Axel Lorenz that the alloy can be used beyond this temperature. While it is possible to simulate accurate metallurgical phase changes, it is nontheless complicated to model due to lack of metallurgical and thermodynamical properties.}
+\\
+\break
+\normalsize{\indent Because this analysis a a static analysis, the temperature field satisfies the thermal equilibrium equation $0=-\alpha \nabla T$. It is possible to perform a transient thermal analysis to determine the critical time at which temperature is exceeded for the ONE of the parts and check the evolution of the temperature field for different pulse durations.}

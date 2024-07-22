@@ -32,7 +32,9 @@
 \contentsline {subsection}{\numberline {5.1.2}Comparison between old and new TZM tile design}{35}{subsection.5.1.2}%
 \contentsline {subsection}{\numberline {5.1.3}Film coefficient influence on thermal behavior}{37}{subsection.5.1.3}%
 \contentsline {subsection}{\numberline {5.1.4}Load case influence on thermal behavior}{38}{subsection.5.1.4}%
-\contentsline {section}{\numberline {5.2}TRANSIENT THERMAL ANALYSIS}{38}{section.5.2}%
-\contentsline {section}{\numberline {5.3}STATIC STRUCTURAL ANALYSIS}{38}{section.5.3}%
-\contentsline {section}{\numberline {5.4}COUPLED FIELDS ANALYSIS}{38}{section.5.4}%
-\contentsline {chapter}{\numberline {6}CONCLUSION AND RECOMMENDATIONS}{40}{chapter.6}%
+\contentsline {section}{\numberline {5.2}TRANSIENT THERMAL ANALYSIS}{39}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Analysis for HE1 to HE4 pulse duration}{39}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Analysis for HE1 pulse length and cooldown}{40}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}STATIC STRUCTURAL ANALYSIS}{40}{section.5.3}%
+\contentsline {section}{\numberline {5.4}COUPLED FIELDS ANALYSIS}{40}{section.5.4}%
+\contentsline {chapter}{\numberline {6}CONCLUSION AND RECOMMENDATIONS}{41}{chapter.6}%

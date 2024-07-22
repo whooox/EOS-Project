@@ -311,6 +311,34 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Lorenz2020}{report}{}
+    \name{author}{1}{}{%
+      {{hash=LA}{%
+         family={Lorenz},
+         familyi={L\bibinitperiod},
+         given={Axel},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LA1}
+    \strng{fullhash}{LA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{2A5JSF}
+    \field{title}{OP2 pulse cycles for thermal design layout of IVC}
+    \list{location}{1}{%
+      {Wendelsteinstraße 1, Greiswald, Germany}%
+    }
+    \list{institution}{1}{%
+      {Max-Planck Institute for Plasma Physics}%
+    }
+    \field{type}{techreport}
+    \field{month}{10}
+    \field{year}{2020}
+  \endentry
+
   \entry{UDVARDY_1983}{article}{}
     \name{author}{1}{}{%
       {{hash=MDFU}{%

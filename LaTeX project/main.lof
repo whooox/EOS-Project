@@ -28,10 +28,15 @@
 \contentsline {figure}{\numberline {5.5}{\ignorespaces \it Temperature fields for resp. old and new design. Viwa A is the entire model, view B is just the \acrshort {TZM} reflector tile and view C is the \acrshort {CuCrZr} heat sink.}}{36}{figure.5.5}%
 \contentsline {figure}{\numberline {5.6}{\ignorespaces \it Maximum part temperature in function of load case. The maximum operational temperature is not fixed for \acrshort {CuCrZr}.}}{37}{figure.5.6}%
 \contentsline {figure}{\numberline {5.7}{\ignorespaces \it Maximum heat sink temperature for two film coefficients. View A is the old \acrshort {TZM} reflector tile design's heat sink and view B is the new \acrshort {TZM} reflector tile design's heat sink}}{38}{figure.5.7}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces \it Maximum heat sink temperature in function of load case. View A is for plasma heat load ONLY case, View B is for plasma heat load + ECRH axisymmetric heat load, View C is for plasma heat load + ECRH NON-axisymmetric heat load and View C is for plasma heat load + ECRH axisymmetric heat load with J. Zhu parameters.}}{38}{figure.5.8}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces \it Maximum heat sink temperature in function of load case. View A is for plasma heat load ONLY case, View B is for plasma heat load + ECRH axisymmetric heat load, View C is for plasma heat load + ECRH NON-axisymmetric heat load and View D is for plasma heat load + ECRH axisymmetric heat load with J. Zhu parameters.}}{38}{figure.5.8}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces \it Table of the pulse durations \blx@tocontentsinit {0}\cite {Lorenz2020}}}{39}{figure.5.9}%
 \contentsline {figure}{\numberline {5.10}{\ignorespaces \it Evolution of the temperature ratio $\frac {\theta ^{part}_{max}}{\theta _0}$ in function of time (with echelon at all HE pulse steps). Calculation done for the load case : Plasma heat load + \acrshort {ECRH} axisymmetric heat load.}}{40}{figure.5.10}%
 \contentsline {figure}{\numberline {5.11}{\ignorespaces \it Evolution of the maximum temperature of the \acrshort {CuCrZr} heat sink for 100 \unit {s} pulse and 300 \unit {s} cooldown.}}{41}{figure.5.11}%
 \contentsline {figure}{\numberline {5.12}{\ignorespaces \it Boundary conditions for the reference case (0).}}{42}{figure.5.12}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces \it Boun}}{43}{figure.5.13}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces \it View of the third of module $H-02$ with the support parts and heat sinks of adjacent tiles. A is the support that will be jointed and B is the fixed support}}{43}{figure.5.13}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces \it Maximum displacement of the module in function of freed \acrshort {DoF}.}}{44}{figure.5.14}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces \it Contact area reduction phenomenom.}}{45}{figure.5.15}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces \it Manual coupling method.}}{45}{figure.5.16}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces \it Manual coupling method.}}{46}{figure.5.17}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces \it Manual coupling method.}}{46}{figure.5.18}%
 \addvspace {10\p@ }

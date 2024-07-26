@@ -41,4 +41,4 @@
 \contentsline {section}{\numberline {5.4}COUPLED FIELDS ANALYSIS}{46}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Introduction to coupled fields analysis}{47}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Static thermal-structural analysis of the tile assembly}{48}{subsection.5.4.2}%
-\contentsline {chapter}{\numberline {6}CONCLUSION AND RECOMMENDATIONS}{49}{chapter.6}%
+\contentsline {chapter}{\numberline {6}CONCLUSION AND RECOMMENDATIONS}{50}{chapter.6}%

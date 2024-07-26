@@ -37,7 +37,8 @@
 \contentsline {figure}{\numberline {5.14}{\ignorespaces \it Maximum displacement of the module in function of freed \acrshort {DoF}.}}{44}{figure.5.14}%
 \contentsline {figure}{\numberline {5.15}{\ignorespaces \it Contact area reduction phenomenom.}}{45}{figure.5.15}%
 \contentsline {figure}{\numberline {5.16}{\ignorespaces \it Manual coupling method.}}{45}{figure.5.16}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces \it Manual coupling method.}}{46}{figure.5.17}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces \it Manual coupling method.}}{46}{figure.5.18}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces \it Temperature in \unit {\si {\degree }C}. Application of the manual coupling.}}{46}{figure.5.17}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces \it Contact shrinking after structural recalculation.}}{46}{figure.5.18}%
 \contentsline {figure}{\numberline {5.19}{\ignorespaces \it Fields coupling.}}{47}{figure.5.19}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces \it Coupled analysis of \acrshort {CuCrZr} heat sink per load case. A is plasma heat load only, B is plasma heat load + ECRH axisymmetric heat load, C is plasma heat load + ECRH non-axisymmetric heat load, D is plasma heat load + ECRH axisymmetric heat load (J. Zhu parameters) \blx@tocontentsinit {0}\cite {zhu_parametric_2019}.}}{48}{figure.5.20}%
 \addvspace {10\p@ }

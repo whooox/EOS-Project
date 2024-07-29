@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  26 JUL 2024 15:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.5.13)  29 JUL 2024 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1622,7 +1622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--341
 
  (chapters/ch_2/ch_2.tex
 Chapter 2.
-<figures/fig_1.png, id=571, 770.88pt x 506.6428pt>
+<figures/fig_1.png, id=572, 770.88pt x 506.6428pt>
 File: figures/fig_1.png Graphic file (type png)
 <use figures/fig_1.png>
 Package pdftex.def Info: figures/fig_1.png  used on input line 8.
@@ -1631,22 +1631,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-<figures/crosssection.png, id=577, 651.18282pt x 423.08063pt>
+<figures/crosssection.png, id=578, 651.18282pt x 423.08063pt>
 File: figures/crosssection.png Graphic file (type png)
 <use figures/crosssection.png>
 Package pdftex.def Info: figures/crosssection.png  used on input line 35.
 (pdftex.def)             Requested size: 229.32741pt x 148.99713pt.
-<figures/reactionrate.png, id=581, 728.7225pt x 501.37312pt>
+<figures/reactionrate.png, id=582, 728.7225pt x 501.37312pt>
 File: figures/reactionrate.png Graphic file (type png)
 <use figures/reactionrate.png>
 Package pdftex.def Info: figures/reactionrate.png  used on input line 44.
 (pdftex.def)             Requested size: 247.82283pt x 170.50285pt.
-<figures/fig_2.png, id=587, 853.1875pt x 648.4225pt>
+<figures/fig_2.png, id=588, 853.1875pt x 648.4225pt>
 File: figures/fig_2.png Graphic file (type png)
 <use figures/fig_2.png>
 Package pdftex.def Info: figures/fig_2.png  used on input line 61.
 (pdftex.def)             Requested size: 221.93375pt x 168.66502pt.
-<figures/fig_3.png, id=588, 853.1875pt x 648.4225pt>
+<figures/fig_3.png, id=589, 853.1875pt x 648.4225pt>
 File: figures/fig_3.png Graphic file (type png)
 <use figures/fig_3.png>
 Package pdftex.def Info: figures/fig_3.png  used on input line 72.
@@ -1752,7 +1752,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\acrshort' on input line 3.
 
-<figures/ecrhposition2.png, id=657, 720.291pt x 761.7258pt>
+<figures/ecrhposition2.png, id=658, 720.291pt x 761.7258pt>
 File: figures/ecrhposition2.png Graphic file (type png)
 <use figures/ecrhposition2.png>
 Package pdftex.def Info: figures/ecrhposition2.png  used on input line 7.
@@ -1763,7 +1763,7 @@ Package pdftex.def Info: figures/ecrhposition2.png  used on input line 7.
 
 
  <./figures/ecrhposition2.png>]
-<figures/montage2.png, id=679, 1387.584pt x 480.8364pt>
+<figures/montage2.png, id=680, 1387.584pt x 480.8364pt>
 File: figures/montage2.png Graphic file (type png)
 <use figures/montage2.png>
 Package pdftex.def Info: figures/montage2.png  used on input line 25.
@@ -1778,7 +1778,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--32
 
  []
 
-<figures/physicalconstraintsBurningPLasma.png, id=688, 1213.53375pt x 853.68938pt>
+<figures/physicalconstraintsBurningPLasma.png, id=689, 1213.53375pt x 853.68938pt>
 File: figures/physicalconstraintsBurningPLasma.png Graphic file (type png)
 <use figures/physicalconstraintsBurningPLasma.png>
 Package pdftex.def Info: figures/physicalconstraintsBurningPLasma.png  used on input line 45.
@@ -1801,12 +1801,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--50
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/JFellingerFEModel2.png, id=702, 401.8212pt x 210.5466pt>
+<figures/JFellingerFEModel2.png, id=703, 401.8212pt x 210.5466pt>
 File: figures/JFellingerFEModel2.png Graphic file (type png)
 <use figures/JFellingerFEModel2.png>
 Package pdftex.def Info: figures/JFellingerFEModel2.png  used on input line 58.
 (pdftex.def)             Requested size: 314.40521pt x 164.74292pt.
-<figures/jZhumodel.png, id=709, 860.9766pt x 483.2454pt>
+<figures/jZhumodel.png, id=710, 860.9766pt x 483.2454pt>
 File: figures/jZhumodel.png Graphic file (type png)
 <use figures/jZhumodel.png>
 Package pdftex.def Info: figures/jZhumodel.png  used on input line 76.
@@ -1840,7 +1840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--82
 
 pdfTeX warning: pdflatex (file ./figures/montage2.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
 >] [12 <./figures/physicalconstraintsBurningPLasma.png> <./figures/JFellingerFEModel2.png>]
-<figures/jZhuHS250vs220II.png, id=729, 506.3718pt x 202.8378pt>
+<figures/jZhuHS250vs220II.png, id=730, 506.3718pt x 202.8378pt>
 File: figures/jZhuHS250vs220II.png Graphic file (type png)
 <use figures/jZhuHS250vs220II.png>
 Package pdftex.def Info: figures/jZhuHS250vs220II.png  used on input line 89.
@@ -1870,7 +1870,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
-<figures/materialsforpartsII.png, id=755, 802.6788pt x 363.759pt>
+<figures/materialsforpartsII.png, id=756, 802.6788pt x 363.759pt>
 File: figures/materialsforpartsII.png Graphic file (type png)
 <use figures/materialsforpartsII.png>
 Package pdftex.def Info: figures/materialsforpartsII.png  used on input line 18.
@@ -1925,12 +1925,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--12
 
  []
 
-<figures/contacts.png, id=825, 469.755pt x 347.8596pt>
+<figures/contacts.png, id=826, 469.755pt x 347.8596pt>
 File: figures/contacts.png Graphic file (type png)
 <use figures/contacts.png>
 Package pdftex.def Info: figures/contacts.png  used on input line 30.
 (pdftex.def)             Requested size: 332.89499pt x 246.51494pt.
-<figures/wonrgvsrightcs.png, id=826, 732.336pt x 307.8702pt>
+<figures/wonrgvsrightcs.png, id=827, 732.336pt x 307.8702pt>
 File: figures/wonrgvsrightcs.png Graphic file (type png)
 <use figures/wonrgvsrightcs.png>
 Package pdftex.def Info: figures/wonrgvsrightcs.png  used on input line 42.
@@ -1966,13 +1966,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--53
  []
 
 [22]) (chapters/ch_4/subch_4/subch_4_3.tex
-<figures/KiPModules.png, id=852, 8051.32968pt x 4685.505pt>
+<figures/KiPModules.png, id=853, 8051.32968pt x 4685.505pt>
 File: figures/KiPModules.png Graphic file (type png)
 <use figures/KiPModules.png>
 Package pdftex.def Info: figures/KiPModules.png  used on input line 7.
 (pdftex.def)             Requested size: 258.91895pt x 150.63988pt.
  [23 <./figures/KiPModules.png>]) (chapters/ch_4/subch_4/subch_4_4.tex
-<figures/TWOBEAMDISTRI.png, id=864, 750.55406pt x 499.8675pt>
+<figures/TWOBEAMDISTRI.png, id=865, 750.55406pt x 499.8675pt>
 File: figures/TWOBEAMDISTRI.png Graphic file (type png)
 <use figures/TWOBEAMDISTRI.png>
 Package pdftex.def Info: figures/TWOBEAMDISTRI.png  used on input line 9.
@@ -2060,7 +2060,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--95
 
  []
 
-<figures/stepfunction.png, id=893, 726.46407pt x 438.8897pt>
+<figures/stepfunction.png, id=894, 726.46407pt x 438.8897pt>
 File: figures/stepfunction.png Graphic file (type png)
 <use figures/stepfunction.png>
 Package pdftex.def Info: figures/stepfunction.png  used on input line 111.
@@ -2106,7 +2106,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 161.
 
-<figures/apdlscript5.png, id=920, 1132.23pt x 550.6974pt>
+<figures/apdlscript5.png, id=921, 1132.23pt x 550.6974pt>
 File: figures/apdlscript5.png Graphic file (type png)
 <use figures/apdlscript5.png>
 Package pdftex.def Info: figures/apdlscript5.png  used on input line 166.
@@ -2163,7 +2163,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--256
  (chapters/ch_5/ch_5.tex
 Chapter 5.
 (chapters/ch_5/subch_5/subch_5_1.tex
-<figures/standalonetilemodel.png, id=1040, 500.5902pt x 299.6796pt>
+<figures/standalonetilemodel.png, id=1041, 500.5902pt x 299.6796pt>
 File: figures/standalonetilemodel.png Graphic file (type png)
 <use figures/standalonetilemodel.png>
 Package pdftex.def Info: figures/standalonetilemodel.png  used on input line 12.
@@ -2188,12 +2188,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
 
-<figures/modelforFEcalculationofsurfaceintegral.png, id=1049, 634.0488pt x 309.7974pt>
+<figures/modelforFEcalculationofsurfaceintegral.png, id=1050, 634.0488pt x 309.7974pt>
 File: figures/modelforFEcalculationofsurfaceintegral.png Graphic file (type png)
 <use figures/modelforFEcalculationofsurfaceintegral.png>
 Package pdftex.def Info: figures/modelforFEcalculationofsurfaceintegral.png  used on input line 41.
 (pdftex.def)             Requested size: 332.89499pt x 162.65552pt.
-<figures/surfaceintegraleansysTEMPBC.png, id=1052, 493.845pt x 278.54062pt>
+<figures/surfaceintegraleansysTEMPBC.png, id=1053, 493.845pt x 278.54062pt>
 File: figures/surfaceintegraleansysTEMPBC.png Graphic file (type png)
 <use figures/surfaceintegraleansysTEMPBC.png>
 Package pdftex.def Info: figures/surfaceintegraleansysTEMPBC.png  used on input line 51.
@@ -2250,7 +2250,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--168
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-<figures/energybalancemodel.png, id=1094, 595.9866pt x 357.0138pt>
+<figures/energybalancemodel.png, id=1095, 595.9866pt x 357.0138pt>
 File: figures/energybalancemodel.png Graphic file (type png)
 <use figures/energybalancemodel.png>
 Package pdftex.def Info: figures/energybalancemodel.png  used on input line 175.
@@ -2265,18 +2265,18 @@ Overfull \hbox (5.9602pt too wide) in paragraph at lines 192--193
 []|$[] [] []$| 
  []
 
-<figures/OLDVSNEWTEMPERATUREFRINGES.png, id=1109, 396.5214pt x 509.2626pt>
+<figures/OLDVSNEWTEMPERATUREFRINGES.png, id=1110, 396.5214pt x 509.2626pt>
 File: figures/OLDVSNEWTEMPERATUREFRINGES.png Graphic file (type png)
 <use figures/OLDVSNEWTEMPERATUREFRINGES.png>
 Package pdftex.def Info: figures/OLDVSNEWTEMPERATUREFRINGES.png  used on input line 213.
 (pdftex.def)             Requested size: 332.89499pt x 427.56009pt.
 [35 <./figures/energybalancemodel.png>] [36 <./figures/OLDVSNEWTEMPERATUREFRINGES.png>]
-<figures/filmcoefficient15and30.png, id=1132, 408.77719pt x 405.01312pt>
+<figures/filmcoefficient15and30.png, id=1133, 408.77719pt x 405.01312pt>
 File: figures/filmcoefficient15and30.png Graphic file (type png)
 <use figures/filmcoefficient15and30.png>
 Package pdftex.def Info: figures/filmcoefficient15and30.png  used on input line 231.
 (pdftex.def)             Requested size: 221.93375pt x 219.89038pt.
-<figures/filmcoefficient15and30TEMPERATREFRINGEHS.png, id=1137, 596.9502pt x 316.0608pt>
+<figures/filmcoefficient15and30TEMPERATREFRINGEHS.png, id=1138, 596.9502pt x 316.0608pt>
 File: figures/filmcoefficient15and30TEMPERATREFRINGEHS.png Graphic file (type png)
 <use figures/filmcoefficient15and30TEMPERATREFRINGEHS.png>
 Package pdftex.def Info: figures/filmcoefficient15and30TEMPERATREFRINGEHS.png  used on input line 239.
@@ -2285,7 +2285,7 @@ Package pdftex.def Info: figures/filmcoefficient15and30TEMPERATREFRINGEHS.png  u
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/loadcasestaticthermalHSTF.png, id=1145, 431.6928pt x 401.3394pt>
+<figures/loadcasestaticthermalHSTF.png, id=1146, 431.6928pt x 401.3394pt>
 File: figures/loadcasestaticthermalHSTF.png Graphic file (type png)
 <use figures/loadcasestaticthermalHSTF.png>
 Package pdftex.def Info: figures/loadcasestaticthermalHSTF.png  used on input line 251.
@@ -2299,7 +2299,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--1
 Underfull \vbox (badness 2126) has occurred while \output is active []
 
  [38 <./figures/filmcoefficient15and30TEMPERATREFRINGEHS.png> <./figures/loadcasestaticthermalHSTF.png>]
-<figures/pulselengthtable.png, id=1160, 1345.27594pt x 475.02469pt>
+<figures/pulselengthtable.png, id=1161, 1345.27594pt x 475.02469pt>
 File: figures/pulselengthtable.png Graphic file (type png)
 <use figures/pulselengthtable.png>
 Package pdftex.def Info: figures/pulselengthtable.png  used on input line 15.
@@ -2315,24 +2315,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--26
  []
 
 [39 <./figures/pulselengthtable.png>]
-<figures/AllHEPulsesTRatio.png, id=1170, 522.45187pt x 405.01312pt>
+<figures/AllHEPulsesTRatio.png, id=1171, 522.45187pt x 405.01312pt>
 File: figures/AllHEPulsesTRatio.png Graphic file (type png)
 <use figures/AllHEPulsesTRatio.png>
 Package pdftex.def Info: figures/AllHEPulsesTRatio.png  used on input line 38.
 (pdftex.def)             Requested size: 369.88583pt x 286.74556pt.
  [40 <./figures/AllHEPulsesTRatio.png>]
-<figures/HEATSINKLatentHeatingII.png, id=1184, 471.2004pt x 418.6842pt>
+<figures/HEATSINKLatentHeatingII.png, id=1185, 471.2004pt x 418.6842pt>
 File: figures/HEATSINKLatentHeatingII.png Graphic file (type png)
 <use figures/HEATSINKLatentHeatingII.png>
 Package pdftex.def Info: figures/HEATSINKLatentHeatingII.png  used on input line 55.
 (pdftex.def)             Requested size: 332.89499pt x 295.79848pt.
 ) (chapters/ch_5/subch_5/subch_5_3.tex [41 <./figures/HEATSINKLatentHeatingII.png>]
-<figures/BCStructuralConfig.png, id=1201, 383.031pt x 269.808pt>
+<figures/BCStructuralConfig.png, id=1202, 383.031pt x 269.808pt>
 File: figures/BCStructuralConfig.png Graphic file (type png)
 <use figures/BCStructuralConfig.png>
 Package pdftex.def Info: figures/BCStructuralConfig.png  used on input line 17.
 (pdftex.def)             Requested size: 295.90979pt x 208.45268pt.
-<figures/one3rdOfModule.png, id=1204, 983.8356pt x 770.3982pt>
+<figures/one3rdOfModule.png, id=1205, 983.8356pt x 770.3982pt>
 File: figures/one3rdOfModule.png Graphic file (type png)
 <use figures/one3rdOfModule.png>
 Package pdftex.def Info: figures/one3rdOfModule.png  used on input line 25.
@@ -2442,7 +2442,7 @@ Overfull \hbox (1.31343pt too wide) in paragraph at lines 49--50
 []|\T1/ptm/m/n/10 free| 
  []
 
-<figures/one3rdOfModuleDisplacement.png, id=1215, 246.6816pt x 230.3004pt>
+<figures/one3rdOfModuleDisplacement.png, id=1216, 246.6816pt x 230.3004pt>
 File: figures/one3rdOfModuleDisplacement.png Graphic file (type png)
 <use figures/one3rdOfModuleDisplacement.png>
 Package pdftex.def Info: figures/one3rdOfModuleDisplacement.png  used on input line 62.
@@ -2468,28 +2468,28 @@ Overfull \hbox (11.92053pt too wide) in paragraph at lines 94--94
  |[]\T1/ptm/m/n/10 Contact sta-tus af-ter cal-cu-la-tions with 100 % con-tact be-tween TZM-tile and Sigraflex
  []
 
-<figures/contactchangeschema.png, id=1225, 1058.5146pt x 539.616pt>
+<figures/contactchangeschema.png, id=1226, 1058.5146pt x 539.616pt>
 File: figures/contactchangeschema.png Graphic file (type png)
 <use figures/contactchangeschema.png>
 Package pdftex.def Info: figures/contactchangeschema.png  used on input line 100.
 (pdftex.def)             Requested size: 369.88583pt x 188.56377pt.
-<figures/manualCouplingMethod.png, id=1226, 290.0436pt x 273.1806pt>
+<figures/manualCouplingMethod.png, id=1227, 290.0436pt x 273.1806pt>
 File: figures/manualCouplingMethod.png Graphic file (type png)
 <use figures/manualCouplingMethod.png>
 Package pdftex.def Info: figures/manualCouplingMethod.png  used on input line 109.
 (pdftex.def)             Requested size: 147.95207pt x 139.35359pt.
-<figures/manualUpdate.png, id=1228, 782.4432pt x 485.6544pt>
+<figures/manualUpdate.png, id=1229, 782.4432pt x 485.6544pt>
 File: figures/manualUpdate.png Graphic file (type png)
 <use figures/manualUpdate.png>
 Package pdftex.def Info: figures/manualUpdate.png  used on input line 118.
 (pdftex.def)             Requested size: 369.88583pt x 229.58408pt.
-<figures/contactShrink.png, id=1232, 248.83875pt x 134.685pt>
+<figures/contactShrink.png, id=1233, 248.83875pt x 134.685pt>
 File: figures/contactShrink.png Graphic file (type png)
 <use figures/contactShrink.png>
 Package pdftex.def Info: figures/contactShrink.png  used on input line 127.
 (pdftex.def)             Requested size: 184.94292pt x 100.10512pt.
 ) (chapters/ch_5/subch_5/subch_5_4.tex [44 <./figures/one3rdOfModuleDisplacement.png>] [45 <./figures/contactchangeschema.png> <./figures/manualCouplingMethod.png>] [46 <./figures/manualUpdate.png> <./figures/contactShrink.png>]
-<figures/patateCoupling.png, id=1252, 764.6166pt x 324.2514pt>
+<figures/patateCoupling.png, id=1253, 764.6166pt x 324.2514pt>
 File: figures/patateCoupling.png Graphic file (type png)
 <use figures/patateCoupling.png>
 Package pdftex.def Info: figures/patateCoupling.png  used on input line 9.
@@ -2510,17 +2510,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--36
  []
 
 [47 <./figures/patateCoupling.png>]
-<figures/multiphysicsResults.png, id=1265, 832.0686pt x 594.5412pt>
+<figures/multiphysicsResults.png, id=1266, 832.0686pt x 594.5412pt>
 File: figures/multiphysicsResults.png Graphic file (type png)
 <use figures/multiphysicsResults.png>
 Package pdftex.def Info: figures/multiphysicsResults.png  used on input line 51.
 (pdftex.def)             Requested size: 369.88583pt x 264.2933pt.
 
-Overfull \hbox (6.06387pt too wide) in paragraph at lines 66--67
-[]|$[] [] []$| 
+Underfull \hbox (badness 8151) in paragraph at lines 69--69
+[]|\T1/ptm/m/n/10 Plasma heat load (250
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\T1/ptm/m/n/10 non-axisym. (J. Zhu
  []
 
 ))
+Underfull \hbox (badness 10000) in paragraph at lines 46--349
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 46--349
 
  []
@@ -2571,14 +2581,14 @@ Here is how much of TeX's memory you used:
  67752 multiletter control sequences out of 15000+600000
  646857 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,23n,93p,2370b,2064s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,22n,93p,2370b,2064s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Program Files/Miktex/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Miktex/fonts/type1/public/esint-type1/esint10.pfb><C:/Program Files/Miktex/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/usyr.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmb8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmr8a.pfb><C:/Program Files/Miktex/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on main.pdf (60 pages, 78148709 bytes).
+Output written on main.pdf (60 pages, 78150725 bytes).
 PDF statistics:
- 1435 PDF objects out of 1440 (max. 8388607)
+ 1442 PDF objects out of 1728 (max. 8388607)
  303 named destinations out of 1000 (max. 500000)
  560 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -61,21 +61,25 @@
     \centering
     \ra{1.3}
     %\begin{tabular}{@{}cccc@{}}
-    \begin{tabular}{p{6cm}p{2,4cm}p{2,4cm} }
+    \begin{tabular}{p{3,8cm}p{2cm}p{2,4cm}p{2cm} }
     \toprule
-    $Load \ cases$ & $\makecell{Surface \\ integral \ for \\ old \ design^{*}, \ [ \unit{W}] }$ & $\makecell{Surface \\ integral \ for \\ new \ design^{**}, \ [ \unit{W}] }$ \\
-    \cmidrule{1-3}
+    $Load \ cases$ & $Full \ contact$ & $Reduced \ contact$ & $Full \ coupling$ \\
+    \cmidrule{1-4}
 
-    Plasma heat load (250 \unit{kWm^{-2} }) & $2700,8$ & $2653,0$\\
+    Plasma heat load (250 \unit{kWm^{-2} }) & $414,24$ & $406,26$ & $431,73$\\
     \myrowcolour
-    \acrshort{ECRH} axisym. ONLY & $912,0$ & $912,0$\\
-    \acrshort{ECRH} non-axisym. ONLY & $791,4$ & $791,4$\\
+    Plasma heat load + \acrshort{ECRH} axisym. & $511,67$ & $494,63$ & $554,99$\\
+    Plasma heat load + \acrshort{ECRH} non-axisym. & $503,85$ & $487,64$ & $544,36$\\
     \myrowcolour
-    Plasma heat load + \acrshort{ECRH} axisym. & $3612,8$ & $3565,0$\\
-    Plasma heat load + \acrshort{ECRH} non-axisym. & $3492,2$ & $3444,4$\\
+    Plasma heat load + \acrshort{ECRH} non-axisym. (J. Zhu param.) & $515,88$ & $496,39$ & $557,24$\\
 
     % \midrule
 \bottomrule
 \end{tabular}
-\caption{Analytical calculations of the surface integrales, $^{*}$Old tile surface = 0,010803 \unit{m^2}, $^{**}$New tile surface = 0,010612 \unit{m^2} }
+\caption{Temperature table of the \acrshort{CuCrZr} heat sink per load case vs. modelling method in \unit{\si{\degree}C}. }
 \end{table*}
+\\
+\normalsize{\indent This table gives insight about the different results, namely, the fact that the coupled analysis will produce much higher maximum temperatures. The results are particularly conservative and better material propoerties could have predicted different temperatures. For the Plasma heat load + \acrshort{ECRH} axisymmetric load case the temperature increased by about 10 \% (ref. full contact calculations). For the Plasma heat load + \acrshort{ECRH} non-axisymmetric loadcase: temperature increased by about 9,5 \% (ref. full contact calculations). When \acrshort{ECRH} load is applied, large volumes of the heat sink exceed the limit temperature (if max. temperature is 450 \si{\degree}C) ($24,8 \%$ of the temperature limit for Plasma heat load + \acrshort{ECRH} axisymmetric loadcase and $22,5 \%$ of the temperature limit for Plasma heat load + \acrshort{ECRH} non-axisymmetric loadcase.) }
+\\
+\break
+\normalsize{These results show that the optimal way to model the tile assembly and to perform optimal calculations, {\bfseries it is recommended to used a coupled physics model.} Multiphysics coupling including the bolting system but also including metallurgical phase change could be of use to get information about the state of the different parts during the life cycle of the assembly.}

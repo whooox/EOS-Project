@@ -1,11 +1,14 @@
 \addvspace {10\p@ }
+\contentsline {xchapter}{INTRODUCTION}{1}{chapter.1}%
 \addvspace {10\p@ }
+\contentsline {xchapter}{THEORETICAL FRAMEWORK}{3}{chapter.2}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces \it Nuclear binding energy vs. mass number.}}{3}{figure.2.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces \it Fusion cross sections for various fusion reactions (D-T, D-$He^3$ and D-D) versus ion temperature. \blx@tocontentsinit {0}\cite {Freidberg_2007}}}{4}{figure.2.2}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces \it Velocity averaged cross section $\left \langle \sigma \nu \right \rangle $ for various fusion reactions (D-T, D-$He^3$ and D-D) versus ion temperature. \blx@tocontentsinit {0}\cite {Freidberg_2007}}}{4}{figure.2.3}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces \it Schematics of a Tokamak confinement, courtesy of C. Brandt}}{5}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces \it Schematics of a Stellarator confinement, courtesy of C. Brandt}}{6}{figure.2.5}%
 \addvspace {10\p@ }
+\contentsline {xchapter}{STATE OF THE ART}{10}{chapter.3}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces \it Different views of the \acrshort {ECRH} launchers and reflector tiling}}{10}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces \it Components and montage of the reflector tile assembly}}{11}{figure.3.2}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces \it Physical constraints for burning plasma \acrshort {PFCs} \blx@tocontentsinit {0}\cites {Linke_2019}}}{12}{figure.3.3}%
@@ -13,6 +16,7 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces \it Model of the tile assembly \blx@tocontentsinit {0}\cite {zhu_parametric_2019}}}{13}{figure.3.5}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces \it Temperature field (in [\si {\degree }C]) of the \acrshort {CuCrZr} heat sink for the two heat fluxes \blx@tocontentsinit {0}\cite {zhu_parametric_2019}}}{14}{figure.3.6}%
 \addvspace {10\p@ }
+\contentsline {xchapter}{METHODS AND CONFIGURATIONS}{15}{chapter.4}%
 \contentsline {figure}{\numberline {4.1}{\ignorespaces \it Material assignation}}{15}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces \it Contact configuration for thermal and structural analysis}}{21}{figure.4.2}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces \it Contact status comparison}}{21}{figure.4.3}%
@@ -21,6 +25,7 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces \it 3D graph of the Heaviside step function defined over $\Omega $}}{27}{figure.4.6}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces \it Heat flux distribution script for APDL}}{29}{figure.4.7}%
 \addvspace {10\p@ }
+\contentsline {xchapter}{ANALYSES SETUP AND RESULTS}{31}{chapter.5}%
 \contentsline {figure}{\numberline {5.1}{\ignorespaces \it 3D model of the TZM tiles for integral calculation}}{31}{figure.5.1}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces \it Model of the 1-D conduction test}}{32}{figure.5.2}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces \it Prescribed temperature of the ANSYS\textsuperscript {\textregistered } model for surface integral calculations}}{33}{figure.5.3}%
@@ -42,3 +47,4 @@
 \contentsline {figure}{\numberline {5.19}{\ignorespaces \it Fields coupling.}}{47}{figure.5.19}%
 \contentsline {figure}{\numberline {5.20}{\ignorespaces \it Coupled analysis of \acrshort {CuCrZr} heat sink per load case. A is plasma heat load only, B is plasma heat load + ECRH axisymmetric heat load, C is plasma heat load + ECRH non-axisymmetric heat load, D is plasma heat load + ECRH axisymmetric heat load (J. Zhu parameters) \blx@tocontentsinit {0}\cite {zhu_parametric_2019}.}}{48}{figure.5.20}%
 \addvspace {10\p@ }
+\contentsline {xchapter}{CONCLUSION AND RECOMMENDATIONS}{50}{chapter.6}%
